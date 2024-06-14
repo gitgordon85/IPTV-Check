@@ -1,5 +1,87 @@
 # 更新日志（Changelog）
 
+## v1.2.0
+
+### 2024/6/9
+
+- 异步并发、多线程支持，大幅提升更新速度（近 10 倍）（Asynchronous concurrency and multi-threading support, significantly increasing update speeds (nearly 10 times faster)）
+- 新增更新工具软件（release 附件:update-tool.exe），首个版本可能会有不可预见的问题，请见谅（Added new update tool software (release attachment: update-tool.exe); the first version may have unforeseen issues, please be understanding）
+
+## v1.1.6
+
+### 2024/5/17
+
+- 增加组播源可全地区运行更新（Added multicast sources to run region-wide updates）
+- 修改默认值：关闭在线检索功能，组播源全地区更新（Change the default value: Disable the online search function and update the multicast source in all regions）
+
+## v1.1.5
+
+### 2024/5/17
+
+- 增加模糊匹配规则，适配在线检索、订阅源、组播源（Add fuzzy matching rules for online search, subscription sources, and multicast sources）
+- 增加订阅源、组播源更新进度条（Added the update progress bar for subscription sources and multicast sources）
+- 优化组播源更新可能出现的无匹配结果情况（Optimize the possible situation of no match results in multicast source updates）
+- 移除部分错误日志打印（Removes some error log prints）
+- 移除严格匹配配置（Removes strict matching configurations）
+
+## v1.1.4
+
+### 2024/5/15
+
+- 新增组播源功能（Added multicast source feature）
+- 新增控制开关，控制多种获取模式的启用状态（Added control switch to manage the activation status of various acquisition modes）
+- 新增严格匹配（Added strict matching）
+- 优化文件读取，提升模板初始化速度（Optimized file reading to improve initialization speed based on templates）
+
+## v1.1.3
+
+### 2024/5/8
+
+- 优化频道接口不对应问题（#99）（Optimize the mismatch problem of the channel interface (#99)）
+- 处理 tqdm 安全问题（Handle the security issue of tqdm）
+- 修改即将被废弃的命令（Modify the commands that are about to be deprecated）
+
+## v1.1.2
+
+### 2024/5/7
+
+- 重构接口获取方法，增强通用性，适应结构变更（Refactored the method for obtaining the interface, enhanced its universality, and adapted to structural changes）
+- 修复 gd 分支自动更新问题（#105）（Fixed the automatic update issue of the gd branch (#105)）
+- 优化自定义接口源获取，接口去重（Optimized the acquisition of custom interface sources and removed duplicate interfaces）
+
+## v1.1.1
+
+### 2024/4/29
+
+- 为避免代码合并冲突，移除 master 分支作为运行更新工作流，master 仅作为新功能发布分支，有使用我的链接的小伙伴请修改使用 gd 分支（void code merge conflicts, the master branch has been removed as the branch for running update workflows. The master branch is now only used for releasing new features. If you are using my link, please modify it to use the gd branch）
+
+## v1.1.0
+
+### 2024/4/26
+
+- 新增自定义接口获取源，配置项为 extend_base_urls（#56）（Added custom interface for source acquisition, the configuration item is extend_base_urls (#56)）
+
+## v1.0.9
+
+### 2024/4/25
+
+- 改进接口获取方法，增强处理多种失效场景（Improve the method of obtaining the interface, enhance the handling of various failure scenarios）
+
+## v1.0.8
+
+### 2024/4/24
+
+- 跟进某个节点检索频道名称参数变更（#91）（Follow up on the parameter change of channel name retrieval for a certain node (#91)）
+- 调整默认运行配置（Adjust the default running configuration）
+
+## v1.0.7
+
+### 2024/4/19
+
+- 增加双节点接口来源，按最佳节点更新（Added dual-node interface source, update according to the best node）
+- 优化频道更新结果为空的情况（#81）（Optimized the situation where the channel update result is empty (#81)）
+- 调整工作流资源使用限制逻辑，在允许的范围内提升更新速度（Adjusted the logic of workflow resource usage limit, increase the update speed within the allowable range）
+
 ## v1.0.6
 
 ### 2024/4/12
