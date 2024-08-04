@@ -56,47 +56,69 @@ Similar to editing the template, modify the running configuration
 4. Click Commit changes... to save.
 
 Adjust the configuration as needed. Below is the default configuration explanation:
+[Config parameter](./docs/config_en.md)
 
-| Configuration Item     | Default Value                                                                                                               | Description                                                                                                        |
-| ---------------------- | --------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ |
-| source_file            | "demo.txt"                                                                                                                  | Template file name                                                                                                 |
-| final_file             | "result.txt"                                                                                                                | Generated file name                                                                                                |
-| favorite_list          | ["广东珠江","CCTV-1","CCTV-5","CCTV-5+","CCTV-13","广东体育","广东卫视","大湾区卫视","浙江卫视","湖南卫视","翡翠台"]        | List of favorite channel names (used only to distinguish from regular channels, custom page retrieval quantity)    |
-| open_online_search     | False                                                                                                                       | Enable online search source feature                                                                                |
-| favorite_page_num      | 5                                                                                                                           | Page retrieval quantity for favorite channels                                                                      |
-| default_page_num       | 3                                                                                                                           | Page retrieval quantity for regular channels                                                                       |
-| urls_limit             | 10                                                                                                                          | Number of interfaces per channel                                                                                   |
-| open_sort              | True                                                                                                                        | Enable the sorting function (response speed, date, resolution), or turn it off if it takes a long time to execute  |
-| response_time_weight   | 0.5                                                                                                                         | Response time weight value (the sum of all weight values should be 1)                                              |
-| resolution_weight      | 0.5                                                                                                                         | Resolution weight value (the sum of all weight values should be 1)                                                 |
-| recent_days            | 30                                                                                                                          | Retrieve interfaces updated within a recent time range (in days), reducing appropriately can avoid matching issues |
-| ipv_type               | "ipv4"                                                                                                                      | The type of interface in the generated result, optional values: "ipv4", "ipv6", "all"                              |
-| domain_blacklist       | ["epg.pw"]                                                                                                                  | Interface domain blacklist, used to filter out interfaces with low-quality, ad-inclusive domains                   |
-| url_keywords_blacklist | []                                                                                                                          | Interface keyword blacklist, used to filter out interfaces containing specific characters                          |
-| open_subscribe         | True                                                                                                                        | Enable subscription source feature                                                                                 |
-| subscribe_urls         | ["https://m3u.ibert.me/txt/fmml_dv6.txt",<br>"https://m3u.ibert.me/txt/o_cn.txt",<br>"https://m3u.ibert.me/txt/j_iptv.txt"] | Subscription source list                                                                                           |
-| open_multicast         | True                                                                                                                        | Enable multicast source function                                                                                   |
-| region_list            | ["all"]                                                                                                                     | Multicast source region list, [more regions](./fofa_map.py, "all" means all regions)                               |
+## Step 4: Run Updates
 
-## Step 4: Run Updates Locally (Recommended, Stable, Supports a large number of channel updates)
-
-### 1. Install Python
-
-Please download and install Python from the official website, and choose to add Python to the system environment variable Path during installation.
-
-### 2. Run the Update
-
-Open the terminal CMD under the project directory and run the following commands in order:
+### Method 1: Command Line Update
 
 ```python
+1. Install Python
+Please download and install Python from the official site. During installation, choose to add Python to the system's environment variables Path.
+
+2. Run Update
+Open a CMD terminal in the project directory and run the following commands in sequence:
 pip3 install pipenv
 pipenv install
 pipenv run build
 ```
 
-### 3. Update the File to the Repository
+### Method 2: GUI Software Update
 
-After the interface update is completed, upload the user_result.txt to your personal repository to complete the update.
+1. Download the update tool software, open the software, click update to complete the update.
+
+2. Alternatively, run the following command in the project directory to open the GUI software:
+
+```python
+pipenv run ui
+```
+
+![Update tool software](./images/ui.png 'Update tool software')
+
+### Method 3: Docker Update
+
+- requests: Lightweight, low performance requirements, fast update speed, stability uncertain (recommend this version only for subscription sources)
+- driver: Higher performance requirements, slower update speed, high stability, high success rate (use this version for online search, multicast sources)
+
+```bash
+1. Pull the image:
+For requests version:
+docker pull guovern/tv-requests:latest
+
+For driver version:
+docker pull guovern/tv-driver:latest
+
+2. Run the container:
+docker run -d -p 8000:8000 guovern/tv-requests or driver
+
+Volume Mount Parameter (Optional):
+-v host path/TV:/tv-requests or tv-driver
+
+This allows synchronization of files between the host machine and the container. Modifying templates, configurations, and retrieving updated result files can be directly operated in the host machine's folder.
+Note: Before running the container with this command, be sure to first clone this project to the host machine.
+
+3. Check the update results: Visit (domain:8000)
+```
+
+#### Note: Link to the result file after updates of methods one to three: http://local ip:8000 or http://localhost:8000
+
+### Method 4: Workflow Update
+
+Please see step six
+
+### 3. Update the File to the Repository(optional)
+
+If you do not have your own domain address, after the interface update is completed, upload user_result.txt to your personal repository to use it.
 ![Username and Repository Name](./images/rep-info.png 'Username and Repository Name')
 https://mirror.ghproxy.com/raw.githubusercontent.com/your github username/repository name (corresponding to the TV created when forking)/master/user_result.txt
 
@@ -121,7 +143,7 @@ Return to the homepage of your repository. If there are updates to the project, 
 
 ## Please use the following content with caution. If you have a large number of channels that need to be updated, please use local updates instead of automatic updates. Improper configuration may lead to your account or workflow being banned!
 
-## Step 6: Enable Auto-update (Only suitable for a small number of channel updates)
+## Step 6: Enable workflow auto-update
 
 If your template and configuration modifications are correct, you can configure Actions to achieve automatic updates
 
@@ -174,12 +196,12 @@ https://mirror.ghproxy.com/raw.githubusercontent.com/your github username/reposi
 
 If you can access this link and it returns the updated interface content, then your live source interface link has been successfully created! Simply copy and paste this link into software like TVBox in the configuration field to use~
 
-- Note: Except for the first execution of the workflow, which requires you to manually trigger it, subsequent executions (default: daily at 8:00 am Beijing time) will be automatically triggered. If you have modified the template or configuration files and want to execute the update immediately, you can manually trigger (2) Run workflow.
+- Note: Except for the first execution of the workflow, which requires you to manually trigger it, subsequent executions (default: daily at 6:00 am Beijing time) will be automatically triggered. If you have modified the template or configuration files and want to execute the update immediately, you can manually trigger (2) Run workflow.
 
 ## Step 7: Modify Workflow Update Frequency
 
 ![.github/workflows/main.yml](./images/schedule-cron.png '.github/workflows/main.yml')
-If you want to modify the update frequency (default: daily at 8:00 am Beijing time), you can modify the on:schedule:- cron field.
+If you want to modify the update frequency (default: daily at 6:00 am Beijing time), you can modify the on:schedule:- cron field.
 
 ### 1. It is strongly discouraged to make modifications, as there is no difference in the content of the interface in a short period of time. Both too frequent updates and high-consumption running workflows may be judged as resource abuse, leading to the risk of the repository and account being banned.
 
