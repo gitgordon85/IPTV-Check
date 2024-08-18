@@ -3,20 +3,13 @@ from tkinter import messagebox
 from tkinter import scrolledtext
 from tkinter import ttk
 from tkinter import filedialog
-from utils.config import resource_path, load_external_config
+from utils.config import config, resource_path
 from main import UpdateSource
 import os
 import asyncio
 import threading
 import webbrowser
-
-config_path = resource_path("user_config.py")
-default_config_path = resource_path("config.py")
-config = (
-    load_external_config("user_config.py")
-    if os.path.exists(config_path)
-    else load_external_config("config.py")
-)
+import json
 
 
 class TkinterUI:
@@ -24,7 +17,7 @@ class TkinterUI:
     def __init__(self, root):
         self.root = root
         self.root.title("直播源接口更新工具")
-        self.version = "v1.3.4"
+        self.version = "v1.3.5"
         self.update_source = UpdateSource()
         self.update_running = False
         self.config_entrys = [
@@ -52,18 +45,17 @@ class TkinterUI:
             "domain_blacklist_text",
             "url_keywords_blacklist_text",
             "subscribe_urls_text",
-            "region_list_text",
+            "region_list_combo",
         ]
         self.result_url = None
 
-    def format_list(self, text):
-        return [f"{item.strip()}" for item in text.split(",") if item.strip()]
-
     def update_open_update(self):
-        config.open_update = self.open_update_var.get()
+        config.set("Settings", "open_update", str(self.open_update_var.get()))
 
     def update_open_use_old_result(self):
-        config.open_use_old_result = self.open_use_old_result_var.get()
+        config.set(
+            "Settings", "open_use_old_result", str(self.open_use_old_result_var.get())
+        )
 
     def select_source_file(self):
         filepath = filedialog.askopenfilename(
@@ -72,7 +64,7 @@ class TkinterUI:
         if filepath:
             self.source_file_entry.delete(0, tk.END)
             self.source_file_entry.insert(0, filepath)
-            config.source_file = filepath
+            config.set("Settings", "source_file", filepath)
 
     def select_final_file(self):
         filepath = filedialog.askopenfilename(
@@ -81,77 +73,93 @@ class TkinterUI:
         if filepath:
             self.final_file_entry.delete(0, tk.END)
             self.final_file_entry.insert(0, filepath)
-            config.final_file = filepath
+            config.set("Settings", "final_file", filepath)
 
     def update_open_subscribe(self):
-        config.open_subscribe = self.open_subscribe_var.get()
+        config.set("Settings", "open_subscribe", str(self.open_subscribe_var.get()))
 
     def update_open_multicast(self):
-        config.open_multicast = self.open_multicast_var.get()
+        config.set("Settings", "open_multicast", str(self.open_multicast_var.get()))
 
     def update_open_online_search(self):
-        config.open_online_search = self.open_online_search_var.get()
+        config.set(
+            "Settings", "open_online_search", str(self.open_online_search_var.get())
+        )
 
     def update_open_driver(self):
-        config.open_driver = self.open_driver_var.get()
+        config.set("Settings", "open_driver", str(self.open_driver_var.get()))
 
     def update_open_proxy(self):
-        config.open_proxy = self.open_proxy_var.get()
+        config.set("Settings", "open_proxy", str(self.open_proxy_var.get()))
 
     def update_open_keep_all(self):
-        config.open_keep_all = self.open_keep_all_var.get()
+        config.set("Settings", "open_keep_all", str(self.open_keep_all_var.get()))
 
     def update_open_sort(self):
-        config.open_sort = self.open_sort_var.get()
+        config.set("Settings", "open_sort", str(self.open_sort_var.get()))
 
     def update_favorite_list(self, event):
-        config.favorite_list = self.format_list(
-            self.favorite_list_text.get(1.0, tk.END)
+        config.set(
+            "Settings",
+            "favorite_list",
+            self.favorite_list_text.get(1.0, tk.END),
         )
 
     def update_favorite_page_num(self, event):
-        config.favorite_page_num = self.favorite_page_num_entry.get()
+        config.set("Settings", "favorite_page_num", self.favorite_page_num_entry.get())
 
     def update_default_page_num(self, event):
-        config.default_page_num = self.default_page_num_entry.get()
+        config.set("Settings", "default_page_num", self.default_page_num_entry.get())
 
     def update_urls_limit(self, event):
-        config.urls_limit = self.urls_limit_entry.get()
+        config.set("Settings", "urls_limit", self.urls_limit_entry.get())
 
     def update_response_time_weight(self, event):
-        config.response_time_weight = self.response_time_weight_entry.get()
+        config.set(
+            "Settings", "response_time_weight", self.response_time_weight_entry.get()
+        )
 
     def update_resolution_weight(self, event):
-        config.resolution_weight = self.resolution_weight_entry.get()
+        config.set("Settings", "resolution_weight", self.resolution_weight_entry.get())
 
     def update_ipv_type(self, event):
-        config.ipv_type = f'"{self.ipv_type_combo.get()}"'
+        config.set("Settings", "ipv_type", self.ipv_type_combo.get())
 
     def update_recent_days(self, event):
-        config.recent_days = self.recent_days_entry.get()
+        config.set("Settings", "recent_days", self.recent_days_entry.get())
 
     def update_url_keywords_blacklist(self, event):
-        config.url_keywords_blacklist = self.format_list(
-            self.url_keywords_blacklist_text.get(1.0, tk.END)
+        config.set(
+            "Settings",
+            "url_keywords_blacklist",
+            self.url_keywords_blacklist_text.get(1.0, tk.END),
         )
 
     def update_domain_blacklist(self, event):
-        config.domain_blacklist = self.format_list(
-            self.domain_blacklist_text.get(1.0, tk.END)
+        config.set(
+            "Settings",
+            "domain_blacklist",
+            self.domain_blacklist_text.get(1.0, tk.END),
         )
 
     def update_url_keywords_blacklist(self, event):
-        config.url_keywords_blacklist = self.format_list(
-            self.url_keywords_blacklist_text.get(1.0, tk.END)
+        config.set(
+            "Settings",
+            "url_keywords_blacklist",
+            self.url_keywords_blacklist_text.get(1.0, tk.END),
         )
 
     def update_subscribe_urls(self, event):
-        config.subscribe_urls = self.format_list(
-            self.subscribe_urls_text.get(1.0, tk.END)
+        config.set(
+            "Settings",
+            "subscribe_urls",
+            self.subscribe_urls_text.get(1.0, tk.END),
         )
 
     def update_region_list(self, event):
-        config.region_list = self.format_list(self.region_list_text.get(1.0, tk.END))
+        config.set(
+            "Settings", "region_list", ",".join(self.region_list_combo.selected_values)
+        )
 
     def view_result_link_callback(self, event):
         webbrowser.open_new_tab(self.result_url)
@@ -160,9 +168,9 @@ class TkinterUI:
         config_values = {
             "open_update": self.open_update_var.get(),
             "open_use_old_result": self.open_use_old_result_var.get(),
-            "source_file": f'"{self.source_file_entry.get()}"',
-            "final_file": f'"{self.final_file_entry.get()}"',
-            "favorite_list": self.format_list(self.favorite_list_text.get(1.0, tk.END)),
+            "source_file": self.source_file_entry.get(),
+            "final_file": self.final_file_entry.get(),
+            "favorite_list": self.favorite_list_text.get(1.0, tk.END),
             "open_online_search": self.open_online_search_var.get(),
             "favorite_page_num": self.favorite_page_num_entry.get(),
             "default_page_num": self.default_page_num_entry.get(),
@@ -174,31 +182,26 @@ class TkinterUI:
             "response_time_weight": self.response_time_weight_entry.get(),
             "resolution_weight": self.resolution_weight_entry.get(),
             "recent_days": self.recent_days_entry.get(),
-            "ipv_type": f'"{self.ipv_type_combo.get()}"',
-            "domain_blacklist": self.format_list(
-                self.domain_blacklist_text.get(1.0, tk.END)
-            ),
-            "url_keywords_blacklist": self.format_list(
-                self.url_keywords_blacklist_text.get(1.0, tk.END)
-            ),
+            "ipv_type": self.ipv_type_combo.get(),
+            "domain_blacklist": self.domain_blacklist_text.get(1.0, tk.END),
+            "url_keywords_blacklist": self.url_keywords_blacklist_text.get(1.0, tk.END),
             "open_subscribe": self.open_subscribe_var.get(),
-            "subscribe_urls": self.format_list(
-                self.subscribe_urls_text.get(1.0, tk.END)
-            ),
+            "subscribe_urls": self.subscribe_urls_text.get(1.0, tk.END),
             "open_multicast": self.open_multicast_var.get(),
-            "region_list": self.format_list(self.region_list_text.get(1.0, tk.END)),
+            "region_list": self.region_list_combo.get(),
         }
 
         for key, value in config_values.items():
-            setattr(config, key, value)
-        user_config_file = (
-            "user_config.py" if os.path.exists("user_config.py") else "config.py"
+            config.set("Settings", key, str(value))
+        user_config_file = "config/" + (
+            "user_config.ini"
+            if os.path.exists(resource_path("user_config.ini"))
+            else "config.ini"
         )
-        with open(
-            resource_path(user_config_file, persistent=True), "w", encoding="utf-8"
-        ) as f:
-            for key, value in config_values.items():
-                f.write(f"{key} = {value}\n")
+        user_config_path = resource_path(user_config_file, persistent=True)
+        os.makedirs(os.path.dirname(user_config_path), exist_ok=True)
+        with open(user_config_path, "w", encoding="utf-8") as configfile:
+            config.write(configfile)
         messagebox.showinfo("提示", "保存成功")
 
     async def run_update(self):
@@ -274,7 +277,9 @@ class TkinterUI:
             frame1_open_update_column1, text="开启更新:", width=8
         )
         self.open_update_label.pack(side=tk.LEFT, padx=4, pady=8)
-        self.open_update_var = tk.BooleanVar(value=config.open_update)
+        self.open_update_var = tk.BooleanVar(
+            value=config.getboolean("Settings", "open_update")
+        )
         self.open_update_checkbutton = ttk.Checkbutton(
             frame1_open_update_column1,
             variable=self.open_update_var,
@@ -289,7 +294,9 @@ class TkinterUI:
             frame1_open_update_column2, text="使用历史结果:", width=12
         )
         self.open_use_old_result_label.pack(side=tk.LEFT, padx=4, pady=8)
-        self.open_use_old_result_var = tk.BooleanVar(value=config.open_use_old_result)
+        self.open_use_old_result_var = tk.BooleanVar(
+            value=config.getboolean("Settings", "open_use_old_result")
+        )
         self.open_use_old_result_checkbutton = ttk.Checkbutton(
             frame1_open_update_column2,
             variable=self.open_use_old_result_var,
@@ -307,7 +314,7 @@ class TkinterUI:
         self.source_file_entry = tk.Entry(frame1_source_file)
         self.source_file_label.pack(side=tk.LEFT, padx=4, pady=8)
         self.source_file_entry.pack(fill=tk.X, padx=4, expand=True)
-        self.source_file_entry.insert(0, config.source_file)
+        self.source_file_entry.insert(0, config.get("Settings", "source_file"))
 
         frame1_source_file_select = tk.Frame(frame1)
         frame1_source_file_select.pack(fill=tk.X)
@@ -324,7 +331,7 @@ class TkinterUI:
         self.final_file_entry = tk.Entry(frame1_final_file)
         self.final_file_label.pack(side=tk.LEFT, padx=4, pady=8)
         self.final_file_entry.pack(fill=tk.X, padx=4, expand=True)
-        self.final_file_entry.insert(0, config.final_file)
+        self.final_file_entry.insert(0, config.get("Settings", "final_file"))
 
         frame1_final_file_select = tk.Frame(frame1)
         frame1_final_file_select.pack(fill=tk.X)
@@ -345,7 +352,9 @@ class TkinterUI:
             frame1_mode_params_column1, text="浏览器模式:", width=12
         )
         self.open_driver_label.pack(side=tk.LEFT, padx=4, pady=8)
-        self.open_driver_var = tk.BooleanVar(value=config.open_driver)
+        self.open_driver_var = tk.BooleanVar(
+            value=config.getboolean("Settings", "open_driver")
+        )
         self.open_driver_checkbutton = ttk.Checkbutton(
             frame1_mode_params_column1,
             variable=self.open_driver_var,
@@ -360,7 +369,9 @@ class TkinterUI:
             frame1_mode_params_column2, text="开启代理:", width=12
         )
         self.open_proxy_label.pack(side=tk.LEFT, padx=4, pady=8)
-        self.open_proxy_var = tk.BooleanVar(value=config.open_proxy)
+        self.open_proxy_var = tk.BooleanVar(
+            value=config.getboolean("Settings", "open_proxy")
+        )
         self.open_proxy_checkbutton = ttk.Checkbutton(
             frame1_mode_params_column2,
             variable=self.open_proxy_var,
@@ -384,7 +395,7 @@ class TkinterUI:
         self.urls_limit_label.pack(side=tk.LEFT, padx=4, pady=8)
         self.urls_limit_entry = tk.Entry(frame1_channel_column1)
         self.urls_limit_entry.pack(side=tk.LEFT, padx=4, pady=8)
-        self.urls_limit_entry.insert(15, config.urls_limit)
+        self.urls_limit_entry.insert(15, config.getint("Settings", "urls_limit"))
         self.urls_limit_entry.bind("<KeyRelease>", self.update_urls_limit)
 
         self.ipv_type_label = tk.Label(
@@ -408,7 +419,9 @@ class TkinterUI:
             frame1_sort_column1, text="保留模式:", width=12
         )
         self.open_keep_all_label.pack(side=tk.LEFT, padx=4, pady=8)
-        self.open_keep_all_var = tk.BooleanVar(value=config.open_keep_all)
+        self.open_keep_all_var = tk.BooleanVar(
+            value=config.getboolean("Settings", "open_keep_all")
+        )
         self.open_keep_all_checkbutton = ttk.Checkbutton(
             frame1_sort_column1,
             variable=self.open_keep_all_var,
@@ -423,7 +436,9 @@ class TkinterUI:
             frame1_sort_column2, text="开启测速排序:", width=12
         )
         self.open_sort_label.pack(side=tk.LEFT, padx=4, pady=8)
-        self.open_sort_var = tk.BooleanVar(value=config.open_sort)
+        self.open_sort_var = tk.BooleanVar(
+            value=config.getboolean("Settings", "open_sort")
+        )
         self.open_sort_checkbutton = ttk.Checkbutton(
             frame1_sort_column2,
             variable=self.open_sort_var,
@@ -446,7 +461,9 @@ class TkinterUI:
         self.response_time_weight_label.pack(side=tk.LEFT, padx=4, pady=8)
         self.response_time_weight_entry = tk.Entry(frame1_sort_params_column1)
         self.response_time_weight_entry.pack(side=tk.LEFT, padx=4, pady=8)
-        self.response_time_weight_entry.insert(0, config.response_time_weight)
+        self.response_time_weight_entry.insert(
+            0, config.getfloat("Settings", "response_time_weight")
+        )
         self.response_time_weight_entry.bind(
             "<KeyRelease>", self.update_response_time_weight
         )
@@ -457,7 +474,9 @@ class TkinterUI:
         self.resolution_weight_label.pack(side=tk.LEFT, padx=4, pady=8)
         self.resolution_weight_entry = tk.Entry(frame1_sort_params_column2)
         self.resolution_weight_entry.pack(side=tk.LEFT, padx=4, pady=8)
-        self.resolution_weight_entry.insert(0, config.resolution_weight)
+        self.resolution_weight_entry.insert(
+            0, config.getfloat("Settings", "resolution_weight")
+        )
         self.resolution_weight_entry.bind("<KeyRelease>", self.update_resolution_weight)
 
         frame1_domain_blacklist = tk.Frame(frame1)
@@ -473,7 +492,9 @@ class TkinterUI:
         self.domain_blacklist_text.pack(
             side=tk.LEFT, padx=4, pady=8, expand=True, fill=tk.BOTH
         )
-        self.domain_blacklist_text.insert(tk.END, ",".join(config.domain_blacklist))
+        self.domain_blacklist_text.insert(
+            tk.END, config.get("Settings", "domain_blacklist")
+        )
         self.domain_blacklist_text.bind("<KeyRelease>", self.update_domain_blacklist)
 
         frame1_url_keywords_blacklist = tk.Frame(frame1)
@@ -490,7 +511,7 @@ class TkinterUI:
             side=tk.LEFT, padx=4, pady=8, expand=True, fill=tk.BOTH
         )
         self.url_keywords_blacklist_text.insert(
-            tk.END, ",".join(config.url_keywords_blacklist)
+            tk.END, config.get("Settings", "url_keywords_blacklist")
         )
         self.url_keywords_blacklist_text.bind(
             "<KeyRelease>", self.update_url_keywords_blacklist
@@ -503,7 +524,9 @@ class TkinterUI:
             frame2_open_online_search, text="开启在线搜索:", width=13
         )
         self.open_online_search_label.pack(side=tk.LEFT, padx=4, pady=8)
-        self.open_online_search_var = tk.BooleanVar(value=config.open_online_search)
+        self.open_online_search_var = tk.BooleanVar(
+            value=config.getboolean("Settings", "open_online_search")
+        )
         self.open_online_search_checkbutton = ttk.Checkbutton(
             frame2_open_online_search,
             variable=self.open_online_search_var,
@@ -526,7 +549,7 @@ class TkinterUI:
         self.favorite_list_text.pack(
             side=tk.LEFT, padx=4, pady=8, expand=True, fill=tk.BOTH
         )
-        self.favorite_list_text.insert(tk.END, ",".join(config.favorite_list))
+        self.favorite_list_text.insert(tk.END, config.get("Settings", "favorite_list"))
         self.favorite_list_text.bind("<KeyRelease>", self.update_favorite_list)
 
         frame2_favorite_page_num = tk.Frame(frame2)
@@ -538,7 +561,9 @@ class TkinterUI:
         self.favorite_page_num_label.pack(side=tk.LEFT, padx=4, pady=8)
         self.favorite_page_num_entry = tk.Entry(frame2_favorite_page_num)
         self.favorite_page_num_entry.pack(side=tk.LEFT, padx=4, pady=8)
-        self.favorite_page_num_entry.insert(0, config.favorite_page_num)
+        self.favorite_page_num_entry.insert(
+            0, config.getint("Settings", "favorite_page_num")
+        )
         self.favorite_page_num_entry.bind("<KeyRelease>", self.update_favorite_page_num)
 
         frame2_default_page_num = tk.Frame(frame2)
@@ -550,7 +575,9 @@ class TkinterUI:
         self.default_page_num_label.pack(side=tk.LEFT, padx=4, pady=8)
         self.default_page_num_entry = tk.Entry(frame2_default_page_num)
         self.default_page_num_entry.pack(side=tk.LEFT, padx=4, pady=8)
-        self.default_page_num_entry.insert(0, config.default_page_num)
+        self.default_page_num_entry.insert(
+            0, config.getint("Settings", "default_page_num")
+        )
         self.default_page_num_entry.bind("<KeyRelease>", self.update_default_page_num)
 
         frame2_recent_days = tk.Frame(frame2)
@@ -562,7 +589,7 @@ class TkinterUI:
         self.recent_days_label.pack(side=tk.LEFT, padx=4, pady=8)
         self.recent_days_entry = tk.Entry(frame2_recent_days)
         self.recent_days_entry.pack(side=tk.LEFT, padx=4, pady=8)
-        self.recent_days_entry.insert(30, config.recent_days)
+        self.recent_days_entry.insert(30, config.getint("Settings", "recent_days"))
         self.recent_days_entry.bind("<KeyRelease>", self.update_recent_days)
 
         frame3_open_subscribe = tk.Frame(frame3)
@@ -572,7 +599,9 @@ class TkinterUI:
             frame3_open_subscribe, text="开启订阅源:", width=9
         )
         self.open_subscribe_label.pack(side=tk.LEFT, padx=4, pady=8)
-        self.open_subscribe_var = tk.BooleanVar(value=config.open_subscribe)
+        self.open_subscribe_var = tk.BooleanVar(
+            value=config.getboolean("Settings", "open_subscribe")
+        )
         self.open_subscribe_checkbutton = ttk.Checkbutton(
             frame3_open_subscribe,
             variable=self.open_subscribe_var,
@@ -595,7 +624,9 @@ class TkinterUI:
         self.subscribe_urls_text.pack(
             side=tk.LEFT, padx=4, pady=8, expand=True, fill=tk.BOTH
         )
-        self.subscribe_urls_text.insert(tk.END, ",".join(config.subscribe_urls))
+        self.subscribe_urls_text.insert(
+            tk.END, config.get("Settings", "subscribe_urls")
+        )
         self.subscribe_urls_text.bind("<KeyRelease>", self.update_subscribe_urls)
 
         frame4_multicast = tk.Frame(frame4)
@@ -605,7 +636,9 @@ class TkinterUI:
             frame4_multicast, text="开启组播源:", width=9
         )
         self.open_multicast_label.pack(side=tk.LEFT, padx=4, pady=8)
-        self.open_multicast_var = tk.BooleanVar(value=config.open_multicast)
+        self.open_multicast_var = tk.BooleanVar(
+            value=config.getboolean("Settings", "open_multicast")
+        )
         self.open_multicast_checkbutton = ttk.Checkbutton(
             frame4_multicast,
             variable=self.open_multicast_var,
@@ -620,12 +653,26 @@ class TkinterUI:
 
         self.region_list_label = tk.Label(frame4_region_list, text="组播地区:", width=9)
         self.region_list_label.pack(side=tk.LEFT, padx=4, pady=8)
-        self.region_list_text = scrolledtext.ScrolledText(frame4_region_list, height=5)
-        self.region_list_text.pack(
+        with open(
+            resource_path("updates/multicast/multicast_map.json"), "r", encoding="utf-8"
+        ) as f:
+            regions_obj = json.load(f)
+            regions = list(regions_obj.keys())
+        region_selected_values = [
+            value
+            for value in config.get("Settings", "region_list").split(",")
+            if value.strip()
+        ]
+        self.region_list_combo = MultiSelectCombobox(
+            frame4_region_list,
+            values=regions,
+            selected_values=region_selected_values,
+            height=10,
+        )
+        self.region_list_combo.pack(
             side=tk.LEFT, padx=4, pady=8, expand=True, fill=tk.BOTH
         )
-        self.region_list_text.insert(tk.END, ",".join(config.region_list))
-        self.region_list_text.bind("<KeyRelease>", self.update_region_list)
+        self.region_list_combo.bind("<KeyRelease>", self.update_region_list)
 
         root_operate = tk.Frame(self.root)
         root_operate.pack(fill=tk.X, pady=8, padx=120)
@@ -686,6 +733,30 @@ class TkinterUI:
             self.view_result_link_callback,
         )
         self.view_result_link.pack_forget()
+
+
+class MultiSelectCombobox(ttk.Combobox):
+    def __init__(self, master=None, **kwargs):
+        selected_values = kwargs.pop("selected_values", [])
+        values = kwargs.pop("values", [])
+        super().__init__(master, **kwargs)
+        self.selected_values = selected_values
+        self.values = values
+        self["values"] = self.values
+        self.bind("<<ComboboxSelected>>", self.on_select)
+        self.update_values()
+
+    def on_select(self, event):
+        selected_value = self.get().strip()
+        if selected_value in self.selected_values:
+            self.selected_values.remove(selected_value)
+        else:
+            self.selected_values.append(selected_value)
+        self.update_values()
+
+    def update_values(self):
+        display_text = ",".join(self.selected_values)
+        self.set(display_text)
 
 
 if __name__ == "__main__":

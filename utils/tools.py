@@ -5,24 +5,43 @@ import urllib.parse
 import ipaddress
 from urllib.parse import urlparse
 import socket
-from utils.config import get_config, resource_path
+from utils.config import config, resource_path
 import re
 from bs4 import BeautifulSoup
 
-config = get_config()
+
+def format_interval(t):
+    """
+    Formats a number of seconds as a clock time, [H:]MM:SS
+
+    Parameters
+    ----------
+    t  : int or float
+        Number of seconds.
+    Returns
+    -------
+    out  : str
+        [H:]MM:SS
+    """
+    mins, s = divmod(int(t), 60)
+    h, m = divmod(mins, 60)
+    if h:
+        return "{0:d}:{1:02d}:{2:02d}".format(h, m, s)
+    else:
+        return "{0:02d}:{1:02d}".format(m, s)
 
 
-def get_pbar_remaining(pbar, start_time):
+def get_pbar_remaining(n=0, total=0, start_time=None):
     """
     Get the remaining time of the progress bar
     """
     try:
         elapsed = time() - start_time
-        completed_tasks = pbar.n
+        completed_tasks = n
         if completed_tasks > 0:
             avg_time_per_task = elapsed / completed_tasks
-            remaining_tasks = pbar.total - completed_tasks
-            remaining_time = pbar.format_interval(avg_time_per_task * remaining_tasks)
+            remaining_tasks = total - completed_tasks
+            remaining_time = format_interval(avg_time_per_task * remaining_tasks)
         else:
             remaining_time = "未知"
         return remaining_time
@@ -45,7 +64,7 @@ def filter_by_date(data):
     Filter by date and limit
     """
     default_recent_days = 30
-    use_recent_days = getattr(config, "recent_days", 30)
+    use_recent_days = config.getint("Settings", "recent_days")
     if not isinstance(use_recent_days, int) or use_recent_days <= 0:
         use_recent_days = default_recent_days
     start_date = datetime.datetime.now() - datetime.timedelta(days=use_recent_days)
@@ -64,8 +83,10 @@ def filter_by_date(data):
     recent_data_len = len(recent_data)
     if recent_data_len == 0:
         recent_data = unrecent_data
-    elif recent_data_len < config.urls_limit:
-        recent_data.extend(unrecent_data[: config.urls_limit - len(recent_data)])
+    elif recent_data_len < config.getint("Settings", "urls_limit"):
+        recent_data.extend(
+            unrecent_data[: config.getint("Settings", "urls_limit") - len(recent_data)]
+        )
     return recent_data
 
 
@@ -88,7 +109,7 @@ def get_total_urls_from_info_list(infoList):
     Get the total urls from info list
     """
     total_urls = [url for url, _, _ in infoList]
-    return list(dict.fromkeys(total_urls))[: int(config.urls_limit)]
+    return list(dict.fromkeys(total_urls))[: config.getint("Settings", "urls_limit")]
 
 
 def get_total_urls_from_sorted_data(data):
@@ -96,11 +117,11 @@ def get_total_urls_from_sorted_data(data):
     Get the total urls with filter by date and depulicate from sorted data
     """
     total_urls = []
-    if len(data) > config.urls_limit:
+    if len(data) > config.getint("Settings", "urls_limit"):
         total_urls = [url for (url, _, _), _ in filter_by_date(data)]
     else:
         total_urls = [url for (url, _, _), _ in data]
-    return list(dict.fromkeys(total_urls))[: config.urls_limit]
+    return list(dict.fromkeys(total_urls))[: config.getint("Settings", "urls_limit")]
 
 
 def is_ipv6(url):
@@ -119,7 +140,7 @@ def check_url_ipv_type(url):
     """
     Check if the url is compatible with the ipv type in the config
     """
-    ipv_type = getattr(config, "ipv_type", "ipv4")
+    ipv_type = config.get("Settings", "ipv_type")
     if ipv_type == "ipv4":
         return not is_ipv6(url)
     elif ipv_type == "ipv6":
@@ -134,7 +155,8 @@ def check_by_domain_blacklist(url):
     """
     domain_blacklist = [
         urlparse(domain).netloc if urlparse(domain).scheme else domain
-        for domain in getattr(config, "domain_blacklist", [])
+        for domain in config.get("Settings", "domain_blacklist").split(",")
+        if domain.strip()
     ]
     return urlparse(url).netloc not in domain_blacklist
 
@@ -143,7 +165,11 @@ def check_by_url_keywords_blacklist(url):
     """
     Check by URL blacklist keywords
     """
-    url_keywords_blacklist = getattr(config, "url_keywords_blacklist", [])
+    url_keywords_blacklist = [
+        keyword
+        for keyword in config.get("Settings", "url_keywords_blacklist").split(",")
+        if keyword.strip()
+    ]
     return not any(keyword in url for keyword in url_keywords_blacklist)
 
 
@@ -172,22 +198,28 @@ def merge_objects(*objects):
     """
     Merge objects
     """
+
+    def merge_dicts(dict1, dict2):
+        for key, value in dict2.items():
+            if key in dict1:
+                if isinstance(dict1[key], dict) and isinstance(value, dict):
+                    merge_dicts(dict1[key], value)
+                elif isinstance(dict1[key], set):
+                    dict1[key].update(value)
+                elif isinstance(dict1[key], list):
+                    dict1[key].extend(value)
+                    dict1[key] = list(set(dict1[key]))  # Remove duplicates
+                else:
+                    dict1[key] = {dict1[key], value}
+            else:
+                dict1[key] = value
+
     merged_dict = {}
     for obj in objects:
         if not isinstance(obj, dict):
             raise TypeError("All input objects must be dictionaries")
-        for key, value in obj.items():
-            if key not in merged_dict:
-                merged_dict[key] = set()
-            if isinstance(value, set):
-                merged_dict[key].update(value)
-            elif isinstance(value, list):
-                for item in value:
-                    merged_dict[key].add(item)
-            else:
-                merged_dict[key].add(value)
-    for key, value in merged_dict.items():
-        merged_dict[key] = list(value)
+        merge_dicts(merged_dict, obj)
+
     return merged_dict
 
 

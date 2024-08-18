@@ -1,5 +1,5 @@
 import asyncio
-from utils.config import get_config
+from utils.config import config
 from utils.channel import (
     get_channel_items,
     append_data_to_info_data,
@@ -12,24 +12,24 @@ from utils.tools import (
     get_pbar_remaining,
     get_ip_address,
 )
-from subscribe import get_channels_by_subscribe_urls
-from fofa import get_channels_by_fofa
-from online_search import get_channels_by_online_search
+from utils.speed import is_ffmpeg_installed
+from updates.subscribe import get_channels_by_subscribe_urls
+from updates.multicast import get_channels_by_multicast
+from updates.online_search import get_channels_by_online_search
 import os
 from tqdm import tqdm
 from tqdm.asyncio import tqdm_asyncio
 from time import time
 from flask import Flask, render_template_string
 import sys
-
-config = get_config()
+import shutil
 
 app = Flask(__name__)
 
 
 @app.route("/")
 def show_result():
-    user_final_file = getattr(config, "final_file", "result.txt")
+    user_final_file = config.get("Settings", "final_file")
     with open(user_final_file, "r", encoding="utf-8") as file:
         content = file.read()
     return render_template_string("<pre>{{ content }}</pre>", content=content)
@@ -48,33 +48,39 @@ class UpdateSource:
         self.pbar = None
         self.total = 0
         self.start_time = None
+        self.sort_n = 0
 
     async def visit_page(self, channel_names=None):
-        if config.open_subscribe:
+        if config.getboolean("Settings", "open_subscribe"):
             subscribe_task = asyncio.create_task(
-                get_channels_by_subscribe_urls(self.update_progress)
+                get_channels_by_subscribe_urls(callback=self.update_progress)
             )
             self.tasks.append(subscribe_task)
             self.subscribe_result = await subscribe_task
-        if config.open_multicast:
+        if config.getboolean("Settings", "open_multicast"):
             multicast_task = asyncio.create_task(
-                get_channels_by_fofa(self.update_progress)
+                get_channels_by_multicast(channel_names, self.update_progress)
             )
             self.tasks.append(multicast_task)
             self.multicast_result = await multicast_task
-        if config.open_online_search:
+        if config.getboolean("Settings", "open_online_search"):
             online_search_task = asyncio.create_task(
                 get_channels_by_online_search(channel_names, self.update_progress)
             )
             self.tasks.append(online_search_task)
             self.online_search_result = await online_search_task
 
-    def pbar_update(self, name=""):
-        self.pbar.update()
+    def pbar_update(self, name="", n=0):
+        if not n:
+            self.pbar.update()
         self.update_progress(
-            f"正在进行{name}, 剩余{self.pbar.total - self.pbar.n}个接口, 预计剩余时间: {get_pbar_remaining(self.pbar, self.start_time)}",
-            int((self.pbar.n / self.total) * 100),
+            f"正在进行{name}, 剩余{self.total - (n or self.pbar.n)}个频道, 预计剩余时间: {get_pbar_remaining(n=(n or self.pbar.n), total=self.total, start_time=self.start_time)}",
+            int(((n or self.pbar.n) / self.total) * 100),
         )
+
+    def sort_pbar_update(self):
+        self.sort_n += 1
+        self.pbar_update(name="测速", n=self.sort_n)
 
     async def main(self):
         try:
@@ -93,8 +99,11 @@ class UpdateSource:
                 self.multicast_result,
                 self.online_search_result,
             )
-            if config.open_sort:
-                semaphore = asyncio.Semaphore(100)
+            if config.getboolean("Settings", "open_sort"):
+                is_ffmpeg = is_ffmpeg_installed()
+                if not is_ffmpeg:
+                    print("FFmpeg is not installed, using requests for sorting.")
+                semaphore = asyncio.Semaphore(1 if is_ffmpeg else 100)
                 self.tasks = [
                     asyncio.create_task(
                         sort_channel_list(
@@ -102,19 +111,20 @@ class UpdateSource:
                             cate,
                             name,
                             info_list,
-                            lambda: self.pbar_update("测速排序"),
+                            is_ffmpeg,
+                            lambda: self.sort_pbar_update(),
                         )
                     )
                     for cate, channel_obj in self.channel_data.items()
                     for name, info_list in channel_obj.items()
                 ]
-                self.pbar = tqdm_asyncio(total=len(self.tasks), desc="Sorting")
                 self.update_progress(
                     f"正在测速排序, 共{len(self.tasks)}个频道",
-                    int((self.pbar.n / len(self.tasks)) * 100),
+                    0,
                 )
                 self.start_time = time()
-                sort_results = await tqdm_asyncio.gather(*self.tasks, disable=True)
+                self.pbar = tqdm_asyncio(total=len(self.tasks), desc="Sorting")
+                sort_results = await tqdm_asyncio.gather(*self.tasks, desc="Sorting")
                 self.channel_data = {}
                 for result in sort_results:
                     if result:
@@ -129,18 +139,25 @@ class UpdateSource:
             write_channel_to_file(
                 self.channel_items.items(),
                 self.channel_data,
-                lambda: self.pbar_update("写入结果"),
+                lambda: self.pbar_update(name="写入结果"),
             )
             self.pbar.close()
-            user_final_file = getattr(config, "final_file", "result.txt")
-            update_file(user_final_file, "result_new.txt")
-            if config.open_sort:
-                user_log_file = (
+            user_final_file = config.get("Settings", "final_file")
+            update_file(user_final_file, "output/result_new.txt")
+            if os.path.exists(user_final_file):
+                result_file = (
+                    "user_result.txt"
+                    if os.path.exists("config/user_config.ini")
+                    else "result.txt"
+                )
+                shutil.copy(user_final_file, result_file)
+            if config.getboolean("Settings", "open_sort"):
+                user_log_file = "output/" + (
                     "user_result.log"
-                    if os.path.exists("user_config.py")
+                    if os.path.exists("config/user_config.ini")
                     else "result.log"
                 )
-                update_file(user_log_file, "result_new.log")
+                update_file(user_log_file, "output/result_new.log")
             print(f"Update completed! Please check the {user_final_file} file!")
             if not os.environ.get("GITHUB_ACTIONS"):
                 print(f"You can access the result at {get_ip_address()}")
@@ -160,10 +177,10 @@ class UpdateSource:
 
         self.update_progress = callback or default_callback
         self.run_ui = True if callback else False
-        if config.open_update:
+        if config.getboolean("Settings", "open_update"):
             await self.main()
         if self.run_ui:
-            if not config.open_update:
+            if not config.getboolean("Settings", "open_update"):
                 print(f"You can access the result at {get_ip_address()}")
                 self.update_progress(
                     f"服务启动成功, 可访问以下链接:",
@@ -182,7 +199,7 @@ class UpdateSource:
 
 
 def scheduled_task():
-    if config.open_update:
+    if config.getboolean("Settings", "open_update"):
         update_source = UpdateSource()
         loop = asyncio.new_event_loop()
         asyncio.set_event_loop(loop)
@@ -190,10 +207,7 @@ def scheduled_task():
 
 
 if __name__ == "__main__":
-    # Run scheduled_task
-    scheduled_task()
-
-    # If not run with 'scheduled_task' argument and not in GitHub Actions, start Flask server
-    if len(sys.argv) <= 1 or sys.argv[1] != "scheduled_task":
-        if not os.environ.get("GITHUB_ACTIONS"):
-            app.run(host="0.0.0.0", port=3000)
+    if len(sys.argv) == 1 or (len(sys.argv) > 1 and sys.argv[1] == "scheduled_task"):
+        scheduled_task()
+    if not os.environ.get("GITHUB_ACTIONS"):
+        app.run(host="0.0.0.0", port=8000)
