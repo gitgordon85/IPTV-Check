@@ -13,13 +13,11 @@
 深圳卫视,http://113.116.43.148:5000/rtp/239.77.1.3:5146$1920x1080
 深圳卫视,http://gslbservzqhsw.itv.cmvideo.cn/1000000005000265028/1.m3u8?channel-id=ystenlive&Contentid=1000000005000265028&livemode=1&stbId=3$1920x1080
 央视频道,#genre#
-CCTV-1,http://123.146.162.24:8013/tslslive/noEX9SG/hls/live_sd.m3u8$720x576
 CCTV-2,https://cntv.lat/tv/live.php?auth=231110&id=cctv2$1280x720
-CCTV-4,http://113.116.43.148:5000/rtp/239.77.1.166:5146$1920x1080
 CCTV-4,http://113.116.43.148:5000/rtp/239.77.1.163:5146$1920x1080
 CCTV-5,http://113.116.43.148:5000/rtp/239.77.0.170:5146$1920x1080
 CCTV-11,https://cd-live-stream.news.cctvplus.com/live/smil:CHANNEL1.smil/playlist.m3u8$426x240
-CCTV-13,http://stream.smntv.cn/smtv1/playlist.m3u8$320x240
+CCTV-13,http://stream.smntv.cn/smtv1/playlist.m3u8$1280x720
 卫视频道,#genre#
 广东卫视,http://113.116.43.148:5000/rtp/239.77.1.19:5146$1920x1080
 广东卫视,http://gslbservzqhsw.itv.cmvideo.cn/1000000005000265034/1.m3u8?channel-id=ystenlive&Contentid=1000000005000265034&livemode=1&stbId=3$1920x1080
@@ -45,7 +43,6 @@ CCTV-13,http://stream.smntv.cn/smtv1/playlist.m3u8$320x240
 东南卫视,http://gslbservzqhsw.itv.cmvideo.cn/1000000005000265033/1.m3u8?channel-id=ystenlive&Contentid=1000000005000265033&livemode=1&stbId=3$1920x1080
 东南卫视,http://gslbservzqhsw.itv.cmvideo.cn/5000000004000010584/1.m3u8?channel-id=bestzb&Contentid=5000000004000010584&livemode=1&stbId=3$1920x1080
 甘肃卫视,http://gslbservzqhsw.itv.cmvideo.cn/5000000011000031121/1.m3u8?channel-id=bestzb&Contentid=5000000011000031121&livemode=1&stbId=3$1920x1080
-广西卫视,http://www.dsmcloud.top:8888/udp/239.81.0.107:4056$1920x1080
 广西卫视,http://gslbservzqhsw.itv.cmvideo.cn/5000000011000031118/1.m3u8?channel-id=bestzb&Contentid=5000000011000031118&livemode=1&stbId=3$1920x1080
 贵州卫视,http://gslbservzqhsw.itv.cmvideo.cn/5000000004000025843/1.m3u8?channel-id=bestzb&Contentid=5000000004000025843&livemode=1&stbId=3$1920x1080
 海南卫视,http://gslbservzqhsw.itv.cmvideo.cn/5000000004000006211/1.m3u8?channel-id=bestzb&Contentid=5000000004000006211&livemode=1&stbId=3$1920x1080
