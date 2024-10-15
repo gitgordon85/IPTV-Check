@@ -1,195 +1,209 @@
 更新时间,#genre#
-2024-10-15 18:47:35,url
+2024-10-16 06:40:31,url
 潮汕,#genre#
 汕头综合,http://61.145.208.119:9090/rtp/239.77.1.130:5146$1920x1080
+汕头综合,http://www.zzlag.top:9003/hls/47/index.m3u8$1920x1080
 汕头综合,http://61.145.208.119:9090/rtp/239.253.43.30:5146$1920x1080
 汕头综合,http://61.145.208.119:9090/rtp/239.253.43.45:5146$1920x1080
 汕头综合高清,http://61.145.208.119:9090/rtp/239.77.1.130:5146$1920x1080
 汕头综合高清,http://61.145.208.119:9090/rtp/239.253.43.30:5146$1920x1080
+汕头综合高清,http://www.zzlag.top:9003/hls/47/index.m3u8$1920x1080
 汕头综合高清,http://61.145.208.119:9090/rtp/239.253.43.45:5146$1920x1080
+汕头经济,http://www.zzlag.top:9003/hls/48/index.m3u8$1920x1080
 汕头经济,http://61.145.208.119:9090/rtp/239.77.1.131:5146$1920x1080
 汕头经济,http://61.145.208.119:9090/rtp/239.253.43.43:5146$1920x1080
 汕头经济,http://61.145.208.119:9090/rtp/239.253.43.46:5146$1920x1080
+汕头经济高清,http://www.zzlag.top:9003/hls/48/index.m3u8$1920x1080
 汕头经济高清,http://61.145.208.119:9090/rtp/239.77.1.131:5146$1920x1080
 汕头经济高清,http://61.145.208.119:9090/rtp/239.253.43.43:5146$1920x1080
 汕头经济高清,http://61.145.208.119:9090/rtp/239.253.43.46:5146$1920x1080
 汕头文旅,http://61.145.208.119:9090/rtp/239.253.43.47:5146$1920x1080
 汕头文旅,http://61.145.208.119:9090/rtp/239.253.43.44:5146$1920x1080
+汕头文旅,http://www.zzlag.top:9003/hls/49/index.m3u8$1920x1080
 汕头文旅,http://61.145.208.119:9090/rtp/239.77.1.132:5146$1920x1080
 汕头文旅高清,http://61.145.208.119:9090/rtp/239.253.43.47:5146$1920x1080
 汕头文旅高清,http://61.145.208.119:9090/rtp/239.253.43.44:5146$1920x1080
+汕头文旅高清,http://www.zzlag.top:9003/hls/49/index.m3u8$1920x1080
 汕头文旅高清,http://61.145.208.119:9090/rtp/239.77.1.132:5146$1920x1080
 🌊港·澳·台,#genre#
-翡翠台,http://php.jdshipin.com/TVOD/iptv.php?id=fct3$3840x2160
-翡翠台,http://zw9999.cnstream.top:80/play/ubI0Nrlni6TwusjXuSxNxA5oJl8b5Icz-0MXK7POxcc/ts$1920x1080
-翡翠台,https://cdn.iptv8k.top/dl/jspd.php?id=3&time=20240926215313&ip=111.229.253.40$1920x1080
-翡翠台,http://61.238.177.254:30261/stream/channelid/1548166379$LR•IPV4『线路15』
-翡翠台,http://r.jdshipin.com/qClQf
-翡翠台,http://r.jdshipin.com/n90gt
-翡翠台,http://php.jdshipin.com:8880/TVOD/iptv.php?id=fct$3840x2160
-翡翠台,http://r.jdshipin.com/n90gt$LR•IPV4『线路17』
-翡翠台,https://cdn.iptv8k.top/dl/jrys.php?id=1&time=20240926215313&ip=111.229.253.40$1920x1080
-翡翠台,http://php.jdshipin.com:8880/TVOD/iptv.php?id=fct3$3840x2160
-翡翠台,https://cdn.iptv8k.top/dl/jrys.php?id=4&time=20240926215313&ip=111.229.253.40$LR•IPV4『线路27』|1920x1080
-翡翠台,http://r.jdshipin.com/62WM7$LR•IPV4『线路20』
-翡翠台,https://cdn.iptv8k.top/dl/jrys.php?id=4&time=20240926215313&ip=111.229.253.40$1920x1080
-翡翠台,http://61.238.177.254:30261/stream/channelid/1548166379
-翡翠台,https://cdn.iptv8k.top/dl/jrys.php?id=2&time=20240926215313&ip=111.229.253.40$1920x1080
-翡翠台,http://php.jdshipin.com:8880/smt.php?id=jade_twn$3840x2160
-翡翠台,http://php.jdshipin.com/TVOD/iptv.php?id=fct3$LR•IPV4『线路4』|3840x2160
-翡翠台,http://r.jdshipin.com/62WM7
-翡翠台,http://php.jdshipin.com:8880/TVOD/iptv.php?id=fct$LR•IPV4『线路2』|3840x2160
-翡翠台,http://php.jdshipin.com:8880/smt.php?id=jade_twn$LR•IPV4『线路1』|3840x2160
-翡翠台,https://cdn.iptv8k.top/dl/jspd.php?id=3&time=20240926215313&ip=111.229.253.40$LR•IPV4『线路28』|1920x1080
-翡翠台,http://r.jdshipin.com/qClQf$LR•IPV4『线路23』
-翡翠台,http://php.jdshipin.com:8880/TVOD/iptv.php?id=fct3$LR•IPV4『线路3』|3840x2160
-翡翠台,https://cdn.iptv8k.top/dl/jrys.php?id=1&time=20240926215313&ip=111.229.253.40$LR•IPV4『线路24』|1920x1080
-翡翠台,https://cdn.iptv8k.top/dl/jrys.php?id=3&time=20240926215313&ip=111.229.253.40$LR•IPV4『线路26』|1920x1080
 翡翠台,http://zw9999.cnstream.top:80/play/ubI0Nrlni6TwusjXuSxNxA5oJl8b5Icz-0MXK7POxcc/ts$LR•IPV4『线路31』|1920x1080
+翡翠台,https://cdn.iptv8k.top/dl/jrys.php?id=1&time=20240926215313&ip=111.229.253.40$1920x1080
+翡翠台,http://php.jdshipin.com:8880/smt.php?id=jade_twn$LR•IPV4『线路1』
+翡翠台,http://r.jdshipin.com/62WM7$LR•IPV4『线路20』
+翡翠台,http://php.jdshipin.com:8880/TVOD/iptv.php?id=fct3
+翡翠台,http://r.jdshipin.com/n90gt
+翡翠台,http://php.jdshipin.com:8880/smt.php?id=jade_twn
+翡翠台,https://cdn.iptv8k.top/dl/jrys.php?id=4&time=20240926215313&ip=111.229.253.40$LR•IPV4『线路27』|1920x1080
+翡翠台,https://cdn.iptv8k.top/dl/jspd.php?id=3&time=20240926215313&ip=111.229.253.40$LR•IPV4『线路28』|1920x1080
+翡翠台,https://cdn.iptv8k.top/dl/jspd.php?id=3&time=20240926215313&ip=111.229.253.40$1920x1080
+翡翠台,http://r.jdshipin.com/62WM7
+翡翠台,http://r.jdshipin.com/n90gt$LR•IPV4『线路17』
 翡翠台,https://cdn.iptv8k.top/dl/jrys.php?id=2&time=20240926215313&ip=111.229.253.40$LR•IPV4『线路25』|1920x1080
-翡翠台,http://zw9999.cnstream.top:80/play/ubI0Nrlni6TwusjXuSxNxA5oJl8b5Icz-0MXK7POxcc/ts$LR•IPV4『线路7』|1920x1080
+翡翠台,https://cdn.iptv8k.top/dl/jrys.php?id=1&time=20240926215313&ip=111.229.253.40$LR•IPV4『线路24』|1920x1080
+翡翠台,http://61.238.177.254:30261/stream/channelid/1548166379$LR•IPV4『线路15』
+翡翠台,http://php.jdshipin.com:8880/TVOD/iptv.php?id=fct3$LR•IPV4『线路3』
+翡翠台,https://cdn.iptv8k.top/dl/jrys.php?id=3&time=20240926215313&ip=111.229.253.40$LR•IPV4『线路26』|1920x1080
+翡翠台,http://php.jdshipin.com/TVOD/iptv.php?id=fct3
+翡翠台,http://61.238.177.254:30261/stream/channelid/1548166379
 翡翠台,https://cdn.iptv8k.top/dl/jrys.php?id=3&time=20240926215313&ip=111.229.253.40$1920x1080
-明珠台,http://php.jdshipin.com:8880/smt.php?id=pearl_twn$3840x2160
-明珠台,http://php.jdshipin.com:8880/smt.php?id=pearl_twn$LR•IPV4『线路6』|3840x2160
+翡翠台,http://php.jdshipin.com/TVOD/iptv.php?id=fct3$LR•IPV4『线路4』
+翡翠台,https://cdn.iptv8k.top/dl/jrys.php?id=2&time=20240926215313&ip=111.229.253.40$1920x1080
+翡翠台,http://r.jdshipin.com/qClQf$LR•IPV4『线路23』
+翡翠台,http://zw9999.cnstream.top:80/play/ubI0Nrlni6TwusjXuSxNxA5oJl8b5Icz-0MXK7POxcc/ts$LR•IPV4『线路7』|1920x1080
+翡翠台,https://cdn.iptv8k.top/dl/jrys.php?id=4&time=20240926215313&ip=111.229.253.40$1920x1080
+翡翠台,http://php.jdshipin.com:8880/TVOD/iptv.php?id=fct
+翡翠台,http://php.jdshipin.com:8880/TVOD/iptv.php?id=fct$LR•IPV4『线路2』
+翡翠台,http://r.jdshipin.com/qClQf
+明珠台,http://php.jdshipin.com:8880/smt.php?id=pearl_twn
+明珠台,http://php.jdshipin.com:8880/smt.php?id=pearl_twn$LR•IPV4『线路6』
 明珠台,http://61.238.177.254:30261/stream/channelid/1310877729$LR•IPV4『线路8』
-明珠台,http://php.jdshipin.com:8880/TVOD/iptv.php?id=mzt$LR•IPV4『线路9』|3840x2160
+明珠台,http://php.jdshipin.com:8880/TVOD/iptv.php?id=mzt$LR•IPV4『线路9』
 明珠台,http://zw9999.cnstream.top:80/play/ubI0Nrlni6TwusjXuSxNxEzv3SLBhKEUmYG73triGDY/ts$LR•IPV4『线路10』|1920x1080
 明珠台,http://zw9999.cnstream.top:80/play/ubI0Nrlni6TwusjXuSxNxEzv3SLBhKEUmYG73triGDY/ts$LR•IPV4『线路15』|1920x1080
 明珠台,http://zw9999.cnstream.top:80/play/ubI0Nrlni6TwusjXuSxNxEzv3SLBhKEUmYG73triGDY/ts$1920x1080
 明珠台,http://61.238.177.254:30261/stream/channelid/1310877729
-明珠台,http://php.jdshipin.com:8880/TVOD/iptv.php?id=mzt$3840x2160
-凤凰中文,http://171.213.143.201:9999/rtp/239.93.1.9:2192$1920x1080
-凤凰中文,http://115.205.84.167:9999/rtp/233.50.200.191:5140$1920x1080
-凤凰中文,http://146.56.153.245:20121/bysid/258$LR•IPV4『线路81』|1920x1080
-凤凰中文,http://183.145.74.110:7777/rtp/233.50.200.191:5140$1920x1080
-凤凰中文,http://183.147.255.92:8888/rtp/233.50.200.191:5140$1920x1080
+明珠台,http://php.jdshipin.com:8880/TVOD/iptv.php?id=mzt
+凤凰中文,http://118.183.212.29:6868/rtp/239.255.30.50:8231$1920x1080
+凤凰中文,http://175.9.194.24:4502/rtp/239.76.253.135:9000$1920x1080
+凤凰中文,http://122.224.232.226:8888/udp/233.50.200.191:5140$1920x1080
 凤凰中文,http://183.150.161.118:9999/rtp/233.50.200.191:5140$1920x1080
-凤凰中文,http://183.147.160.231:8888/rtp/233.50.200.191:5140$1920x1080
+凤凰中文,http://220.184.69.32:4022/rtp/233.50.200.191:5140$1920x1080
 凤凰中文,http://183.147.171.84:8888/rtp/233.50.200.191:5140$1920x1080
-凤凰中文,http://183.133.105.27:8899/rtp/233.50.200.191:5140$1920x1080
-凤凰中文,http://183.151.27.193:4022/rtp/233.50.200.191:5140$1920x1080
-凤凰中文,http://183.141.216.122:9999/rtp/233.50.200.191:5140$1920x1080
-凤凰中文,http://183.141.3.6:8888/rtp/233.50.200.191:5140$1920x1080
 凤凰中文,http://183.128.234.245:4022/rtp/233.50.200.191:5140$1920x1080
+凤凰中文,http://125.109.62.72:9999/rtp/233.50.200.191:5140$LR•IPV4『线路95』|1920x1080
+凤凰中文,http://115.205.84.167:9999/rtp/233.50.200.191:5140$1920x1080
 凤凰中文,http://183.147.163.213:8888/rtp/233.50.200.191:5140$1920x1080
+凤凰中文,http://183.151.27.193:4022/rtp/233.50.200.191:5140$1920x1080
+凤凰中文,http://183.141.202.95:8888/rtp/233.50.200.191:5140$1920x1080
+凤凰中文,http://sss918.synology.me:8000/rtp/233.50.200.191:5140$1920x1080
+凤凰中文,http://60.189.61.82:9999/rtp/233.50.200.191:5140$LR•IPV4『线路118』|1920x1080
+凤凰中文,http://183.145.74.110:7777/rtp/233.50.200.191:5140$1920x1080
+凤凰中文,http://183.147.160.231:8888/rtp/233.50.200.191:5140$1920x1080
+凤凰中文,http://183.141.3.6:8888/rtp/233.50.200.191:5140$1920x1080
+凤凰中文,http://183.141.216.122:9999/rtp/233.50.200.191:5140$1920x1080
+凤凰中文,http://60.164.128.167:8029/rtp/239.255.30.50:8231$1920x1080
 凤凰中文,http://117.27.190.42:9998/tsfile/live/23280_1.m3u8?key=txiptv&playlive=1&authid=0
-凤凰中文,http://[2409:8087:2001:20:2800:0:df6e:eb25]:80/wh7f454c46tw2443888236_158039228/ott.mobaibox.com/PLTV/3/224/3221228527/index.m3u8?icpid=3&RTS=1674369674&from=40&popid=40&hms_devid=2292&prioritypopid=40&vqe=3$LR•IPV6『线路2』
-凤凰中文,http://117.27.190.42:9998/tsfile/live/23280_1.m3u8?key=txiptv
-凤凰中文,https://dl.zhoujie218.top/new/fhx.php?id=fhzw$LR•IPV4『线路120』
-凤凰中文,http://58.144.154.93:80/qctv.fengshows.cn/live/0701pin72.m3u8
-凤凰中文,http://www.terrykang.cn:5678/sxg.php?id=test1_4000$LR•IPV4『线路131』
-凤凰中文,http://php.17186.eu.org/phtv/fhzw.m3u8$LR•IPV4『线路150』
-凤凰中文,http://117.27.190.42:9998/tsfile/live/23280_1.m3u8?$LR•IPV4『线路20』
-凤凰中文,http://117.27.190.42:9998/tsfile/live/23280_1.m3u8?key=txiptv&playlive=1&authid=0$LR•IPV4『线路22』
 凤凰中文,http://120.55.49.231:3095/rtp/233.50.200.191:5140
-凤凰中文,https://dl.zhoujie218.top/new/fhx.php?id=fhzw
-凤凰中文,http://php.jdshipin.com/TVOD/iptv.php?id=fhzw$LR•IPV4『线路65』|3840x2160
-凤凰中文,http://www.tk1986.top:8888/udp/239.76.253.135:9000$LR•IPV4『线路161』
-凤凰中文,http://www.tk1986.top:8888/udp/239.76.253.135:9000$LR•IPV4『线路121』
-凤凰中文,http://[2409:8087:2001:20:2800:0:df6e:eb27]/wh7f454c46tw3352677969_1732462333/ott.mobaibox.com/PLTV/3/224/3221228524/index.m3u8$LR•IPV6『线路4』
-凤凰中文,http://www.tk1986.top:8888/udp/239.76.253.135:9000
-凤凰资讯,http://175.9.193.128:4502/rtp/239.76.253.134:9000$LR•IPV4『线路113』|1920x1080
+凤凰中文,http://117.27.190.42:9998/tsfile/live/23280_1.m3u8?
+凤凰中文,http://www.terrykang.cn:5678/sxg.php?id=test1_4000$LR•IPV4『线路131』
+凤凰中文,http://[2409:8087:2001:20:2800:0:df6e:eb24]/ott.mobaibox.com/PLTV/3/224/3221228527/index.m3u8$LR•IPV6『线路1』
+凤凰中文,http://free.xiptv.x10.bz/kudou.php?id=121$LR•IPV4『线路37』
+凤凰中文,http://117.27.190.42:9998/tsfile/live/23280_1.m3u8$LR•IPV4『线路23』
+凤凰中文,http://php.jdshipin.com/TVOD/iptv.php?id=fhzw
+凤凰中文,http://[2409:8087:2001:20:2800:0:df6e:eb24]:80/ott.mobaibox.com/PLTV/3/224/3221228527/index.m3u8$LR•IPV6『线路3』
+凤凰中文,http://r.jdshipin.com/cCCzW
+凤凰中文,http://117.27.190.42:9998/tsfile/live/23280_1.m3u8?key=txiptv
 凤凰资讯,http://www.372583307.top:4022/udp/233.50.200.192:5140$LR•IPV4『线路95』|1920x1080
 凤凰资讯,http://117.27.190.42:9998/tsfile/live/23279_1.m3u8?key=txiptv&playlive=1&authid=0
+凤凰资讯,http://220.184.69.32:4022/rtp/233.50.200.192:5140$1920x1080
 凤凰资讯,http://183.151.27.193:4022/rtp/233.50.200.192:5140$1920x1080
-凤凰资讯,http://183.147.160.231:8888/rtp/233.50.200.192:5140$1920x1080
-凤凰资讯,http://183.147.255.92:8888/rtp/233.50.200.192:5140$1920x1080
-凤凰资讯,http://183.147.171.84:8888/rtp/233.50.200.192:5140$1920x1080
 凤凰资讯,http://183.141.3.6:8888/rtp/233.50.200.192:5140$1920x1080
-凤凰资讯,http://183.141.216.122:9999/rtp/233.50.200.192:5140$1920x1080
-凤凰资讯,http://183.128.234.245:4022/rtp/233.50.200.192:5140$1920x1080
-凤凰资讯,http://183.150.161.118:9999/rtp/233.50.200.192:5140$1920x1080
-凤凰资讯,http://183.133.105.27:8899/rtp/233.50.200.192:5140$1920x1080
-凤凰资讯,http://115.205.84.167:9999/rtp/233.50.200.192:5140$1920x1080
-凤凰资讯,http://183.147.163.213:8888/rtp/233.50.200.192:5140$1920x1080
-凤凰资讯,http://tianhewan.top/ZIPP.php?url=http://211.72.65.236:8576/.m3u8$LR•IPV4『线路89』
-凤凰资讯,http://free.xiptv.x10.bz/kudou.php?id=122$LR•IPV4『线路55』
-凤凰资讯,http://r.jdshipin.com/0Rp07$LR•IPV4『线路47』
-凤凰资讯,http://php.jdshipin.com:8880/TVOD/iptv.php?id=fhzx$LR•IPV4『线路22』|3840x2160
-凤凰资讯,http://117.27.190.42:9998/tsfile/live/23279_1.m3u8?key=txiptv&playlive=1&authid=0$LR•IPV4『线路32』
-凤凰资讯,http://58.215.231.60/live2.rxip.sc96655.com/live/test2_4000.m3u8$LR•IPV4『线路156』
-凤凰资讯,http://free.xiptv.x10.bz/kudou.php?id=122
-凤凰资讯,http://117.27.190.42:9998/tsfile/live/23279_1.m3u8?$LR•IPV4『线路29』
-凤凰资讯,http://146.56.153.245:20121/bysid/257$LR•IPV4『线路35』|1920x1080
-凤凰资讯,http://php.jdshipin.com:8880/smt.php?id=phoenixinfo_hd$LR•IPV4『线路28』|3840x2160
-凤凰资讯,http://117.27.190.42:9998/tsfile/live/23279_1.m3u8$LR•IPV4『线路27』
-凤凰资讯,http://php.jdshipin.com:8880/TVOD/iptv.php?id=fhzx$3840x2160
-凤凰资讯,http://58.144.154.93/qctv.fengshows.cn/live/0701pin72.m3u8
 凤凰资讯,http://120.55.49.231:3095/rtp/233.50.200.192:5140
-凤凰资讯,http://117.27.190.42:9998/tsfile/live/23279_1.m3u8
+凤凰资讯,http://183.150.161.118:9999/rtp/233.50.200.192:5140$1920x1080
+凤凰资讯,http://183.141.202.95:8888/rtp/233.50.200.192:5140$1920x1080
+凤凰资讯,http://183.147.171.84:8888/rtp/233.50.200.192:5140$1920x1080
+凤凰资讯,http://175.9.194.24:4502/rtp/239.76.253.134:9000$1920x1080
+凤凰资讯,http://60.164.128.167:8029/rtp/239.255.30.70:8231$1920x1080
+凤凰资讯,http://117.27.190.42:9998/tsfile/live/23279_1.m3u8$LR•IPV4『线路27』
+凤凰资讯,http://122.224.232.226:8888/udp/233.50.200.192:5140$LR•IPV4『线路65』|1920x1080
+凤凰资讯,http://60.189.61.82:9999/rtp/233.50.200.192:5140$LR•IPV4『线路112』|1920x1080
+凤凰资讯,http://[2409:8087:2001:20:2800:0:df6e:eb24]/wh7f454c46tw3553140416_-2021535160/ott.mobaibox.com/PLTV/3/224/3221228527/index.m3u8$LR•IPV6『线路4』
+凤凰资讯,http://www.terrykang.cn:5678/sxg.php?id=test2_4000$LR•IPV4『线路129』
+凤凰资讯,http://php.jdshipin.com/TVOD/iptv.php?id=fhzx
+凤凰资讯,http://60.189.61.82:9999/rtp/233.50.200.192:5140$LR•IPV4『线路169』|1920x1080
+凤凰资讯,http://125.109.62.72:9999/rtp/233.50.200.192:5140$LR•IPV4『线路46』|1920x1080
 凤凰资讯,https://dl.zhoujie218.top/new/fhx.php?id=fhzx
-凤凰香港,http://php.jdshipin.com/TVOD/iptv.php?id=fhhk$3840x2160
-凤凰香港,http://php.jdshipin.com:8880/TVOD/iptv.php?id=fhhk$LR•IPV4『线路17』|3840x2160
-凤凰香港,http://php.17186.eu.org/phtv/fhhk.m3u8$LR•IPV4『线路28』
-凤凰香港,http://free.xiptv.x10.bz/kudou.php?id=123
-凤凰香港,http://php.jdshipin.com:8880/TVOD/iptv.php?id=fhhk$3840x2160
-凤凰香港,http://r.jdshipin.com/yDoTN
+凤凰资讯,http://122.224.232.226:8888/rtp/233.50.200.192:5140$1920x1080
+凤凰资讯,https://dl.zhoujie218.top/new/fhx.php?id=fhzx$LR•IPV4『线路124』
+凤凰资讯,http://php.jdshipin.com:8880/TVOD/iptv.php?id=fhzx$LR•IPV4『线路22』
+凤凰资讯,http://58.215.231.60/live2.rxip.sc96655.com/live/test2_4000.m3u8$LR•IPV4『线路156』
+凤凰资讯,http://60.164.128.167:8029/rtp/239.255.30.70:8231$LR•IPV4『线路155』|1920x1080
+凤凰资讯,http://125.109.62.72:9999/rtp/233.50.200.192:5140$1920x1080
+凤凰资讯,http://125.109.62.72:9999/rtp/233.50.200.192:5140$LR•IPV4『线路164』|1920x1080
+凤凰资讯,http://117.27.190.42:9998/tsfile/live/23279_1.m3u8
+凤凰资讯,http://122.224.232.226:8888/udp/233.50.200.192:5140$LR•IPV4『线路177』|1920x1080
+凤凰资讯,http://free.xiptv.x10.bz/kudou.php?id=122$LR•IPV4『线路55』
+凤凰香港,http://60.164.128.167:8029/rtp/239.255.30.123:8231$1920x1080
+凤凰香港,http://php.jdshipin.com:8880/smt.php?id=tvbcaijing_twn$LR•IPV4『线路24』
+凤凰香港,http://php.jdshipin.com/TVOD/iptv.php?id=fhhk
+凤凰香港,http://60.164.128.167:8029/rtp/239.255.30.123:8231$LR•IPV4『线路21』|1920x1080
+凤凰香港,http://php.jdshipin.com:8880/TVOD/iptv.php?id=fhhk
+凤凰香港,http://php.jdshipin.com:8880/TVOD/iptv.php?id=fhhk$LR•IPV4『线路17』
 凤凰香港,http://[2409:8087:2001:20:2800:0:df6e:eb1d]/ott.mobaibox.com/PLTV/3/224/3221228530/1.m3u8$LR•IPV6『线路1』
-凤凰香港,http://php.jdshipin.com:8880/jydx.php?id=38$LR•IPV4『线路13』|3840x2160
-凤凰香港,http://r.jdshipin.com/yDoTN$LR•IPV4『线路15』
-凤凰香港,http://php.jdshipin.com/TVOD/iptv.php?id=fhhk$LR•IPV4『线路16』|3840x2160
-凤凰香港,http://php.jdshipin.com:8880/smt.php?id=hkphoenix_twn$3840x2160
-凤凰香港,http://58.144.154.93:80/qctv.fengshows.cn/0701phk72.m3u8
-凤凰香港,http://58.144.154.93:80/qctv.fengshows.cn/0701phk72.m3u8$LR•IPV4『线路14』
-凤凰香港,http://[2409:8087:2001:20:2800:0:df6e:eb1d]:80/ott.mobaibox.com/PLTV/1/224/3221228530/1.m3u8$LR•IPV6『线路2』
-凤凰香港,http://58.144.154.93/qctv.fengshows.cn/live/0701phk72.m3u8
-凤凰香港,http://php.jdshipin.com:8880/smt.php?id=hkphoenix_twn$LR•IPV4『线路9』|3840x2160
-凤凰香港,http://58.144.154.93/qctv.fengshows.cn/live/0701phk72.m3u8$LR•IPV4『线路3』
 凤凰香港,http://free.xiptv.x10.bz/kudou.php?id=123$LR•IPV4『线路18』
-凤凰香港,http://php.jdshipin.com:8880/smt.php?id=tvbcaijing_twn$LR•IPV4『线路24』|3840x2160
-凤凰卫视,http://php.jdshipin.com:8880/smt.php?id=phoenixtv_hd$3840x2160
+凤凰香港,http://[2409:8087:2001:20:2800:0:df6e:eb1d]:80/ott.mobaibox.com/PLTV/1/224/3221228530/1.m3u8$LR•IPV6『线路2』
+凤凰香港,http://60.164.128.167:8029/rtp/239.255.30.123:8231$LR•IPV4『线路30』|1920x1080
+凤凰香港,http://r.jdshipin.com/yDoTN$LR•IPV4『线路15』
+凤凰香港,http://php.jdshipin.com:8880/smt.php?id=hkphoenix_twn
+凤凰香港,http://free.xiptv.x10.bz/kudou.php?id=123
+凤凰香港,http://php.jdshipin.com/TVOD/iptv.php?id=fhhk$LR•IPV4『线路16』
+凤凰香港,http://php.17186.eu.org/phtv/fhhk.m3u8$LR•IPV4『线路28』
+凤凰香港,http://php.jdshipin.com:8880/jydx.php?id=38$LR•IPV4『线路13』
+凤凰香港,http://php.jdshipin.com:8880/smt.php?id=hkphoenix_twn$LR•IPV4『线路9』
+凤凰香港,http://8.137.59.151:3000/laoshu.php?key=66&id=3
+凤凰香港,http://r.jdshipin.com/yDoTN
+凤凰卫视,http://122.224.232.218:8888/rtp/233.50.200.191:5140$LR•IPV4『线路8』|1920x1080
 凤凰卫视,http://58.215.231.60/live2.rxip.sc96655.com/live/test1_4000.m3u8
-凤凰卫视,http://php.jdshipin.com/TVOD/iptv.php?id=fhzw$3840x2160
-凤凰卫视,http://58.144.154.93:80/qctv.fengshows.cn/live/0701pin72.m3u8
-凤凰卫视,http://58.144.154.93/qctv.fengshows.cn/live/0701pcc72.m3u8
 凤凰卫视,http://58.215.231.60/live2.rxip.sc96655.com/live/test1_4000.m3u8$LR•IPV4『线路9』
+凤凰卫视,http://8.137.59.151:3000/laoshu.php?key=66&id=1
+凤凰卫视,http://php.jdshipin.com:8880/smt.php?id=phoenixtv_hd
+凤凰卫视,http://php.jdshipin.com/TVOD/iptv.php?id=fhzw
+凤凰卫视,http://122.224.232.218:8888/rtp/233.50.200.191:5140$LR•IPV4『线路6』|1920x1080
 TVBS亚洲,http://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_5.m3u8?zshijd$LR•IPV4『线路8』|1920x1080
-TVBS亚洲,http://38.64.72.148/hls/modn/list/4005/playlist.m3u8$1920x1080
-TVBS亚洲,http://38.64.72.148:80/hls/modn/list/4005/chunklist1.m3u8$1920x1080
-TVBS亚洲,http://38.64.72.148/hls/modn/list/4005/playlist.m3u8$LR•IPV4『线路1』|1920x1080
-TVBS亚洲,http://38.64.72.148:80/hls/modn/list/4005/playlist.m3u8?$LR•IPV4『线路2』|1920x1080
-TVBS亚洲,http://38.64.72.148/hls/modn/list/4005/chunklist1.m3u8?$LR•IPV4『线路3』|1920x1080
-TVBS亚洲,http://38.64.72.148:80/hls/modn/list/4005/playlist.m3u8$LR•IPV4『线路4』|1920x1080
-TVBS亚洲,http://38.64.72.148:80/hls/modn/list/4005/chunklist1.m3u8$LR•IPV4『线路5』|1920x1080
-TVBS亚洲,http://38.64.72.148:80/hls/modn/list/4005/chunklist0.m3u8$LR•IPV4『线路6』|1920x1080
-TVBS亚洲,http://38.64.72.148/hls/modn/list/4005/chunklist1.m3u8$LR•IPV4『线路7』|1920x1080
-TVBS亚洲,http://38.64.72.148/hls/modn/list/4005/chunklist1.m3u8?$LR•IPV4『线路9』|1920x1080
-TVBS亚洲,http://38.64.72.148:80/hls/modn/list/4005/playlist.m3u8?$LR•IPV4『线路10』|1920x1080
-TVBS亚洲,http://38.64.72.148/hls/modn/list/4005/chunklist0.m3u8$LR•IPV4『线路11』|1920x1080
-TVBS亚洲,http://38.64.72.148/hls/modn/list/4005/chunklist0.m3u8$1920x1080
-TVBS亚洲,http://38.64.72.148/hls/modn/list/4005/chunklist1.m3u8$1920x1080
-TVBS亚洲,http://38.64.72.148:80/hls/modn/list/4005/playlist.m3u8$1920x1080
-TVBS亚洲,http://38.64.72.148/hls/modn/list/4005/chunklist1.m3u8?$1920x1080
-TVBS亚洲,http://38.64.72.148:80/hls/modn/list/4005/playlist.m3u8?$1920x1080
-TVBS亚洲,http://38.64.72.148:80/hls/modn/list/4005/chunklist0.m3u8$1920x1080
+TVBS亚洲,http://38.64.72.148/hls/modn/list/4005/playlist.m3u8
+TVBS亚洲,http://38.64.72.148:80/hls/modn/list/4005/chunklist1.m3u8
+TVBS亚洲,http://38.64.72.148/hls/modn/list/4005/playlist.m3u8$LR•IPV4『线路1』
+TVBS亚洲,http://38.64.72.148:80/hls/modn/list/4005/playlist.m3u8?$LR•IPV4『线路2』
+TVBS亚洲,http://38.64.72.148/hls/modn/list/4005/chunklist1.m3u8?$LR•IPV4『线路3』
+TVBS亚洲,http://38.64.72.148:80/hls/modn/list/4005/playlist.m3u8$LR•IPV4『线路4』
+TVBS亚洲,http://38.64.72.148:80/hls/modn/list/4005/chunklist1.m3u8$LR•IPV4『线路5』
+TVBS亚洲,http://38.64.72.148:80/hls/modn/list/4005/chunklist0.m3u8$LR•IPV4『线路6』
+TVBS亚洲,http://38.64.72.148/hls/modn/list/4005/chunklist1.m3u8$LR•IPV4『线路7』
+TVBS亚洲,http://38.64.72.148/hls/modn/list/4005/chunklist1.m3u8?$LR•IPV4『线路9』
+TVBS亚洲,http://38.64.72.148:80/hls/modn/list/4005/playlist.m3u8?$LR•IPV4『线路10』
+TVBS亚洲,http://38.64.72.148/hls/modn/list/4005/chunklist0.m3u8$LR•IPV4『线路11』
+TVBS亚洲,http://38.64.72.148/hls/modn/list/4005/chunklist0.m3u8
+TVBS亚洲,http://38.64.72.148/hls/modn/list/4005/chunklist1.m3u8
+TVBS亚洲,http://38.64.72.148:80/hls/modn/list/4005/playlist.m3u8
+TVBS亚洲,http://38.64.72.148/hls/modn/list/4005/chunklist1.m3u8?
+TVBS亚洲,http://38.64.72.148:80/hls/modn/list/4005/playlist.m3u8?
+TVBS亚洲,http://38.64.72.148:80/hls/modn/list/4005/chunklist0.m3u8
+香港卫视,http://cctvtxyh5c.liveplay.myqcloud.com/cstv/xianggangweishi_2/index.m3u8
+香港卫视,http://anren.live/HK/BSJDUFpB.m3u8
+香港卫视,http://anren.live/HK/BSJDUFpB.m3u8$LR•IPV4『线路4』
+香港卫视,http://cctvtxyh5c.liveplay.myqcloud.com/cstv/xianggangweishi_2/index.m3u8$LR•IPV4『线路3』
 纬来体育,https://cloud.yumixiu768.com/tmp/123.m3u8
-纬来体育,https://cdn.iptv8k.top/dl/jrys.php?id=292&time=20240926215313&ip=111.229.253.40$LR•IPV4『线路2』|1920x1080
-纬来体育,https://cloud.yumixiu768.com:443/tmp/123.m3u8$LR•IPV4『线路7』
-纬来体育,https://cdn.iptv8k.top/dl/jrys.php?id=292&time=20240926215313&ip=111.229.253.40$1920x1080
-纬来体育,https://cdn.iptv8k.top/dl/jrys.php?id=291&time=20240926215313&ip=111.229.253.40$LR•IPV4『线路1』|1920x1080
-纬来体育,https://cdn.iptv8k.top/dl/jrys.php?id=291&time=20240926215313&ip=111.229.253.40$1920x1080
-纬来体育,https://cloud.yumixiu768.com/tmp/123.m3u8$LR•IPV4『线路3』
-纬来体育,http://tianhewan.top/ZIPP.php?url=http://211.72.65.236:8585/.m3u8$LR•IPV4『线路9』
 纬来体育,https://cloud.yumixiu768.com:443/tmp/123.m3u8
+纬来体育,https://cdn.iptv8k.top/dl/jrys.php?id=291&time=20240926215313&ip=111.229.253.40$LR•IPV4『线路1』|1920x1080
+纬来体育,https://cloud.yumixiu768.com:443/tmp/123.m3u8$LR•IPV4『线路7』
+纬来体育,https://cdn.iptv8k.top/dl/jrys.php?id=292&time=20240926215313&ip=111.229.253.40$LR•IPV4『线路2』|1920x1080
+纬来体育,https://cdn.iptv8k.top/dl/jrys.php?id=291&time=20240926215313&ip=111.229.253.40$1920x1080
+纬来体育,http://tianhewan.top/ZIPP.php?url=http://211.72.65.236:8585/.m3u8$LR•IPV4『线路9』
+纬来体育,https://cloud.yumixiu768.com/tmp/123.m3u8$LR•IPV4『线路3』
+纬来体育,https://cdn.iptv8k.top/dl/jrys.php?id=292&time=20240926215313&ip=111.229.253.40$1920x1080
+纬来体育,http://8.137.59.151:3000/laoshu.php?key=66&id=47
 纬来育乐,https://cdn.iptv8k.top/dl/jrys.php?id=289&time=20240926215313&ip=111.229.253.40$LR•IPV4『线路3』|1920x1080
-J2,http://php.jdshipin.com:8880/smt.php?id=j2_twn$LR•IPV4『线路1』|3840x2160
-J2,http://php.jdshipin.com:8880/smt.php?id=j2_twn$3840x2160
-Viutv,http://php.jdshipin.com:8880/TVOD/iptv.php?id=viutv$3840x2160
-Viutv,http://php.jdshipin.com:8880/smt.php?id=viu1_twn$3840x2160
+J2,http://php.jdshipin.com:8880/smt.php?id=j2_twn$LR•IPV4『线路1』
+J2,http://php.jdshipin.com:8880/smt.php?id=j2_twn
+Viutv,http://php.jdshipin.com:8880/TVOD/iptv.php?id=viutv
+Viutv,http://php.jdshipin.com:8880/smt.php?id=viu1_twn
 Viutv,http://r.jdshipin.com/vSJvl
 三立台湾,http://free.xiptv.x10.bz/kudou.php?id=52
-无线新闻,https://cdn.iptv8k.top/dl/jspd.php?id=2&time=20240926215313&ip=111.229.253.40$1920x1080
-无线新闻,http://php.jdshipin.com:8880/smt.php?id=inews_twn$LR•IPV4『线路4』|3840x2160
-无线新闻,http://php.jdshipin.com:8880/smt.php?id=inews_twn$3840x2160
+无线新闻,http://php.jdshipin.com:8880/smt.php?id=inews_twn$LR•IPV4『线路4』
 无线新闻,https://cdn.iptv8k.top/dl/jspd.php?id=2&time=20240926215313&ip=111.229.253.40$LR•IPV4『线路1』|1920x1080
+无线新闻,https://cdn.iptv8k.top/dl/jspd.php?id=2&time=20240926215313&ip=111.229.253.40$1920x1080
+无线新闻,http://php.jdshipin.com:8880/smt.php?id=inews_twn
+无线新闻,http://8.137.59.151:3000/laoshu.php?key=66&id=7
+三立新闻,http://8.137.59.151:3009/TV2/gat.php?id=49
 东森综合,https://cdn.iptv8k.top/dl/jrys.php?id=220&time=20240926215313&ip=111.229.253.40$LR•IPV4『线路1』|1920x1080
 东森综合,https://cdn.iptv8k.top/dl/jrys.php?id=221&time=20240926215313&ip=111.229.253.40$LR•IPV4『线路2』|1920x1080
-东森超视,https://cdn.iptv8k.top/dl/jrys.php?id=216&time=20240926215313&ip=111.229.253.40$LR•IPV4『线路10』|1920x1080
-东森超视,https://cdn.iptv8k.top/dl/jrys.php?id=217&time=20240926215313&ip=111.229.253.40$LR•IPV4『线路11』|1920x1080
 东森超视,https://cdn.iptv8k.top/dl/jrys.php?id=216&time=20240926215313&ip=111.229.253.40$1920x1080
-东森超视,http://38.64.72.148:80/hls/modn/list/2013/chunklist0.m3u8$LR•IPV4『线路1』|1920x1080
-东森超视,http://38.64.72.148:80/hls/modn/list/2013/chunklist0.m3u8$1920x1080
+东森超视,http://38.64.72.148:80/hls/modn/list/2013/chunklist0.m3u8
+东森超视,https://cdn.iptv8k.top/dl/jrys.php?id=216&time=20240926215313&ip=111.229.253.40$LR•IPV4『线路10』|1920x1080
+东森超视,http://38.64.72.148:80/hls/modn/list/2013/chunklist0.m3u8$LR•IPV4『线路1』
 东森超视,https://cdn.iptv8k.top/dl/jrys.php?id=217&time=20240926215313&ip=111.229.253.40$1920x1080
-东森电影,https://cdn.iptv8k.top/dl/jrys.php?id=229&time=20240926215313&ip=111.229.253.40$LR•IPV4『线路1』|1920x1080
-东森电影,https://cdn.iptv8k.top/dl/jrys.php?id=231&time=20240926215313&ip=111.229.253.40$LR•IPV4『线路3』|1920x1080
+东森超视,http://8.137.59.151:3000/laoshu.php?key=66&id=56
+东森超视,https://cdn.iptv8k.top/dl/jrys.php?id=217&time=20240926215313&ip=111.229.253.40$LR•IPV4『线路11』|1920x1080
 东森电影,https://cdn.iptv8k.top/dl/jrys.php?id=230&time=20240926215313&ip=111.229.253.40$LR•IPV4『线路2』|1920x1080
+东森电影,https://cdn.iptv8k.top/dl/jrys.php?id=231&time=20240926215313&ip=111.229.253.40$LR•IPV4『线路3』|1920x1080
+东森电影,https://cdn.iptv8k.top/dl/jrys.php?id=229&time=20240926215313&ip=111.229.253.40$LR•IPV4『线路1』|1920x1080
