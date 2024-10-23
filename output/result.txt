@@ -5,7 +5,6 @@
 广东新闻,http://mom.coms.hk:9901/tsfile/live/1008_1.m3u8$720x576
 广东卫视,http://gslbservzqhsw.itv.cmvideo.cn/1000000005000265034/1.m3u8?channel-id=ystenlive&Contentid=1000000005000265034&livemode=1&stbId=3$1920x1080
 广东卫视,http://gslbservzqhsw.itv.cmvideo.cn/1000000001000014176/1.m3u8?channel-id=ystenlive&Contentid=1000000001000014176&livemode=1&stbId=3$1920x1080
-广东卫视,http://113.109.250.116:9999/rtp/239.77.0.2:5146$720x576
 大湾区卫视,https://skype.serv00.net/itouch.php?id=nfws$1920x1080
 新会综合,https://skype.serv00.net/itouch.php?id=xhzh$1920x1080
 鹤山综合,https://skype.serv00.net/itouch.php?id=hszh$1920x1080
@@ -14,11 +13,9 @@
 CCTV-1,http://123.146.162.24:8013/tslslive/noEX9SG/hls/live_sd.m3u8$720x576
 CCTV-2,https://cntv.lat/tv/live.php?auth=231110&id=cctv2$1280x720
 CCTV-11,https://cd-live-stream.news.cctvplus.com/live/smil:CHANNEL1.smil/playlist.m3u8$426x240
-CCTV-13,http://stream.smntv.cn/smtv1/playlist.m3u8$320x240
 卫视频道,#genre#
 广东卫视,http://gslbservzqhsw.itv.cmvideo.cn/1000000005000265034/1.m3u8?channel-id=ystenlive&Contentid=1000000005000265034&livemode=1&stbId=3$1920x1080
 广东卫视,http://gslbservzqhsw.itv.cmvideo.cn/1000000001000014176/1.m3u8?channel-id=ystenlive&Contentid=1000000001000014176&livemode=1&stbId=3$1920x1080
-浙江卫视,https://ali-m-l.cztv.com/channels/lantian/channel001/1080p.m3u8$1920x1080
 浙江卫视,http://gslbservzqhsw.itv.cmvideo.cn/5000000004000007275/1.m3u8?channel-id=bestzb&Contentid=5000000004000007275&livemode=1&stbId=3$1920x1080
 浙江卫视,http://gslbservzqhsw.itv.cmvideo.cn/1000000005000265031/1.m3u8?channel-id=ystenlive&Contentid=1000000005000265031&livemode=1&stbId=3$1920x1080
 浙江卫视,http://gslbservzqhsw.itv.cmvideo.cn/1000000001000014260/1.m3u8?channel-id=ystenlive&Contentid=1000000001000014260&livemode=1&stbId=3$1920x1080
@@ -30,6 +27,8 @@ CCTV-13,http://stream.smntv.cn/smtv1/playlist.m3u8$320x240
 黑龙江卫视,http://gslbservzqhsw.itv.cmvideo.cn/1000000005000265029/1.m3u8?channel-id=ystenlive&Contentid=1000000005000265029&livemode=1&stbId=3$1920x1080
 黑龙江卫视,http://gslbservzqhsw.itv.cmvideo.cn/1000000001000001925/1.m3u8?channel-id=ystenlive&Contentid=1000000001000001925&livemode=1&stbId=3$1920x1080
 黑龙江卫视,http://l.cztvcloud.com/channels/lantian/SXyuyao3/720p.m3u8$720x576
+安徽卫视,http://gslbservzqhsw.itv.cmvideo.cn/1000000005000265025/1.m3u8?channel-id=ystenlive&Contentid=1000000005000265025&livemode=1&stbId=3$1920x1080
+安徽卫视,http://gslbservzqhsw.itv.cmvideo.cn/1000000001000030159/1.m3u8?channel-id=ystenlive&Contentid=1000000001000030159&livemode=1&stbId=3$1920x1080
 重庆卫视,http://gslbservzqhsw.itv.cmvideo.cn/1000000005000265017/1.m3u8?channel-id=ystenlive&Contentid=1000000005000265017&livemode=1&stbId=3$1920x1080
 重庆卫视,http://gslbservzqhsw.itv.cmvideo.cn/1000000001000001096/1.m3u8?channel-id=ystenlive&Contentid=1000000001000001096&livemode=1&stbId=3$1920x1080
 东方卫视,http://gslbservzqhsw.itv.cmvideo.cn/5000000004000014098/1.m3u8?channel-id=bestzb&Contentid=5000000004000014098&livemode=1&stbId=3$1920x1080
