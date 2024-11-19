@@ -2,10 +2,12 @@
 广东珠江,https://skype.serv00.net/itouch.php?id=gdzj$1920x1080
 广东体育,https://skype.serv00.net/itouch.php?id=gdty$1920x1080
 广东新闻,https://skype.serv00.net/itouch.php?id=gdxw$1920x1080
+广东新闻,http://mom.coms.hk:9901/tsfile/live/1008_1.m3u8$720x576
 大湾区卫视,https://skype.serv00.net/itouch.php?id=nfws$1920x1080
 新会综合,https://skype.serv00.net/itouch.php?id=xhzh$1920x1080
 鹤山综合,https://skype.serv00.net/itouch.php?id=hszh$1920x1080
 央视频道,#genre#
+CCTV-1,http://123.146.162.24:8013/tslslive/noEX9SG/hls/live_sd.m3u8$720x576
 CCTV-11,https://cd-live-stream.news.cctvplus.com/live/smil:CHANNEL1.smil/playlist.m3u8$426x240
 卫视频道,#genre#
 浙江卫视,https://ali-m-l.cztv.com/channels/lantian/channel001/1080p.m3u8$1920x1080
