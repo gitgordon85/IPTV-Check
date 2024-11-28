@@ -1,5 +1,332 @@
 # 更新日志（Changelog）
 
+## v1.5.3
+
+### 2024/11/19
+
+⚠️ 这将是支持 Win7 的最后一个版本
+
+- 🐛 修复 GUI “显示无结果分类”设置后保存失败（#564）
+- 🐛 修复命令行启动报错 (#567）
+
+<details>
+  <summary>English</summary>
+
+⚠️ This will be the last version supporting Win7
+
+- 🐛 Fixed the issue where the GUI setting for "Display No Results Category" failed to save (#564).
+- 🐛 Fixed the error when starting from the command line (#567).
+
+</details>
+
+## v1.5.2
+
+### 2024/11/15
+
+- ✨ 新增各省份地方台
+- ✨ 新增控制显示无结果频道分类配置（open_empty_category）（#551）
+- ✨ 调整接口源（#526）
+- 🪄 优化频道数据插入速度
+- 🪄 优化 IPv6 测速逻辑，解决无结果问题
+- 🪄 优化页面服务启动与 docker 定时任务日志输出
+- 🪄 调整默认配置：接口数量 urls_limit=10 等数量配置，增加订阅源
+- 🐛 修复运行停止问题（#527）
+- 🐛 修复 Win7 GUI 启动问题（#536）
+- 🗑️ 移除部分无效订阅源
+- 🗑️ 移除域名黑名单配置（domain_blacklist），请使用接口关键字黑名单（url_keywords_blacklist）替代
+
+<details>
+  <summary>English</summary>
+
+- ✨ Added local channels for each province.
+- ✨ Added configuration to control the display of the No Results Channel Category (open_empty_category) (#551).
+- ✨ Adjusted interface sources (#526).
+- 🪄 Optimized the speed of channel data insertion.
+- 🪄 Optimized IPv6 speed test logic to resolve no results issues.
+- 🪄 Optimized page service startup and Docker scheduled task log output.
+- 🪄 Adjusted default configurations: number of interfaces urls_limit=10, etc., and added subscription sources.
+- 🐛 Fixed the issue of the program stopping (#527).
+- 🐛 Fixed the issue of Win7 GUI startup (#536).
+- 🗑️ Removed some invalid subscription sources.
+- 🗑️ Removed the domain blacklist configuration (domain_blacklist). Please use the interface keyword blacklist (url_keywords_blacklist) instead.
+
+</details>
+
+## v1.5.1
+
+### 2024/11/5
+
+- ✨ 新增频道接口白名单：不参与测速，永远保留在结果最前面（#470）
+  使用方法：
+  1. 模板频道接口地址后添加$!即可实现（如：广东珠江,http://xxx.m3u$! ）
+  2. 额外信息补充（如：广东珠江,http://xxx.m3u$!额外信息 ），更多接口白名单请至https://github.com/Guovin/TV/issues/514 讨论
+- ✨ 新增 🈳 无结果频道分类：无结果频道默认归类至该底部分类下（#473）
+- ✨ 接口地址增加来源类型说明
+- ✨ 默认模板增加广东民生（#481）、广州综合（#504）
+- 🪄 优化偏好结果输出
+- 🪄 重构配置读取与增加全局常量
+- 🐛 修复部分接口匹配失败问题
+- 🐛 修复更新结果为空等问题（#464，#467）
+- 🐛 修复接口地址复制空格问题（#472 by:@haohaitao）
+- 🐛 修复结果日志 unpack error
+- 🐛 修复结果接口信息为空问题（#505）
+- 🗑️ 移除仓库根目录 txt 结果文件，请至 output 目录下查看结果文件
+
+<details>
+  <summary>English</summary>
+
+- ✨ Added channel interface whitelist: Not participating in speed testing, always kept at the very front of the results. (#470)
+  Usage:
+  1. Add $! after the template channel interface address (e.g., Guangdong Pearl River, http://xxx.m3u$!).
+  2. Additional information can be appended (e.g., Guangdong Pearl River, http://xxx.m3u$! Additional Information) (#470). For more interface whitelists, please discuss at https://github.com/Guovin/TV/issues/514.
+- ✨ Added 🈳 No Results Channel Category: Channels without results are categorized under this bottom category by default (#473).
+- ✨ Interface addresses now include source type descriptions.
+- ✨ Default templates now include Guangdong People's Livelihood (#481) and Guangzhou Comprehensive (#504).
+- 🪄 Optimized preferred result output.
+- 🪄 Refactored configuration reading and added global constants.
+- 🐛 Fixed issues with partial interface matching failures.
+- 🐛 Fixed problems with empty update results, etc. (#464, #467).
+- 🐛 Fixed the issue of spaces being copied with the interface address (#472 by:@haohaitao).
+- 🐛 Fixed the unpack error in result logs.
+- 🐛 Fixed the issue of empty interface information in results (#505).
+- 🗑️ Removed txt result files from the repository root directory. Please check the result files in the output directory.
+</details>
+
+## v1.5.0
+
+### 2024/10/25
+
+- ✨🛠 新增结果偏好设置：
+
+  1. 接口来源优先级（origin_type_prefer）与数量设置（hotel_num, multicast_num, subscribe_num, online_search_num）
+  2. IPv 类型优先级（ipv_type_prefer）与数量设置（ipv4_num, ipv6_num）
+
+- ✨🛠 新增控制接口测速超时时间（sort_timeout）（#388）
+- ✨🛠 新增控制是否开启页面服务（open_service）（青龙等平台可使用该配置实现任务执行完成后停止运行）
+- ✨🛠 新增控制是否显示接口相关信息（open_url_info）（#431）
+- ✨ 新增支持 m3u 地址订阅源（#389）
+- ✨ 新增 🏛 经典剧场
+- 🪄 优化 Docker ARM64 FFmpeg 支持（部分 ARM 设备无法运行 driver 镜像建议使用 requests 镜像）
+- 🪄 优化组播获取非数值域名 ip 地址（#410）
+- 🪄 优化使用旧配置文件时可能出现的新参数不存在报错问题，使用默认值
+- 🐛 修复对于非规范 txt 文本转换 m3u 报错问题（#422）
+- 🐛 修复 IPv6 接口获取失败问题（#452）
+
+<details>
+  <summary>English</summary>
+
+- ✨🛠 Added result preference settings:
+  1. Source priority (origin_type_prefer) and quantity settings (hotel_num, multicast_num, subscribe_num, online_search_num)
+  2. IPv type priority (ipv_type_prefer) and quantity settings (ipv4_num, ipv6_num)
+- ✨🛠 Added control for API speed test timeout (sort_timeout) (#388)
+- ✨🛠 Added control to enable or disable page service (open_service) (this configuration can be used on platforms like QingLong to stop running after task completion)
+- ✨🛠 Added control to show or hide API related information (open_url_info) (#431)
+- ✨ Added support for m3u address subscription sources (#389)
+- ✨ Added 🏛 Classic Theater
+- 🪄 Optimized Docker ARM64 FFmpeg support (it is recommended to use the requests image for some ARM devices that cannot run the driver image)
+- 🪄 Optimized obtaining non-numeric domain IP addresses for multicast (#410)
+- 🪄 Optimize the issue of non-existent new parameters when using old configuration files, use default values
+- 🐛 Fixed issues with converting non-standard txt files to m3u format (#422)
+- 🐛 Fixed issues with failing to obtain IPv6 interface information (#452)
+</details>
+
+## v1.4.9
+
+### 2024/10/11
+
+- 注意：本次更新涉及配置变更，请以最新 config/config.ini 为准，工作流使用 user_config.ini 或 docker 挂载的用户请及时更新配置文件
+- 新增支持 docker arm64 镜像（#369）
+- 新增分辨率过滤功能（相关配置：open_filter_resolution，min_resolution）
+- 新增显示更新时间（相关配置：open_update_time）
+- 优化测速效率（#359）
+- 优化权重值选择交互
+- 调整默认模板，增加默认订阅源
+- 移除央视台球部分错误组播地址
+- 更新使用教程
+
+- Warning: This update involves configuration changes. Please refer to the latest config.ini. Users of workflow using user_config.ini or Docker mounted configurations should update their configuration files promptly
+- Add support for Docker ARM64 images (#369)
+- Add resolution filtering feature (related configurations: open_filter_resolution, min_resolution)
+- Add display of update time (related configuration: open_update_time)
+- Optimize speed testing efficiency (#359)
+- Optimize weight value selection interaction
+- Adjust the default template and add default subscription sources
+- Remove the incorrect multicast addresses for the CCTV Snooker section
+- Update usage guide
+
+## v1.4.8
+
+### 2024/09/27
+
+- 默认模板增加部分频道：咪咕直播、央视付费频道、电影频道、港澳台、地方频道等
+- 订阅源增加默认订阅地址
+- 优化订阅源、在线搜索测速效率
+- 增加汕头频道组播
+- 调整默认接口数量为 30
+
+- Add some channels to the default template: Migu Live, CCTV Pay Channels, Movie Channel, Hong Kong and Macau Channels, Local Channels, etc
+- Add default subscription addresses to the subscription source
+- Optimize the efficiency of subscription source and online search speed tests
+- Add Shantou channel multicast
+- Adjust the default number of interfaces to 30
+
+## v1.4.7
+
+### 2024/09/26
+
+- 修复部分设备本地运行软件 driver 问题(#335)
+- 修复 driver 模式下新版谷歌浏览器白屏问题
+- 增加历史结果缓存(result_cache.pkl)，用于测速优化
+- 重构测速方法，提升测速效率
+- 优化测速进度条显示
+
+- Fix some issues with local software driver operation on certain devices (#335)
+- Fix the white screen issue with the new version of Google Chrome in driver mode
+- Add historical result cache (result_cache.pkl) for performance optimization
+- Refactor speed test methods to improve efficiency
+- Optimize speed test progress bar display
+
+## v1.4.6
+
+### 2024/9/20
+
+- 优化 IPv6 测试是否支持(#328)
+- 优化 404 类接口测速(#329)
+
+- Optimize IPv6 test support (#328)
+- Optimize 404 class interface speed test (#329)
+
+## v1.4.5
+
+### 2024/9/19
+
+- 修复 IPv6 接口测速(#325)
+
+- Fix IPv6 Interface Speed Test (#325)
+
+## v1.4.4
+
+### 2024/9/14
+
+- 修复组播接口测速可能出现结果频道分类空的问题
+- 修复使用历史更新结果时可能出现模板不存在的频道问题
+- 更新 FOFA 组播、酒店缓存
+- 更新默认模板(demo.txt)内容
+- 更新使用教程
+
+- Fix the issue where multicast interface speed test may result in an empty channel category
+- Fix the issue where channels may appear missing when updating results with history
+- Update FOFA multicast and hotel cache
+- Update default template (demo.txt) content
+- Update user guide
+
+## v1.4.3
+
+### 2024/9/11
+
+- 修正 RTP 文件：贵州电信文件错误，第一财经、东方财经等频道命名，地址错误
+
+- Fixed RTP files: Corrected errors in Guizhou Telecom files, including naming and address errors for channels such as First Financial and Oriental Financial
+
+## v1.4.2
+
+### 2024/9/10
+
+- 新增内蒙古、甘肃、海南、云南地区
+- 更新 FOFA 酒店、组播缓存
+- 更新组播 RTP 文件
+- 优化测速过滤无效接口
+- 增加接口域名黑名单，避免频道花屏情况
+- 修复 FOFA requests 模式请求失败导致程序中止问题
+
+- Added Inner Mongolia, Gansu, Hainan, and Yunnan regions
+- Updated FOFA hotels and multicast cache
+- Updated multicast RTP files
+- Optimize speed test to filter out invalid interfaces
+- Add interface domain name blacklist to avoid channel screen distortion
+- Fix issue where FOFA requests mode failure leads to program termination
+
+## v1.4.1
+
+### 2024/9/9
+
+- 新增 FOFA 缓存，解决访问限制问题
+- 修复 CCTV-5+等频道 M3U 转换问题（#301）
+- 优化频道匹配问题
+- 优化地区选择空格情况
+
+- Added FOFA cache to address access restrictions
+- Fixed M3U conversion issues for channels like CCTV-5+ (#301)
+- Optimized channel matching issues
+- Improved handling of spaces in region selection
+
+## v1.4.0
+
+### 2024/9/5
+
+- 注意：本次更新涉及配置变更，请以最新 config/config.ini 为准，工作流使用 user_config.ini 或 docker 挂载的用户请及时更新配置文件
+- 新增组播源运行模式：FOFA、Tonkiang
+- 新增支持组播源自定义维护频道 IP，目录位于 config/rtp，文件按“地区\_运营商”命名
+- 优化测速方法，大幅提升组播源、酒店源的测速速度
+- 优化频道名称匹配方法，支持模糊匹配，提高命中率
+- 优化地区输入选择框
+- 修复 driver 模式请求问题
+- 修复组播地区选择全部时无法运行问题
+- 修复工作流使用 user_config 时无法生成 m3u 结果问题
+
+- Warning: This update involves configuration changes. Please refer to the latest config/config.ini. Users using user_config.ini or Docker-mounted configurations should update their configuration files promptly.
+- Added multicast source operation modes: FOFA, Tonkiang.
+- Added support for custom-maintained multicast source channel IPs, located in config/rtp, with files named by "region_operator".
+- Optimized speed test method, significantly improving the speed test of multicast sources and hotel sources.
+- Optimized channel name matching method to support fuzzy matching, increasing hit rate.
+- Optimized region input selection box.
+- Fixed an issue with driver mode requests.
+- Fixed an issue where multicast would not run when all regions were selected.
+- Fixed an issue where workflows using user_config could not generate m3u results.
+
+## v1.3.9
+
+### 2024/8/30
+
+- 酒店源新增 ZoomEye 数据源，开启 FOFA 配置即可使用（Added ZoomEye data source to hotel sources, can be used by enabling FOFA configuration）
+- 酒店源、组播源地区选项增加“全部”选项（Added "all" option to the region selection for hotel sources and multicast sources）
+- 调整默认运行配置：关闭订阅源更新、Tonkiang 酒店源更新（Adjusted default runtime configuration: disabled subscription source updates and Tonkiang hotel source updates）
+
+## v1.3.8
+
+### 2024/8/29
+
+- 更新组播地区 IP 缓存数据（Update multicast area IP cache data）
+- 移除 source_channels 配置项（Remove source_channels configuration item）
+- 优化模板频道名称匹配（Optimize template channel name matching）
+- 优化进度条，显示接口处理进度（Optimize the progress bar to display the interface processing progress）
+- UI 软件增加部分图标（Add some icons to the UI software）
+
+## v1.3.7
+
+### 2024/8/27
+
+- 新增支持 M3U 结果格式转换，支持显示频道图标(open_m3u_result)（Added support for M3U result format conversion, including channel icon display (open_m3u_result)）
+- 新增对于无结果的频道进行额外补充查询（Added additional queries for channels with no results）
+- 增加控制使用 FFmpeg 开关(open_ffmpeg)（Added a switch to control the use of FFmpeg (open_ffmpeg)）
+- 调整默认配置以酒店源模式运行（Adjusted default configuration to run in hotel source mode）
+- 优化测速方法（Optimize Speed Test Method）
+- 修复酒店源 CCTV 类等频道结果匹配异常（Fixed abnormal matching of results for hotel source CCTV channels）
+- 修复组播源、酒店源 driver 运行问题（Fixed issues with multicast source and hotel source driver operation）
+- 修复订阅源更新异常（Fixed subscription source update anomalies）
+
+## v1.3.6
+
+### 2024/8/22
+
+- 新增酒店源更新，支持 Tonkiang、FOFA 两种工作模式（Added hotel source updates, supporting Tonkiang and FOFA working modes）
+- 重构 UI 界面软件，新增帮助-关于、获取频道名称编辑、酒店源相关配置、软件图标（Refactored UI interface software, added Help-About, channel name editing, hotel source related configuration, and software icon）
+- 新增测速日志页面服务，结果链接后添加/log 即可查看（Added a new speed test log page service. To view the results, simply add /log to the link）
+- 移除关注频道相关配置（Removed configuration related to followed channels）
+- 修复 Docker 定时任务未执行问题（Fixed issue with Docker scheduled tasks not executing）
+- 修复使用历史结果时频道数据异常问题（Fixed issue with channel data anomalies when using historical results）
+- 优化 UI 界面软件运行生成配置目录，方便查看与修改（Optimized UI interface software to generate configuration directory for easier viewing and modification）
+
 ## v1.3.5
 
 ### 2024/8/14
