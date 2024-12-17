@@ -30,7 +30,7 @@ CHC影迷电影
 广州新闻
 广州影视
 广州法治
-广州
+广州综合
 珠海
 南海
 顺德
@@ -143,10 +143,10 @@ CCTV卫生健康
 吉林卫视
 海南卫视
 云南卫视
-IPTV3 +
-IPTV5 +
-IPTV6 +
-IPTV8 +
+IPTV3+
+IPTV5+
+IPTV6+
+IPTV8+
 IPTV谍战剧场
 IPTV相声小品
 IPTV野外
