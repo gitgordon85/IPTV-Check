@@ -40,7 +40,7 @@ RUN echo "deb https://mirrors.aliyun.com/debian/ bookworm main contrib non-free 
   deb-src https://mirrors.aliyun.com/debian-security/ bookworm-security main contrib non-free non-free-firmware\n" \
   > /etc/apt/sources.list
 
-RUN apt-get update && apt-get install -y --no-install-recommends cron
+RUN apt-get update && apt-get install -y --no-install-recommends cron ffmpeg
 
 RUN if [ "$LITE" = False ]; then apt-get install -y --no-install-recommends chromium chromium-driver; fi \
   && apt-get clean && rm -rf /var/lib/apt/lists/*
