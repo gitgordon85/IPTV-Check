@@ -21,6 +21,7 @@
 - 🐛 修复组播源更新结果异常问题
 - 🐛 修复写入结果目录为空问题
 - 🪄 调整接口状态码判断，只处理`200`状态码（#779）
+- 🪄 调整默认不显示接口信息，兼容更多播放器
 
 <details>
   <summary>English</summary>
@@ -43,6 +44,7 @@
 - 🐛 Fixed abnormal results issue for multicast source updates
 - 🐛 Fixed empty result directory issue
 - 🪄 Adjusted interface status code judgment to only process `200` status code (#779)
+- 🪄 Adjusted to hide interface information by default, compatible with more players
 
 </details>
 
