@@ -55,9 +55,9 @@ jobs:
       - name: Install selenium
         if: env.OPEN_DRIVER == 'True'
         run: pipenv install selenium
-      - name: 更新
+      - name: update
         run: pipenv run dev
-      - name: Commit 和 push if changed
+      - name: Commit AND push if changed
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
