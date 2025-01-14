@@ -1,9 +1,11 @@
-//以下全部出自网络和大佬资源，如有冒犯请联系删除。[所有内容仅供学习使用，请勿用于违法用途]
-//本人无公众号、无盈利、无引流、免费分享给小白使用，请勿轻信他人，谨防上当受骗。
+
 #EXTM3U x-tvg-url="https://raw.githubusercontent.com/fanmingming/live/main/e.xml"
 #EXTINF:-1 tvg-name="自用请勿贩卖" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/main/tv/CI罪案侦查频道.png" group-title="温馨提示",自用请勿贩卖
-自用请勿贩卖,https://ghfast.top/https://raw.githubusercontent.com/AnonymousOrz/IPTV/main/Live/xinzhihuo.mp4
-
+https://ghfast.top/https://raw.githubusercontent.com/AnonymousOrz/IPTV/main/Live/xinzhihuo.mp4
+#EXTINF:-1 tvg-name="//以下全部出自网络和大佬资源，如有冒犯请联系删除。[所有内容仅供学习使用，请勿用于违法用途]" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/main/tv/CI罪案侦查频道.png" group-title="温馨提示",//以下全部出自网络和大佬资源，如有冒犯请联系删除。[所有内容仅供学习使用，请勿用于违法用途]
+https://ghfast.top
+#EXTINF:-1 tvg-name="//本人无公众号、无盈利、无引流、免费分享给小白使用，请勿轻信他人，谨防上当受骗。" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/main/tv/CI罪案侦查频道.png" group-title="温馨提示",//本人无公众号、无盈利、无引流、免费分享给小白使用，请勿轻信他人，谨防上当受骗。
+https://ghfast.top
 
 
 #EXTINF:-1 tvg-name="CCTV1" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/main/tv/CCTV1.png" group-title="📺央视频道",CCTV-1
