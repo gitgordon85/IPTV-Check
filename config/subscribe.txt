@@ -18,6 +18,8 @@ https://ghproxy.cc/https://raw.githubusercontent.com/YanG-1989/m3u/main/Gather.m
 https://objectstorage.ap-chuncheon-1.oraclecloud.com/n/axghnvpkxk5c/b/vircloud/o/ipv6.txt
 https://ghproxy.net/https://raw.githubusercontent.com/Moexin/IPTV/refs/heads/Files/IPTV.m3u
 https://ghproxy.net/https://raw.githubusercontent.com/yuanzl77/IPTV/refs/heads/main/live.txt
+http://211.101.234.24:866/aishang.txt
+http://8.138.7.223/live.txt
 http://rihou.cc:555/gggg.nzk
 https://ghproxy.cc/https://raw.githubusercontent.com/vbskycn/iptv/refs/heads/master/tv/iptv4.m3u
 https://ghfast.top/https://raw.githubusercontent.com/qinvision/Film-Television/main/dujuejiami.txt
