@@ -1,35 +1,42 @@
-//以下全部出自网络和大佬资源，如有冒犯请联系删除。[所有内容仅供学习使用，请勿用于违法用途]$!
-//本人无公众号、无盈利、无引流、免费分享给小白使用，请勿轻信他人，谨防上当受骗。$!
+//以下全部来自互联网，所有内容仅供测试使用，请勿用于违法用途，如有冒犯请联系删除。$!
+// [所有内容仅供学习使用，请勿用于违法用途]$!
+//本人无公众号、无盈利、无引流、免费分享使用，请勿轻信他人，谨防上当受骗。$!
 
 温馨提示,#genre#
-自用请勿贩卖,https://ghfast.top/https://raw.githubusercontent.com/AnonymousOrz/IPTV/main/Live/xinzhihuo.mp4$!
-自用请勿贩卖,https://pan.jl8.top/view.php/c2f23ba4d05ae0388e6543dcfd96ec55.mp4$!
+请自用勿贩卖,https://ghfast.top/https://raw.githubusercontent.com/AnonymousOrz/IPTV/main/Live/xinzhihuo.mp4$!
+请自用勿贩卖,https://cccimg.com/view.php/c2f23ba4d05ae0388e6543dcfd96ec55.mp4$!
+请自用勿贩卖,https://mpimg.cn/view.php/c2f23ba4d05ae0388e6543dcfd96ec55.mp4$!
+请勿轻信他人,https://mpimg.cn/view.php/761c19bd2505dc86f142f56f31e36667.mp4$!
+请勿轻信他人,https://cccimg.com/view.php/761c19bd2505dc86f142f56f31e36667.mp4$!
 请勿用于违法用途,https://ghfast.top/https://raw.githubusercontent.com/AnonymousOrz/IPTV/main/Live/yuanliangzheshijie.mp4$!
-请勿用于违法用途,https://pan.jl8.top/view.php/689255f93c8a641c8541b63b980692b0.mp4$!
-请勿轻信他人,https://wp.sqsq.net/view.php/acdd482c16a15fb0046325536d50071d.mp4$!
+请勿用于违法用途,https://mpimg.cn/view.php/689255f93c8a641c8541b63b980692b0.mp4$!
+请勿用于违法用途,https://cccimg.com/view.php/689255f93c8a641c8541b63b980692b0.mp4$!
 
 📺央视频道,#genre#
-CCTV-1
-CCTV-2
-CCTV-3
-CCTV-4
-CCTV-5
-CCTV-5+
-CCTV-6
-CCTV-7
-CCTV-8
-CCTV-9
-CCTV-10
-CCTV-11
-CCTV-12
-CCTV-13
-CCTV-14
-CCTV-15
-CCTV-16
-CCTV-17
-CCTV-4K超高清
-CCTV-8K超高清
-CCTV16 奥林匹克-4K
+CCTV-1,http://13.251.121.250:35455/gaoma/cctv1.m3u8$!
+CCTV-2,http://13.251.121.250:35455/gaoma/cctv2.m3u8$!
+CCTV-3,http://13.251.121.250:35455/gaoma/cctv3.m3u8$!
+CCTV-4,http://13.251.121.250:35455/gaoma/cctv4.m3u8$!
+CCTV-5,http://13.251.121.250:35455/gaoma/cctv5.m3u8$!
+CCTV-5+,http://13.251.121.250:35455/gaoma/cctv5p.m3u8$!
+CCTV-6,http://13.251.121.250:35455/gaoma/cctv6.m3u8$!
+CCTV-7,http://13.251.121.250:35455/gaoma/cctv7.m3u8$!
+CCTV-8,http://13.251.121.250:35455/gaoma/cctv8.m3u8$!
+CCTV-9,http://13.251.121.250:35455/gaoma/cctv9.m3u8$!
+CCTV-10,http://13.251.121.250:35455/gaoma/cctv10.m3u8$!
+CCTV-11,http://13.251.121.250:35455/gaoma/cctv11.m3u8$!
+CCTV-12,http://13.251.121.250:35455/gaoma/cctv12.m3u8$!
+CCTV-13,http://13.251.121.250:35455/gaoma/cctv13.m3u8$!
+CCTV-14,http://13.251.121.250:35455/gaoma/cctv14.m3u8$!
+CCTV-15,http://13.251.121.250:35455/gaoma/cctv15.m3u8$!
+CCTV-16,http://13.251.121.250:35455/gaoma/cctv16.m3u8$!
+CCTV-17,http://13.251.121.250:35455/gaoma/cctv17.m3u8$!
+CCTV-4K超高清,http://13.251.121.250:35455/gaoma/cctv4k.m3u8$!
+CCTV-4K超高清,http://13.251.121.250:35455/gaoma/cctv4k_10m.m3u8$!
+CCTV-8K超高清,http://13.251.121.250:35455/gaoma/cctv8k_36m.m3u8$!
+CCTV-8K超高清,http://13.251.121.250:35455/gaoma/cctv8k_120m.m3u8$!
+CCTV16 奥林匹克-4K,http://13.251.121.250:35455/gaoma/cctv4k16.m3u8$!
+CCTV16 奥林匹克-4K,http://13.251.121.250:35455/gaoma/cctv4k16_10m.m3u8$!
 CETV1
 CETV2
 CETV4
@@ -277,17 +284,6 @@ TVBS新闻台
 八大综艺
 八大综艺台
 半岛新闻
-博斯高球
-博斯高球1
-博斯高球2
-博斯魅力
-博斯网球
-博斯无限
-博斯无限1
-博斯无限2
-博斯运动
-博斯运动1
-博斯运动2
 采昌影剧
 达文西频道
 大爱
@@ -296,7 +292,7 @@ TVBS新闻台
 东森超视
 东森电影
 动物星球
-番薯111
+番薯音乐
 非凡新闻
 公视戏剧
 古典音乐
@@ -366,8 +362,6 @@ C+台
 CAT电影
 CATCHPLAY电影台
 CINEMA-
-DAZN体育贰
-DAZN体育壹
 Diso综合
 Ginx_TV
 GinxTV
@@ -376,9 +370,8 @@ GLOBETROTTER
 HISTORY
 HITs电影
 MEZZOl
-momoTV
+momoTV,rtmp://f13h.mine.nu/sat/tv761$!
 SMArt知识台
-TRA体育
 TRACE
 
 
@@ -391,7 +384,7 @@ CHC高清电影
 淘电影
 NewTV 惊悚悬疑
 NewTV 动作电影
-黑莓电影
+黑莓电影,http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225743/1.m3u8$!
 龍華經典台
 龍華電影台
 美亚电影
@@ -418,8 +411,9 @@ IPTV经典电影
 邵氏影院,http://120.77.28.4:8648/douyu.php?id=4246519$!
 邵氏影院,https://www.goodiptv.club/douyu/4246519$!
 邵氏影院,http://huanqiuzhibo.cn/manifest/douyu.php?id=4246519$!
-1905极限反转
-1905环球经典,http://php.jdshipin.com:8880/1905.php?id=1905dy$!
+1905极限反转,http://php.jdshipin.com:8880/1905.php?id=1905dy$
+1905极限反转,http://php.jdshipin.com:8880/1905.php?id=1905dy$!
+1905环球经典,http://php.jdshipin.com:8880/1905.php?id=1905dy2$
 4K影院
 华数-4K
 国语译制电影
@@ -455,7 +449,22 @@ IPTV经典电影
 JJ斗地主
 五星体育
 百事体育
-
+DAZN体育贰
+DAZN体育壹
+ELEVEN体育1,rtmp://f13h.mine.nu/sat/tv731$!
+ELEVEN体育2,rtmp://f13h.mine.nu/sat/tv741$!
+TRA体育
+博斯高球
+博斯高球1
+博斯高球2
+博斯魅力
+博斯网球
+博斯无限
+博斯无限1
+博斯无限2
+博斯运动
+博斯运动1
+博斯运动2
 
 动画频道,#genre#
 广东少儿
@@ -476,7 +485,7 @@ CN卡通
 优漫卡通
 金鹰卡通
 睛彩少儿
-黑莓动画
+黑莓动画,http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225662/1.m3u8$!
 炫动卡通
 24H国漫热播
 浙江少儿
@@ -520,7 +529,7 @@ CCTV风云音乐
 天津音乐
 音乐广播
 音乐调频广播
-番薯111音乐
+番薯111音乐,http://61.216.67.119:1935/TWHG/E1/chunklist_w705811302.m3u$!
 阿七KTV,http://zzy789.xyz/douyu1.php?id=3186217$!
 阿七KTV,http://120.77.28.4:8648/douyu.php?id=3186217$!
 阿七KTV,https://www.goodiptv.club/douyu/3186217$!
@@ -540,8 +549,10 @@ CCTV风云音乐
 
 
 其他频道,#genre#
-环球电视台
-纪实科教8K
+环球电视,http://zb.xzxwhcb.com:9999/hls/world.m3u8$!
+8K北京纪实台
+8K北京科教台,http://111.31.106.140/downflv.brtvcloud.com/8klive/8kliveok.m3u8$!
+4K南国都市台,http://php.jdshipin.com:8880/gztv.php?id=shenghuo$!
 Love Nature 4K,https://d18dyiwu97wm6q.cloudfront.net/playlist2160p.m3u8$!
 Loupe 4K,https://d2dw21aq0j0l5c.cloudfront.net/playlist_3840x2160.m3u8$!
 Fashion 4K,https://fash2043.cloudycdn.services/slive/ftv_ftv_4k_hevc_73d_42080_default_466_hls.smil/playlist.m3u8$!
@@ -550,6 +561,7 @@ Fashion 4K,https://fash2043.cloudycdn.services/slive/ftv_ftv_4k_hevc_73d_42080_d
 求索科学
 求索纪录
 4K Travel TV,https://streams2.sofast.tv/ptnr-stirr/genre-Travel/lang-English/ctgr-Travel/title-4K-TRAVEL-TV-ENG/sofastplayout/33c31ac4-51fa-46ae-afd0-0d1fe5e60a80_0_HLS/master.m3u8$!
+RedBullTV,http://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_6660.m3u8$!
 
 经典剧场,#genre#
 西游记
@@ -601,7 +613,6 @@ Fashion 4K,https://fash2043.cloudycdn.services/slive/ftv_ftv_4k_hevc_73d_42080_d
 生活大爆炸,http://zzy789.xyz/douyu1.php?id=6668627$!
 生活大爆炸,http://120.77.28.4:8648/douyu.php?id=6668627$!
 生活大爆炸,https://www.goodiptv.club/douyu/6668627$!
-
 
 
 斗鱼欣赏,#genre#
@@ -737,6 +748,16 @@ Fashion 4K,https://fash2043.cloudycdn.services/slive/ftv_ftv_4k_hevc_73d_42080_d
 小宇轮播,http://zzy789.xyz/douyu1.php?id=323876$!
 小宇轮播,http://120.77.28.4:8648/douyu.php?id=323876$!
 小宇轮播,https://www.goodiptv.club/douyu/323876$!
+豆瓣高分,http://zzy789.xyz/douyu1.php?id=8770422$!
+豆瓣高分,https://live.iill.top/douyu/8770422$!
+豆瓣高分,http://120.77.28.4:8648/douyu.php?id=8770422$!
+豆瓣高分,https://www.goodiptv.club/douyu/8770422$!
+豆瓣高分,http://huanqiuzhibo.cn/manifest/douyu.php?id=8770422$!
+译制国语,http://zzy789.xyz/douyu1.php?id=2436390$!
+译制国语,https://live.iill.top/douyu/2436390$!
+译制国语,http://120.77.28.4:8648/douyu.php?id=2436390$!
+译制国语,https://www.goodiptv.club/douyu/2436390$!
+译制国语,http://huanqiuzhibo.cn/manifest/douyu.php?id=2436390$!
 
 
 欣赏频道,#genre#
@@ -746,7 +767,7 @@ Fashion 4K,https://fash2043.cloudycdn.services/slive/ftv_ftv_4k_hevc_73d_42080_d
 周星星粤语经典版~,http://www.52sw.top:678/play/huya.php?id=11352894$!
 周星星粤语经典版~,http://www.52sw.top:678/play/huya.php?id=11336587$!
 周星星粤语经典版~,http://182.40.120.213/test-txdwk.flv.huya.com/src/1250011-1250011-5368756364640256-2777036638-10057-A-0-1.m3u8$!
-
+林正英,http://mtw.so/5FCWRo$!
 林正英,https://live.metshop.top/huya/11342421$!
 英叔护体 | 林正英搞笑僵尸系列,http://182.40.120.171/test-txdwk.flv.huya.com/src/1394575543-1394575543-5989656348986441728-2789274542-10057-A-0-1.m3u8
 李连杰,http://kxrj.site:1258/699/hy.php?id=11342390
@@ -1369,6 +1390,7 @@ NewTV 精彩影视
 
 
 景区直播👉全网,#genre#
+大熊猫保护研究中心,https://gcwbndali.v.myalicdn.com
 北京密云古北水镇,https://gcalic.v.myalicdn.com/gc/dlst03_1/index.m3u8$!
 深圳福田红树林,https://gcalic.v.myalicdn.com/gc/djyqyl1_1/index.m3u8$!
 广州远眺白江湖,https://gcalic.v.myalicdn.com/gc/zjjmht_1/index.m3u8$!
