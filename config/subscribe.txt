@@ -3,31 +3,34 @@
 
 https://raw.githubusercontent.com/iptv-org/iptv/gh-pages/countries/cn.m3u
 https://raw.githubusercontent.com/iptv-org/iptv/master/streams/cn.m3u
-https://raw.githubusercontent.com/suxuang/myIPTV/main/ipv6.m3u
-https://raw.githubusercontent.com/kimwang1978/collect-tv-txt/main/merged_output.txt
-https://raw.githubusercontent.com/xzw832/cmys/main/S_CCTV.txt
-https://raw.githubusercontent.com/xzw832/cmys/main/S_weishi.txt
-https://raw.githubusercontent.com/asdjkl6/tv/tv/.m3u/整套直播源/测试/整套直播源/l.txt
-https://raw.githubusercontent.com/asdjkl6/tv/tv/.m3u/整套直播源/测试/整套直播源/kk.txt
-https://raw.githubusercontent.com/yuanzl77/IPTV/master/live.txt
+https://ghfast.top/https://raw.githubusercontent.com/suxuang/myIPTV/main/ipv6.m3u
+https://ghfast.top/https://raw.githubusercontent.com/kimwang1978/collect-tv-txt/main/merged_output.txt
+https://ghfast.top/https://raw.githubusercontent.com/xzw832/cmys/main/S_CCTV.txt
+https://ghfast.top/https://raw.githubusercontent.com/xzw832/cmys/main/S_weishi.txt
+https://ghfast.top/https://raw.githubusercontent.com/asdjkl6/tv/tv/.m3u/整套直播源/测试/整套直播源/l.txt
+https://ghfast.top/https://raw.githubusercontent.com/asdjkl6/tv/tv/.m3u/整套直播源/测试/整套直播源/kk.txt
+https://ghfast.top/https://raw.githubusercontent.com/yuanzl77/IPTV/master/live.txt
 https://raw.githubusercontent.com/fanmingming/live/main/tv/m3u/ipv6.m3u
 https://raw.githubusercontent.com/vbskycn/iptv/master/tv/iptv6.txt
 https://raw.githubusercontent.com/vbskycn/iptv/master/tv/iptv4.txt
 https://raw.githubusercontent.com/YueChan/Live/main/APTV.m3u
-https://raw.githubusercontent.com/YanG-1989/m3u/main/Gather.m3u
+https://ghfast.top/https://raw.githubusercontent.com/YanG-1989/m3u/refs/heads/main/Gather.m3u
 
-
+http://iptv.catvod.com/tv.m3u
 https://iptv.b2og.com/txt/fmml_ipv6.txt
 https://live.zbds.top/tv/iptv6.txt
 https://live.zbds.top/tv/iptv4.txt
 https://live.fanmingming.com/tv/m3u/ipv6.m3u
+https://live.kilvn.com/iptv.m3u
 https://aktv.top/live.txt
 http://175.178.251.183:6689/live.txt
 https://m3u.ibert.me/txt/fmml_dv6.txt
 https://m3u.ibert.me/txt/o_cn.txt
 https://m3u.ibert.me/txt/j_iptv.txt
 
+http://rihou.cc:55/lib/kx2024.txt
 http://rihou.cc:567/gggg.nzk
+http://rihou.cc:567/cctvgg
 http://我不是.摸鱼儿.com/live.php
 http://kxrj.site:55/lib/kx2024.txt
 https://www.mytvsuper.com.mp/m3u/Live.m3u
@@ -62,6 +65,17 @@ https://m3u.ibert.me/txt/all.txt
 http://vip.hb.frp.one:35456/txt/1
 https://gitee.com/ct-007/X1/raw/master/M.m3u
 https://7337.kstore.space/twkj/tvzb.txt
+https://a.lqtv.top/m3u/tv.m3u
+
+https://fel.forxhr.top:2022/down.php/0f8d5dd8fac5a908f485c3309bd81f61.txt
+https://fel.forxhr.top:2022/down.php/0c1825471d8f1c5349e8a3ec8b7a764d.txt
+https://fel.forxhr.top:2022/down.php/901891e4d179a27638a2a52b4d8636e8.txt
+https://fel.forxhr.top:2022/down.php/1bd39408a323f3b3c48ca049acac6db1.txt
+https://pan.imotao.com/down.php/81e0d776bf350c54726f29be3b7c2411.txt
+https://pan.imotao.com/down.php/be6a68506f1d91bbae57786b4259a984.txt
+http://pan.aa53.cn/down.php/2b7566062796b68780165a138fb69fc9.txt
+http://pan.aa53.cn/down.php/6f9f63a532103fd6dc10c4c5feaaf11e.txt
+http://pan.aa53.cn/down.php/abb38ad51e43469661b76a96c37d0426.txt
 
 https://tv.iill.top/m3u/Gather
 http://tv.iill.top/m3u/Live
