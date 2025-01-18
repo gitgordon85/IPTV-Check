@@ -1,10 +1,18 @@
 #EXTM3U x-tvg-url="https://raw.githubusercontent.com/fanmingming/live/main/e.xml"
-#EXTINF:-1 tvg-name="请自用勿贩卖" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/main/tv/请自用勿贩卖.png" group-title="温馨提示",请自用勿贩卖
+#EXTINF:-1 tvg-name="自用请勿贩卖" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/main/tv/自用请勿贩卖.png" group-title="温馨提示",自用请勿贩卖
 https://ghfast.top/https://raw.githubusercontent.com/AnonymousOrz/IPTV/main/Live/xinzhihuo.mp4
-#EXTINF:-1 tvg-name="请自用勿贩卖" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/main/tv/请自用勿贩卖.png" group-title="温馨提示",请自用勿贩卖
-https://cccimg.com/view.php/c2f23ba4d05ae0388e6543dcfd96ec55.mp4
-#EXTINF:-1 tvg-name="请自用勿贩卖" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/main/tv/请自用勿贩卖.png" group-title="温馨提示",请自用勿贩卖
-https://mpimg.cn/view.php/c2f23ba4d05ae0388e6543dcfd96ec55.mp4
+#EXTINF:-1 tvg-name="自用请勿贩卖" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/main/tv/自用请勿贩卖.png" group-title="温馨提示",自用请勿贩卖
+https://pan.jl8.top/view.php/c2f23ba4d05ae0388e6543dcfd96ec55.mp4
+#EXTINF:-1 tvg-name="请勿用于违法用途" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/main/tv/请勿用于违法用途.png" group-title="温馨提示",请勿用于违法用途
+https://ghfast.top/https://raw.githubusercontent.com/AnonymousOrz/IPTV/main/Live/yuanliangzheshijie.mp4
+#EXTINF:-1 tvg-name="请勿用于违法用途" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/main/tv/请勿用于违法用途.png" group-title="温馨提示",请勿用于违法用途
+https://pan.baidu.re/view.php/ff09b22cbee0e593cc0349a96e311ea6.mp4
+#EXTINF:-1 tvg-name="请勿用于违法用途" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/main/tv/请勿用于违法用途.png" group-title="温馨提示",请勿用于违法用途
+https://pan.jl8.top/view.php/689255f93c8a641c8541b63b980692b0.mp4
+#EXTINF:-1 tvg-name="请勿轻信他人" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/main/tv/请勿轻信他人.png" group-title="温馨提示",请勿轻信他人
+https://www.kumeiwp.com/wj/227647/2025/01/12/28750e4d379cebf2d3fa4237abea5c01.mp4
+#EXTINF:-1 tvg-name="请勿轻信他人" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/main/tv/请勿轻信他人.png" group-title="温馨提示",请勿轻信他人
+https://cccimg.com/view.php/536ca2c4b1342e8a7bae747e343c57e5.mp4
 #EXTINF:-1 tvg-name="CCTV1" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/main/tv/CCTV1.png" group-title="📺央视频道",CCTV-1
 http://13.251.121.250:35455/gaoma/cctv1.m3u8
 #EXTINF:-1 tvg-name="CCTV1" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/main/tv/CCTV1.png" group-title="📺央视频道",CCTV-1
