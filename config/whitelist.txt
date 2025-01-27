@@ -3,7 +3,6 @@
 # This is the whitelist of the interface or subscription source. The interface in the whitelist or the interface obtained by the subscription source will not participate in the speed measurement and will be prioritized in the result.
 # Filling in the channel name will directly retain the record to the final result, such as: CCTV-1,url, only fill in the interface address will be effective for all channels, multiple records newline input.
 
-https://cloud.wujiyan.cc/f/7qpyUZ/youxian.txt
 
 👉卡顿请左右键切换源👈,https://d.kstore.dev/download/7692/1.mp4
 👉选择流畅的线路观看👈,https://d.kstore.dev/download/7692/1.mp4
