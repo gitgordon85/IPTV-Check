@@ -21,3 +21,5 @@ CCTV14,http://goo.bkpcp.top/mg/cctv14
 CCTV15,http://goo.bkpcp.top/mg/cctv15
 CCTV16,http://183.255.10.69:6610/200000001898/460000089800010142/1.m3u8?IASHttpSessionId=OTT
 CCTV17,http://goo.bkpcp.top/mg/cctv17
+👉卡顿请左右键切换源👈,https://d.kstore.dev/download/7692/1.mp4
+👉选择流畅的线路观看👈,https://d.kstore.dev/download/7692/1.mp4
