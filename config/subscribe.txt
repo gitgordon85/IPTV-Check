@@ -1,6 +1,15 @@
 # 这是订阅源列表，每行一个订阅地址
 # This is a list of subscription sources, with one subscription address per line
 
+https://gitea.moe/xiangjiao-ge/yifa169/raw/branch/main/yiyifafa.txt
+http://iptv.yjxfz.com/tv/getVideoConfigByPath/txt/96I2709JD480802I/2/heightlow/y/ipv46/全部
+https://raw.githubusercontent.com/frxz751113/IPTVzb1/refs/heads/main/%E7%BD%91%E7%BB%9C%E6%94%B6%E9%9B%86.txt
+https://gitee.com/jin-xueling/lingl/raw/master/hu.txt
+http://rihou.cc:555/gggg.nzk
+https://gongdian.top/tv/txt
+http://www.lyyytv.cn/yt/zhibo/1.txt
+http://zb.xmzb.xyz/大视界3.txt
+https://4key.cn/FP
 https://ghproxy.cc/https://raw.githubusercontent.com/rad168/iptv/0b3bb80aff723f9ba6df8f77c34882fc6bcdbf23/live.txt
 https://ghproxy.cc/https://raw.githubusercontent.com/iptv-org/iptv/gh-pages/countries/cn.m3u
 https://ghproxy.cc/https://raw.githubusercontent.com/iptv-org/iptv/master/streams/cn.m3u
