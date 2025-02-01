@@ -340,41 +340,93 @@ def get_ip_address():
         return f"http://{ip}:{config.app_port}"
 
 
+# def convert_to_m3u(first_channel_name=None):
+#     """
+#     Convert result txt to m3u format
+#     """
+#     user_final_file = resource_path(config.final_file)
+#     if os.path.exists(user_final_file):
+#         with open(user_final_file, "r", encoding="utf-8") as file:
+#             m3u_output = '#EXTM3U x-tvg-url="https://ghproxy.cc/https://raw.githubusercontent.com/fanmingming/live/main/e.xml"\n'
+#             current_group = None
+#             for line in file:
+#                 trimmed_line = line.strip()
+#                 if trimmed_line != "":
+#                     if "#genre#" in trimmed_line:
+#                         current_group = trimmed_line.replace(",#genre#", "").strip()
+#                     else:
+#                         try:
+#                             original_channel_name, _, channel_link = map(
+#                                 str.strip, trimmed_line.partition(",")
+#                             )
+#                         except:
+#                             continue
+#                         processed_channel_name = re.sub(
+#                             r"(CCTV|CETV)-(\d+)(\+.*)?",
+#                             lambda m: f"{m.group(1)}{m.group(2)}"
+#                                       + ("+" if m.group(3) else ""),
+#                             first_channel_name if current_group == "🕘️更新时间" else original_channel_name,
+#                         )
+#                         m3u_output += f'#EXTINF:-1 tvg-name="{processed_channel_name}" tvg-logo="https://ghproxy.cc/https://raw.githubusercontent.com/fanmingming/live/main/tv/{processed_channel_name}.png"'
+#                         if current_group:
+#                             m3u_output += f' group-title="{current_group}"'
+#                         m3u_output += f",{original_channel_name}\n{channel_link}\n"
+#             m3u_file_path = os.path.splitext(user_final_file)[0] + ".m3u"
+#             with open(m3u_file_path, "w", encoding="utf-8") as m3u_file:
+#                 m3u_file.write(m3u_output)
+#             print(f"✅ M3U result file generated at: {m3u_file_path}")
 def convert_to_m3u(first_channel_name=None):
     """
-    Convert result txt to m3u format
+    将 txt 格式转换为增强版 m3u 格式,包含 EPG、分组和台标
+    参数:
+    first_channel_name: 指定第一个频道名称
     """
-    user_final_file = resource_path(config.final_file)
-    if os.path.exists(user_final_file):
-        with open(user_final_file, "r", encoding="utf-8") as file:
-            m3u_output = '#EXTM3U x-tvg-url="https://ghproxy.cc/https://raw.githubusercontent.com/fanmingming/live/main/e.xml"\n'
-            current_group = None
-            for line in file:
-                trimmed_line = line.strip()
-                if trimmed_line != "":
-                    if "#genre#" in trimmed_line:
-                        current_group = trimmed_line.replace(",#genre#", "").strip()
-                    else:
-                        try:
-                            original_channel_name, _, channel_link = map(
-                                str.strip, trimmed_line.partition(",")
-                            )
-                        except:
-                            continue
-                        processed_channel_name = re.sub(
-                            r"(CCTV|CETV)-(\d+)(\+.*)?",
-                            lambda m: f"{m.group(1)}{m.group(2)}"
-                                      + ("+" if m.group(3) else ""),
-                            first_channel_name if current_group == "🕘️更新时间" else original_channel_name,
-                        )
-                        m3u_output += f'#EXTINF:-1 tvg-name="{processed_channel_name}" tvg-logo="https://ghproxy.cc/https://raw.githubusercontent.com/fanmingming/live/main/tv/{processed_channel_name}.png"'
-                        if current_group:
-                            m3u_output += f' group-title="{current_group}"'
-                        m3u_output += f",{original_channel_name}\n{channel_link}\n"
-            m3u_file_path = os.path.splitext(user_final_file)[0] + ".m3u"
-            with open(m3u_file_path, "w", encoding="utf-8") as m3u_file:
-                m3u_file.write(m3u_output)
-            print(f"✅ M3U result file generated at: {m3u_file_path}")
+    # 获取输入和输出文件路径
+    final_file = config.final_file
+    m3u_file_path = os.path.splitext(final_file)[0] + ".m3u"
+    
+    # 读取频道列表
+    with open(final_file, "r", encoding="utf-8") as f:
+        lines = f.readlines()
+    
+    # 写入 m3u 文件
+    with open(m3u_file_path, "w", encoding="utf-8") as f:
+        # 写入头部和 EPG 地址
+        f.write('#EXTM3U x-tvg-url="https://live.fanmingming.cn/e.xml"\n')
+        
+        current_group = None
+        
+        for line in lines:
+            line = line.strip()
+            if not line:
+                continue
+                
+            if line.endswith("#genre#"):
+                # 处理分组标记
+                current_group = line.replace(",#genre#", "").strip()
+                continue
+                
+            if "," in line:
+                # 处理频道信息
+                channel_name, url = line.split(",", 1)
+                channel_name = channel_name.strip()
+                url = url.strip()
+                
+                # 处理台标
+                logo_name = channel_name.replace("CCTV-", "CCTV")
+                logo_name = logo_name.replace("CETV-", "CETV") 
+                
+                # 写入频道信息
+                f.write(f'#EXTINF:-1 tvg-name="{logo_name}" '
+                       f'tvg-logo="https://live.fanmingming.cn/tv/{logo_name}.png"')
+                
+                # 添加分组信息
+                if current_group:
+                    f.write(f' group-title="{current_group}"')
+                    
+                f.write(f',{channel_name}\n{url}\n')
+
+    print(f"✅ Enhanced M3U file generated at: {m3u_file_path}")
 
 
 def get_result_file_content(show_content=False, file_type=None):
