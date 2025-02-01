@@ -101,3 +101,32 @@ jobs:
             git commit -m "Github Action Auto Updated"
             git push --force
           fi
+          
+      - name: Sync to Cloudflare KV
+        if: success()
+        run: |
+          final_m3u_file=$(python -c '
+          try: 
+            from utils.config import config
+            import os
+            final_file = config.final_file
+            final_m3u_file = os.path.splitext(final_file)[0] + ".m3u"
+            key_name = os.path.splitext(final_file)[0]
+          except: 
+            final_m3u_file = "output/result.m3u"
+            key_name = "output/result"
+          print(f"{key_name}|{final_m3u_file}")')
+          
+          # 分割输出得到key_name和file_path
+          IFS='|' read -r key_name file_path <<< "$final_m3u_file"
+          
+          if [[ -f "$file_path" ]]; then
+            # 读取m3u文件内容
+            content=$(cat "$file_path")
+            
+            # 使用Cloudflare API上传内容到KV
+            curl -X PUT "https://api.cloudflare.com/client/v4/accounts/${{ secrets.CF_ACCOUNT_ID }}/storage/kv/namespaces/${{ secrets.CF_NAMESPACE_ID }}/values/$key_name" \
+              -H "Authorization: Bearer ${{ secrets.CF_API_TOKEN }}" \
+              -H "Content-Type: text/plain" \
+              --data-raw "$content"
+          fi
