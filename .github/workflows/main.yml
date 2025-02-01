@@ -121,12 +121,16 @@ jobs:
           IFS='|' read -r key_name file_path <<< "$final_m3u_file"
           
           if [[ -f "$file_path" ]]; then
-            # 读取m3u文件内容
-            content=$(cat "$file_path")
+            # 将内容写入临时文件
+            TMP_FILE=$(mktemp)
+            cat "$file_path" > "$TMP_FILE"
             
-            # 使用Cloudflare API上传内容到KV
+            # 使用临时文件上传
             curl -X PUT "https://api.cloudflare.com/client/v4/accounts/${{ secrets.CF_ACCOUNT_ID }}/storage/kv/namespaces/${{ secrets.CF_NAMESPACE_ID }}/values/$key_name" \
               -H "Authorization: Bearer ${{ secrets.CF_API_TOKEN }}" \
               -H "Content-Type: text/plain" \
-              --data-raw "$content"
+              --data-binary "@$TMP_FILE"
+            
+            # 删除临时文件
+            rm "$TMP_FILE"
           fi
