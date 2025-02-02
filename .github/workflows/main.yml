@@ -111,10 +111,10 @@ jobs:
             import os
             final_file = config.final_file
             final_m3u_file = os.path.splitext(final_file)[0] + ".m3u"
-            key_name = os.path.splitext(final_file)[0]
+            key_name = "result"
           except: 
             final_m3u_file = "output/result.m3u"
-            key_name = "output/result"
+            key_name = "result"
           print(f"{key_name}|{final_m3u_file}")')
           
           # 分割输出得到key_name和file_path
