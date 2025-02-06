@@ -16,6 +16,8 @@ https://gh.llkk.cc/https://raw.githubusercontent.com/vbskycn/iptv/master/tv/iptv
 https://gh.llkk.cc/https://raw.githubusercontent.com/YueChan/Live/main/APTV.m3u
 https://gh.llkk.cc/https://raw.githubusercontent.com/YanG-1989/m3u/main/Gather.m3u
 # 20250205 add
+https://gh.llkk.cc/https://github.com/kimwang1978/collect-tv-txt/blob/main/live.m3u
+https://tv.iill.top/m3u/Gather
 https://live.zbds.top/tv/iptv6.txt
 https://live.zbds.top/tv/iptv4.txt
 https://live.fanmingming.com/tv/m3u/ipv6.m3u
@@ -33,4 +35,3 @@ https://gh.llkk.cc/https://raw.githubusercontent.com/yuanzl77/IPTV/refs/heads/ma
 https://gh.llkk.cc/https://github.com/YanG-1989/m3u/blob/main/Gather.m3u
 https://gh.llkk.cc/https://raw.githubusercontent.com/suxuang/myIPTV/main/ipv6.m3u
 https://gh.llkk.cc/https://github.com/YanG-1989/m3u/blob/main/Migu.m3u
-https://gh.llkk.cc/https://github.com/kimwang1978/collect-tv-txt/blob/main/live.m3u
