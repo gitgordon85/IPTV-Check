@@ -4,8 +4,8 @@
 # Filling in the channel name will directly retain the record to the final result, such as: CCTV-1,url, only fill in the interface address will be effective for all channels, multiple records newline input.
 
 
-👉卡顿请左右键切换源👈,https://d.kstore.dev/download/7692/1.mp4
-👉选择流畅的线路观看👈,https://d.kstore.dev/download/7692/1.mp4
+👉卡顿请左右键切换源👈,https://d.kstore.dev/download/7692/1.mp4$!
+👉选择流畅的线路观看👈,https://d.kstore.dev/download/7692/1.mp4$!
 CCTV1,http://z.b.bkpcp.top/m.php?id=cctv1$!
 CCTV2,http://z.b.bkpcp.top/m.php?id=cctv2$!
 CCTV3,http://z.b.bkpcp.top/m.php?id=cctv3$!
