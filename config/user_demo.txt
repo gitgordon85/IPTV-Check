@@ -174,6 +174,42 @@ Thrill
 CHC影迷电影
 刀刀影院
 可乐电影
+AXN
+Animax
+Astrol Kplus
+Axn HD
+CCTV-6
+CINEMAX
+Celestial Classic
+Celestial Movies HD
+Cinemax
+HBO Family
+HBO HD
+HBO Hits
+HBO Signature
+HBO_HD
+HBO_HITS
+Hits Movie
+Hits
+Hollywood Movies
+Movies Now HD
+One
+Paramount Network
+Rock Actions
+Rock Entertainment
+SCM
+Sony Pix HD
+Star Movies HD
+Thrill
+Warner TV
+tvN Movie
+龍華電影
+東森洋片
+東森電影
+美亞電影
+龍華洋片
+龍祥时代
+
 
 🏀体育频道,#genre#
 CCTV-5
@@ -294,6 +330,29 @@ NewTV哒啵电竞
 「虎牙」穿越火线
 「虎牙」穿越火线•手游
 「虎牙」金铲铲之战
+B站JJ斗地主
+B站QQ飞车手游
+B站无畏契约
+B站英雄联盟
+斗鱼DOTA2
+斗鱼FIFA
+斗鱼JJ斗地主
+斗鱼QQ飞车手游
+斗鱼云顶之弈
+斗鱼使命召唤手游
+斗鱼和平精英
+斗鱼我的世界
+斗鱼第五人格
+斗鱼绝地求生
+斗鱼跑跑卡丁车
+斗鱼跑跑卡丁车手游
+斗鱼金铲铲之战
+电竞天堂
+虎牙DOTA2
+虎牙和平精英
+虎牙无畏契约
+虎牙永劫无间
+
 
 🎵音乐频道,#genre#
 CCTV-15
@@ -635,19 +694,66 @@ Viutv
 无线新闻
 
 💓英语频道,#genre#
-半岛新闻
-BBC News
-美国之音
-TaiwanPlus
 ABC News
-DW News
-GB News
-FRANCE24 English
-NBC News
-Al Jazeera English
-NHK World-Japan
 ABC News Australia
-BAND NEWS
+Al Jazeera English
+Al-Jazeera
+Animal Planet (Eng)
+Axn HD
+BBC 1
+BBC 2
+BBC Earth HD
+BBC Earth Lifestyle
+BBC News
+BBC World News
+Bloomberg News
+Boomerang
+CBBC
+CBeebies
+CGTN
+CNBC
+Channel 4
+DW (Deutsch)
+DW News
+Euronews
+FRANCE24 English
+France 24
+Freesports
+GB News
+HBO HD
+HGTV
+History
+Hits Movie
+Kids TV
+MTV Live
+More4
+NBC News
+NHK World
+NHK World-Japan
+NatGeo HD
+NatGeo Wild HD
+Nick Jr
+Nickelodeon
+Pick TV
+Skynews
+Skysports Arena
+Skysports Cricket
+Skysports EPL
+Skysports F1
+Skysports Football
+Skysports Golf
+Skysports Main Event
+Skysports News
+Star Movies HD
+TaiwanPlus
+TLC
+Thrill
+Warner TV
+itv 1
+itv 2
+半岛新闻
+美国之音
+
 
 🗾日本[JP],#genre#
 BSアニマックス
@@ -723,6 +829,9 @@ SBS
 TBS Seoul
 TJB
 국방国防TV
+韩国EBS少儿频道
+韩国KBS
+韩国lEBS儿童频道
 
 🌍其他国外频道,#genre#
 ABN China (720p)
@@ -785,9 +894,6 @@ iHOT爱院线
 KBC
 KBSWorld
 KBS world
-韩国EBS少儿频道
-韩国KBS
-韩国lEBS儿童频道
 KantikOrfelogy
 克罗地亚KinoTV
 库尔德斯坦CihanTV
@@ -834,9 +940,325 @@ Wild Earth
 WionNews
 WONDER
 
+特色直播ip4,#genre#
+0小行家0
+11No巴蒂11
+1900影剧室
+3030相声小品
+3秒爱上学习V
+5毒士
+702放映厅
+7喜先生
+7师傅
+9iota
+AK萌虎
+Aan2619742
+Acer丶宏正
+Bella贝拉酱
+BetterMan北北
+Biu餐厅主管
+BuriedAlien的号
+CF柒年
+Cloud猪
+CmoStar
+DS女老诗
+Devil青酱
+DuckDucks
+Edinburgh南空
+Eric次元宝贝
+Ethan清醒思考
+FGO丶Master1
+Fatal飞雪
+HOOPPARK篮球公园
+HagnaChannel
+Hi欣欣
+JhZj丶天明
+JustXiaIt嘻咦啊看
+KBShinya
+KUMA轻松熊博士
+KyoKyo不是QQ
+LCPD拉登
+LOUIS樱
+MJ小林大人嗷
+MK青凌
+Melo的健身课堂
+Miss北月
+MordonFreeman是谁
+Nino学长
+OE档案
+OneGuy丶
+Only丶邵氏
+OooOlivia奥莉蕉
+PP看动漫
+PhantomStrider
+Poison丶冰冰
+Psyman塞门
+QLIMES
+RNDxc
+Rabbit每日爆料
+Rainsun宇
+Red袖袖
+SH11N
+SKYE魏
+Starshine刹那
+Svip丶YoYo
+TFBOYS饭团
+TSSS映画
+TUOK肖恩
+UP主DJC
+UU娇哒哒呀
+UnaDirezione
+WANJINNY
+W总动员
+XCin888
+YIKa777
+a5dmin
+a萌小翘臀
+baby丶贝贝
+bestthings丶放假
+boushit
+clx11
+cym009
+dy荒野建造
+epcdiy
+e尔袏
+fans圈娱乐
+gslaini
+gtfobae666
+illit礼
+jk不烦恼
+koanluowei
+ljgdy
+low君热剧
+mad叶月Mashiro灬
+makimaning
+mn静静nm
+moyu3390
+mzx阿哲
+pipi丫
+py86阿
+ryandradian
+sekai的光子
+shhher
+v刺猬猪v
+xiaoxiao1004
+一个机智张张
+一只兔叽呀丶
+一只梦幻小萌虎
+一只邪恶小棕熊
+一只魔玩
+一把钢刀镇斗虞
+一束光开始
+一条正弦sin
+一条闲木鱼
+一样二职
+一生titus
+一目十影
+一起看港剧
+一颗咕咕星
+一颗糖糖canddy
+万事通熊猫
+万合出品
+万合鲜肉老师
+三个老爸实验室
+三代鹿人v
+三国颜老师
+三斤呦
+三新动漫
+上来先丢大v
+不二真探
+不会骑马的健身少年
+不思异剧场
+世界未解之谜M
+世界纪录大全
+丛林工程师
+中二大帝妮可姬
+中二的枫哲酱
+中国喜剧力量
+丶小跟班丿瑶瑶
+丶最紧要好玩
+丶清风浊酒丶
+主播小贞
+主播拍个肚皮
+丿灬只是小暧昧
+久了旧知
+久远丶酱
+乐儿丶Ler
+九仙人儿
+九冢嵬
+乡村水龙
+乡间大路上
+书岳钓鱼
+二次元fans鹿鹿
+二毛荒野垂钓生活1
+云襄白羽
+京城笑工坊
+亮亮也是酿酿
+人生回答机本机
+人类早期驯服
+仓鼠大逃亡
+仙人万户侯
+伊太刀刀
+会火娱乐
+余小二哦
+你的瑜伽女孩
+你顶亲亲的前女友
+依依妹妹在等你
+俩个麻瓜
+倓张TanZ
+傲娇一喵喵
+傲娇的超级赛亚人
+傲翔帝龙龙
+光影故事汇
+兔兔MC维辰软桃团
+八幡老师1
+八月看大片
+八零影漫
+关云猖
+养狗的一浩
+内蒙卡秋
+内蒙古欢乐驿站
+农村一级野钓大师
+农村幺妹儿
+农氏野钓
+冬熊零食铺
+冰冰凉凉的小啤酒
+冰冷浪漫
+冰糖葫芦没放盐V
+冷孝洪
+冷门港片大全
+几号房间
+凤起青云
+刀刀de食堂
+分享备用
+刘也变z
+刘少丶7012
+利利川
+别闹了美越
+到远方旅行
+制造show
+剧燃有趣
+剧透大爆炸
+功夫联盟2020
+动漫唯美风
+动漫推荐i
+动物启示录
+助眠师海宝宝
+励志少年派
+勇敢的荒野人
+勤时铭悦
+北京影帝的分身
+匠心筑梦85980
+十七岁的道姑
+十八里铺大当家
+千代语默
+半打星冰乐
+半藏同学
+华白雨
+单纯的顺才少爷
+卖女孩滴小姑凉
+卖爆鱼的小姑娘
+南国小豆豆
+南波儿的柠檬
+卡密密尼
+卡皮君本人
+卿离倾心
+历史经典烩
+压力洋哥
+去种田的向凹凸
+双笙陈元汐
+只关于篮球的只老师
+可乐家的老骑士
+台球帝
+史君观影
+叶墨的百妖馆
+吃奶滴虫
+吃米滴虫
+吃草莓的果子狸V
+吃鸡小表弟
+同学请坐吧
+同行渔猎笔记
+名人物语DY
+名侦探柯南之银色子弹
+名曰老饕
+君笑坊
+吟游诗人基德
+吟笑派
+吸奇侠
+吾恩5nn
+周六野Zoey
+周扒...
+
+📥其它未分类频道,#genre#
+北京新闻
+清华大学电视台
+上海外语
+农林卫视
+生活时尚
+都市剧场
+七彩戏剧
+茶
+全纪实
+极速汽车
+新闻综合
+经济生活
+华数4K
+求索纪录
+求索科学
+求索生活
+求索动物
+第一财经
+澳亚卫视
+莲花卫视
+非凡新闻
+东森新闻
+东森财经
+美亚C+
+MOMOTV
+纬来日本
+纬来精采
+大立电视台
+TVBS新闻台
+番薯台
+人间卫视
+八大戏剧台
+📹️直播中国
+中視
+八大戏剧
+八大第一
+八大综合
+东森美洲2
+东森超视HD
+TVBS新闻
+TVBS欢乐
+民视新闻
+华语
+三立戏剧
+中视HD
+中天亚洲
+中天娱乐
+番薯111
+生命电视
+MoMoTV
+华语电视2
+华语电视3
+華視戲劇
+TiTV
+YOYO TV
+3ABN Kids
+Japanim TV
+Kuriakos Kids
+XilamTV
+FanpopTV
+Bloomberg
+TVN
+贝爷求生影视2
+贝爷求生
+TVB明珠
+影迷电影
+海峡卫视
+
 📻国外广播,#genre#
-阿拉善汉语广播
-阿里郎电台(视频)
 Big Radio
 Big B Radio - 中文流行
 Big B Radio - 亚洲流行
@@ -854,6 +1276,23 @@ BBC Radio 5 live
 BBC Radio 6
 BBC World Service
 CAPITAL 958
+格莱美音乐台
+潮流音乐台
+动感音乐台
+法国国际广播电台
+飞碟电台
+怀集音乐台
+欢乐调频
+华语金曲500首
+Kiss Radio
+LOVE 972
+M-Radio全国广播
+News98 新闻台
+one FM
+VOCALO
+YES 933
+
+📻国内广播,#genre#
 CityFM|城市广播
 CityFM|台北健康
 CityFM|台南之音
@@ -886,56 +1325,6 @@ CRI 英语环球广播 China Plus Radio
 CRI Hit FM FM88.7
 CRI HIT FM (北京)
 CRI HIT FM (广州)
-格莱美音乐台
-潮流音乐台
-楚天交通广播
-楚天广播
-动感音乐台
-法国国际广播电台
-房山电台
-飞碟电台
-国立教育电台
-哈萨克语广播
-怀集音乐台
-欢乐调频
-华语金曲500首
-Kiss Radio
-LOVE 972
-M-Radio全国广播
-News98 新闻台
-one FM
-VOCALO
-YES 933
-
-📻国内广播,#genre#
-「央广」 中国之声
-「央广」 中国乡村之声
-「央广」 中国交通广播
-「央广」 乡村之声
-「央广」 哈萨克语广播
-「央广」 大湾区之声
-「央广」 藏语广播
-「央广」 台海之声
-「央广」 民族之声
-「央广」 神州之声
-「央广」 经典音乐广播
-「央广」 老年之声
-「央广」 文艺之声
-「央广」 轻松调频
-「央广」 维吾尔语广播
-「央广」 环球资讯广播
-「央广」 英语资讯广播 CGTN Radio
-「央广」 阅读之声
-「央广」 音乐之声
-「央广」 香港之声
-「北京」 969经典调频
-「北京」 城市广播副中心之声
-「北京」 体育广播
-「北京」 文艺广播
-「北京」 交通广播
-「北京」 音乐广播
-「北京」 新闻广播
-交通广播
 「上海」969经典调频
 「上海」KFM981
 「上海」Love Radio FM103.7
@@ -1033,154 +1422,39 @@ YES 933
 「重庆」 重庆经济广播
 「重庆」 重庆音乐广播
 「重庆」 重庆私家车广播
-哈尔滨古典音乐广播
-哈尔滨交通广播
-哈尔滨经济广播
-哈尔滨文艺广播
-哈尔滨音乐广播
-大庆交通广播
-大庆综合广播
-大庆音乐广播
-都市女性广播
-延边交通文艺广播
+「央广」 中国之声
+「央广」 中国乡村之声
+「央广」 中国交通广播
+「央广」 乡村之声
+「央广」 哈萨克语广播
+「央广」 大湾区之声
+「央广」 藏语广播
+「央广」 台海之声
+「央广」 民族之声
+「央广」 神州之声
+「央广」 经典音乐广播
+「央广」 老年之声
+「央广」 文艺之声
+「央广」 轻松调频
+「央广」 维吾尔语广播
+「央广」 环球资讯广播
+「央广」 英语资讯广播 CGTN Radio
+「央广」 阅读之声
+「央广」 音乐之声
+「央广」 香港之声
+「北京」 969经典调频
+「北京」 城市广播副中心之声
+「北京」 体育广播
+「北京」 文艺广播
+「北京」 交通广播
+「北京」 音乐广播
+「北京」 新闻广播
 生活广播
 爱家广播
 新闻广播
 朝语广播
 高校广播
 音乐广播
-齐齐哈尔综合广播
-黑龙江交通广播
-黑龙江爱家广播
-黑龙江高校广播
-黑龙江都市女性广播
-黑龙江朝语广播
-黑龙江生活广播
-黑龙江新闻广播
-黑龙江音乐广播
-安徽广播
-安徽故事广播
-安徽广播
-安徽交通广播
-安徽经济广播
-安徽旅游广播•高速之声
-安徽生活广播•城市之声
-安徽戏曲广播•动听995
-安徽之声
-福建汽车广播
-福建东南广播
-福建都市广播•私家车987
-福州交通之声
-福州广播
-福州新闻广播
-福州左海之声
-甘肃都市调频
-甘肃经济广播
-广东广播
-广西交通广播
-广西北部湾之声
-广西教育广播
-广西女主播
-广西经济广播•女主播电台
-广西广播
-广西广播
-广西新闻广播
-贵州广播
-贵州广播
-贵州都市广播
-贵州故事广播
-贵州旅游广播
-贵州经济广播
-呼伦贝尔汉语广播
-呼伦贝尔蒙语广播
-湖北城市之声
-湖北亲子广播
-湖北之声
-湖北生活广播
-湖北资讯广播
-湖北经典广播
-湖南文艺广播•摩登音乐台
-湖南音乐之声•芒果音乐台
-河南交通广播
-河南信息广播
-河南戏曲广播
-河南教育广播
-河南经济广播
-河南新闻广播
-黑龙江广播
-黑龙江老年少儿广播•爱家调频
-黑龙江高校广播
-黑龙江都市女性广播
-黑龙江朝鲜语广播
-
-📥其它未分类频道,#genre#
-北京新闻
-清华大学电视台
-上海外语
-农林卫视
-生活时尚
-都市剧场
-七彩戏剧
-茶
-全纪实
-极速汽车
-新闻综合
-经济生活
-华数4K
-求索纪录
-求索科学
-求索生活
-求索动物
-第一财经
-澳亚卫视
-莲花卫视
-非凡新闻
-东森新闻
-东森财经
-美亚C+
-MOMOTV
-纬来日本
-纬来精采
-大立电视台
-TVBS新闻台
-番薯台
-人间卫视
-八大戏剧台
-📹️直播中国
-中視
-八大戏剧
-八大第一
-八大综合
-东森美洲2
-东森超视HD
-TVBS新闻
-TVBS欢乐
-民视新闻
-华语
-三立戏剧
-中视HD
-中天亚洲
-中天娱乐
-番薯111
-生命电视
-MoMoTV
-华语电视2
-华语电视3
-華視戲劇
-TiTV
-YOYO TV
-3ABN Kids
-Japanim TV
-Kuriakos Kids
-XilamTV
-FanpopTV
-Bloomberg
-TVN
-贝爷求生影视2
-贝爷求生
-TVB明珠
-影迷电影
-海峡卫视
 
 🎵音乐视频,#genre#
 OODTV经典音乐河
