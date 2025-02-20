@@ -19,7 +19,10 @@ jobs:
     steps:
       - name: Set branch name
         id: vars
-        run: echo "BRANCH_NAME=gd" >> $GITHUB_ENV
+        run: if [ "${{ github.repository_owner }}" == "Guovin" ]; then
+            echo "BRANCH_NAME=gd" >> $GITHUB_ENV
+          else
+            echo "BRANCH_NAME=master" >> $GITHUB_ENV
       - uses: actions/checkout@v3
         with:
           ref: ${{ env.BRANCH_NAME }}
