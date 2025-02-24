@@ -1,6 +1,13 @@
 # 这是订阅源列表，每行一个订阅地址
 # This is a list of subscription sources, with one subscription address per line
 
+https://github.com/vbskycn/iptv/blob/master/tv/iptv4.m3u
+https://github.com/vbskycn/iptv/blob/master/tv/iptv4.txt
+https://github.com/vbskycn/iptv/blob/master/tv/jsdx_zb.m3u
+https://github.com/vbskycn/iptv/blob/master/tv/jxdx.m3u
+https://github.com/vbskycn/iptv/blob/master/tv/jxdx_hd.m3u
+https://github.com/vbskycn/iptv/blob/master/tv/jxdx_hd.txt
+https://github.com/vbskycn/iptv/blob/master/tv/syn_local.py
 https://raw.githubusercontent.com/iptv-org/iptv/gh-pages/countries/cn.m3u
 https://raw.githubusercontent.com/iptv-org/iptv/master/streams/cn.m3u
 https://raw.githubusercontent.com/suxuang/myIPTV/main/ipv6.m3u
@@ -15,3 +22,4 @@ https://raw.githubusercontent.com/vbskycn/iptv/master/tv/iptv6.txt
 https://raw.githubusercontent.com/vbskycn/iptv/master/tv/iptv4.txt
 https://raw.githubusercontent.com/YueChan/Live/main/APTV.m3u
 https://raw.githubusercontent.com/YanG-1989/m3u/main/Gather.m3u
+https://github.com/vbskycn/iptv/blob/master/tv/hd.txt
