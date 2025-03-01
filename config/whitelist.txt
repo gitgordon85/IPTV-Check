@@ -2,3 +2,33 @@
 # 填写频道名称会直接保留该记录至最终结果，如：CCTV-1,接口地址，只填写接口地址则对所有频道生效，多条记录换行输入。
 # This is the whitelist of the interface or subscription source. The interface in the whitelist or the interface obtained by the subscription source will not participate in the speed measurement and will be prioritized in the result.
 # Filling in the channel name will directly retain the record to the final result, such as: CCTV-1,url, only fill in the interface address will be effective for all channels, multiple records newline input.
+TVB无线新闻,http://php.jdshipin.com:8880/smt.php?id=inews_twn
+TVB无线新闻,p3p://167.114.175.6:55331/653e4703000daead0c78dfb07723484e
+TVB无线新闻,http://aktv.top/AKTV/live/aktv2/null-1/AKTV.m3u8
+TVB无线新闻,p3p://108.181.32.169:19673/66c414110003f1f047eb7cb30cd84a38
+TVB无线新闻,http://ali.hlspull.yximgs.com/live/l3w1tt2dkzvpukkliu64ah006-golive.flv
+TVB无线新闻,http://cdn9.1689.us.kg/smt1.1.php?id=inews_twn
+TVB无线新闻,https://aktv.top/AKTV/live/aktv/null-1/AKTV.m3u8
+TVB无线新闻,http://grandprix2023.asuscomm.com:8892/bysid/83.m3u8
+TVB无线新闻,https://cdn.iptv8k.top/dl/jspd.php?id=2&time=20240926215313&ip=111.229.253.40$LR•IPV4『线路1』
+TVB无线新闻,http://php.jdshipin.com:8880/smt.php?id=inews_twn$LR•IPV4『线路4』
+翡翠台,http://php.jdshipin.com:8880/TVOD/iptv.php?id=fct
+翡翠台,http://php.jdshipin.com/TVOD/iptv.php?id=fct3
+翡翠台,p3p://167.114.175.6:55331/66c04cec000a20ac2dbf03c71cf661c9
+翡翠台,http://php.jdshipin.com/TVOD/iptv.php?id=fct4
+翡翠台,http://php.jdshipin.com:8880/smt.php?id=jade_twn
+翡翠台,http://cdn9.1689.us.kg/smt1.1.php?id=jade_twn
+翡翠台,http://ali.hlspull.yximgs.com/live/l3w1tt2dkzvpukkliu64ah005-golive.flv
+翡翠台,http://58.250.155.2:8180/TV00000000000000000032@HHZT
+翡翠台,http://php.jdshipin.com:8880/TVOD/iptv.php?id=fct3$LR•IPV4『线路3』
+翡翠台,http://php.jdshipin.com/TVOD/iptv.php?id=fct3$LR•IPV4『线路4』
+翡翠台,http://grandprix2023.asuscomm.com:8889/bysid/1.m3u8$LR•IPV4『线路5』
+翡翠台,http://tvdrs.wsrtv.com.cn:8100/channellive/ch1.flv$LR•IPV4『线路6』
+翡翠台,http://zw9999.cnstream.top:80/play/ubI0Nrlni6TwusjXuSxNxA5oJl8b5Icz-0MXK7POxcc/ts$LR•IPV4『线路7』
+翡翠台,https://stream1.freetv.fun/ba009d94229ed40a5d9289178463fba7aa31fb0622f8ab2d66c01147828743ab.m3u8$LR•IPV4『线路8』
+翡翠台,http://nz171l122.bb60246.ctm.net:8889/bysid/1.m3u8$LR•IPV4『线路10』
+翡翠台,http://beishan008.asuscomm.com:8889/bysid/1.m3u8$LR•IPV4『线路11』
+翡翠台,http://122.152.202.33/s/81a8a44f/index.m3u8?id=53$LR•IPV4『线路19』
+翡翠台,http://1b6467f415.iok.la:9931/tsfile/live/1007_1.m3u8$LR•IPV4『线路30』
+翡翠台,http://zw9999.cnstream.top:80/play/ubI0Nrlni6TwusjXuSxNxA5oJl8b5Icz-0MXK7POxcc/ts$LR•IPV4『线路31』
+翡翠台,http://fm1077.serv00.net/Smart.php?id=jade_twn$LR•IPV4『线路33』
