@@ -139,9 +139,7 @@
 凤凰卫视,http://cookies.elementfx.com/chaojidianshi/chaojidianshi.php?id=phoenixtv_hd
 凤凰卫视,https://stream1.freetv.fun/08e5440bb83a804440e341ae792cffc38d6844b04d5a2c7a4fc5ee04a6fe6bc6.m3u8
 翡翠台,http://aktv.top/AKTV/live/aktv/null/AKTV.m3u8
-翡翠台,https://cdn.iptv8k.top/dl/jrys.php?id=3&time=20240926215313&ip=111.229.253.40
 翡翠台,https://pi.0472.org/tv/fct.php?auth=230918
-翡翠台,http://tvdrs.wsrtv.com.cn:8100/channellive/ch1.flv
 翡翠台,http://119.125.134.206:9902/tsfile/live/1007_1.m3u8
 翡翠台,http://171.38.42.112:8181/tsfile/live/1049_1.m3u8
 翡翠台,http://119.125.134.225:9902/tsfile/live/1007_1.m3u8
