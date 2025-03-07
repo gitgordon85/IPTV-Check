@@ -5,6 +5,7 @@ http://api.y977.com/iptv.txt
 http://live.nctv.top/x.txt
 http://ww.weidonglong.com/dsj.txt
 http://xhztv.top/zbc.txt
+http://aktv.space/live.m3u
 https://fm1077.serv00.net/SmartTV.m3u
 https://raw.githubusercontent.com/YueChan/Live/main/APTV.m3u
 https://cdn.jsdelivr.net/gh/YueChan/live@main/IPTV.m3u
