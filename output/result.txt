@@ -635,10 +635,6 @@ myTV SUPER 18台,http://aktv_stream1.m16tv.cfd/stream/aktv/mytvsuper18/AKTV.m3u8
 無線新聞台,https://edge2a.v2h-cdn.com/news/news.stream/chunklist.m3u8
 無線新聞台,http://zb.xmzb.xyz/123.php?id=⚽马上oppppp一无线新闻
 無線新聞台,http://122.152.202.33/s/81a8a44f/index.m3u8?id=21
-無線新聞台(北美),http://aktv_stream1.m16tv.cfd/stream/aktv2/null-1/AKTV.m3u8
-無線新聞台(北美),https://edge2a.v2h-cdn.com/news/news.stream/chunklist.m3u8
-無線新聞台(北美),http://zb.xmzb.xyz/123.php?id=⚽马上oppppp一无线新闻
-無線新聞台(北美),http://122.152.202.33/s/81a8a44f/index.m3u8?id=21
 無線衛星新聞台,http://aktv_stream1.m16tv.cfd/stream/aktv3/null-2/AKTV.m3u8
 東森新聞,http://aktv_stream1.m16tv.cfd/stream/aktv2/null/AKTV.m3u8
 東森新聞,http://65.108.74.147:49366/iptv.php?key=gat2&id=23
