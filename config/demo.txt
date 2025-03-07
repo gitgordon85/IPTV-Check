@@ -76,9 +76,37 @@ TVBS欢乐
 TVBS亚洲  
 TVBS新闻  
 J2  
-翡翠台  
-明珠台  
-三立台湾  
+中天新聞台
+千禧經典台(HK)
+娛樂新聞台(HK)
+寰宇新聞台
+明珠剧集台(北美)
+明珠台
+無線新聞台
+美亞電影台(HK)
+翡翠剧集台(北美)
+翡翠台
+翡翠综合台(北美)
+鳳凰中文
+鳳凰資訊
+鳳凰香港
+黃金翡翠台
+无线新闻台(北美)
+東森新聞
+Animax(HK)
+DW
+France 24
+KIX
+NHK World-Japan
+NHK東京総合
+Nick Jr
+Nickelodeon
+Thrill
+Xite_Hits
+ZooMoo
+亞洲新聞台
+東方衛視國際頻道
+無線衛星新聞台
 无线新闻  
 三立新闻  
 纬来体育  
