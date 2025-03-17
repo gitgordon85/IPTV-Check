@@ -28,6 +28,8 @@ fi
 
 /usr/sbin/crond -b -L /tmp/dcron.log -l 4 &
 
+nginx -g 'daemon off;' &
+
 python $APP_WORKDIR/main.py &
 
 python -m gunicorn service.app:app -b 0.0.0.0:$APP_PORT --timeout=1000
