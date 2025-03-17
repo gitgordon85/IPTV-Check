@@ -34,8 +34,8 @@ jobs:
       #     context: .
       #     push: true
       #     tags: |
-      #       guovern/iptv-api:latest
-      #       guovern/iptv-api:${{ env.version }}
+      #       limi188/iptv-api:latest
+      #       limi188/iptv-api:${{ env.version }}
       #     platforms: linux/amd64,linux/arm64,linux/arm/v7
       #     build-args: |
       #       APP_WORKDIR=/iptv-api
@@ -47,7 +47,7 @@ jobs:
           context: .
           push: true
           tags: |
-            guovern/iptv-api:lite-test
+            limi188/iptv-api:lite-test
           platforms: linux/amd64,linux/arm64,linux/arm/v7
           build-args: |
             APP_WORKDIR=/iptv-api-lite
