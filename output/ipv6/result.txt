@@ -184,7 +184,7 @@ CCTV-12,http://z.b.bkpcp.top/m.php?id=CCTV-12社会与法社会与法
 CCTV-12,http://ip.lpop.cn:35455/gaoma/cctv12.m3u8
 CCTV-12,http://[2409:8087:1:20:20::29]/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226228/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7E2knJCFLHz_HqfBZXNGeA1A%7E_eNUbgU9sJGUcVVduOMKhafLvQUgE_zlz_7pvDimJNMIlZ5z7o_ym15iMooogSvj%2CEND
 CCTV-12,https://www.freetv.top/migu/673168185.m3u8?migutoken=37acadb43b1d7932b0a1e8a4f2d01a06b42a10c31f3ccb417bae200ac3028f30a8110509f2cd6cd130aee4b21c85693aa49817f3381e4d28e140d8db1a20b6fecea22fec17a70ff1341efe6081
-CCTV-12,http://[2409:8087:1a01:df::4077]:80/ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225731/index.m3u8
+CCTV-12,http://[2409:8087:1a01:df::4077]:80/ottrrs.hl.chinamobile.com/yinhe/88888888/224/3221225731/index.m3u8
 CCTV-12,https://tv.bfsu.edu.cn/hls/cctv12hd.m3u8
 CCTV-12,http://www.freetv.top/migu/673168185.m3u8?migutoken=21a3954b28c73a4240272889ec94c3318c23068f666c79e61379cb154a890e4e7e3c998a578b29a381972f128751898531cb713221ff95385afec91149321ad772e31489fa01e553c8223e976a
 CCTV-12,http://[2409:8087:74f0:22::4]:6410/270000001128/9900000509/index.m3u8?channel-id=newtv&livemode=4&Contentid=9900000509
@@ -211,7 +211,7 @@ CCTV-13,http://[2409:8087:74f0:22::4]:6410/270000001128/9900000510/index.m3u8?ch
 CCTV-13,http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226537/index.m3u8
 CCTV-14,https://event.pull.hebtv.com/jishi/cp2.m3u8#rtsp://103.251.96.71/PLTV/88888888/224/3221225783/10000100000000060000000000726027_0.smil?icpid=SSPID&amp;accounttype=1&amp;limitflux=-1&amp;limitdur=-1&amp;accountinfo=:20240213104135
 CCTV-14,http://php.jdshipin.com/TVOD/hljyd.php?id=3221225732
-CCTV-14,http://[2409:8087:1:20:20::26]/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226229/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7Ey_UgKg-uoDiTW1MNHptPg%7E_eNUbgU9sJGUcVVduOMKhafLvQUgE_zlz_7pvDimJNNLabf3bHEXv4444iiOs_Px%2CEND
+CCTV-14,http://[2409:8087:1:20:20::26]/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226229/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7Ey_UgKg-_uoDiTW1MNHptPg%7E_eNUbgU9sJGUcVVduOMKhafLvQUgE_zlz_7pvDimJNNLabf3bHEXv4444iiOs_Px%2CEND
 CCTV-14,https://www.freetv.top/migu/624878440.m3u8?migutoken=239edad94ac0bbff14f123c7f8996ed7639110bd6cf64ec8ba8cf85842224956d452ec8b683385cb27f8a7685224a03e3aa4d914b8fe33249da9df699351b105c795452d03f2be0a1f1e39adb0
 CCTV-14,http://[2409:8087:1a01:df::4077]:80/ottrrs.hl.chinamobile.com/yinhe/88888888/224/3221225732/index.m3u8
 CCTV-14,https://tv.bfsu.edu.cn/hls/cctv14hd.m3u8
@@ -424,7 +424,7 @@ CETV4,http://otttv.bj.chinamobile.com/PLTV/88888888/224/3221226997/1.m3u8?GuardE
 东南卫视,http://[2409:8087:74f0:22::4]:6610/270000001128/9900000519/index.m3u8?channel-id=newtv&livemode=4&Contentid=9900000519
 东南卫视,http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226341/index.m3u8%E4%B8%9C%E5%8D%97%E5%8D%AB%E8%A7%86
 东南卫视,http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010096/index.m3u8
-东南卫视,http://[2409:8087:3869:8021:1001::e5]:6610/PLTV/88888888/224/3221225657/2/index.m3u8
+东南卫视,http://[2409:8087:3869:8021:1001::e5]:6610/PLTV/88888910/224/3221225585/index.m3u8?fmt=ts2hls
 东南卫视,http://[2409:8087:2001:20:2800:0:df6e:eb0a]/wh7f454c46tw2900649569_-743777193/ott.mobaibox.com/PLTV/3/224/3221227670/index.m3u8?icpid=3&RTS=1669701501&from=40&popid=40&hms_devid=2038&prioritypopid=40&vqe=3
 东南卫视,http://[2409:8087:2001:20:2800:0:df6e:eb21]:80/wh7f454c46tw91318118_1728721263/ott.mobaibox.com/PLTV/3/224/3221228428/index.m3u8?icpid=3&RTS=1674371616&from=40&popid=40&hms_devid=2290&prioritypopid=40&vqe=3
 东南卫视,http://[2409:8087:1e03:21::2]:6060/cms001/ch00000090990000001201/index.m3u8
@@ -900,7 +900,7 @@ CCTV-5+,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225603/index.m3u8
 魅力足球,http://goo.bkpcp.top/mg/mlzq
 魅力足球,https://www.freetv.top/migu/796070308.m3u8?migutoken=0a72668399c6f96d928c0bf0adbe330bbae95b55cfc10f2da9e830e2e06051b89a0e1db847eaa61f6b897e3efcb05ecc6160c2ce3c8073fb2d90c8ed191845e1ca16f6bcd3aaa13f6538d2074d
 快乐垂钓,http://php.jdshipin.com/itv6.php?cid=bestzb&id=5000000011000031206
-快乐垂钓,http://[2409:8087:1:20:20::2c]/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226549/1.m3u8?GuardEncType=2&accountinfo=~~V2.0RHz0NOpqUZZN1Iz6lVLkkg_eNUbgU9sJGUcVVduOMKhafLvQUgE_zlz_7pvDimJNNSiF8rKF1Pn2LepKMJ2cEG%2CEND
+快乐垂钓,http://[2409:8087:1:20:20::2c]/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226549/1.m3u8?GuardEncType=2&accountinfo=~~V2.0~RHz0NOpqUZZN1Iz6lVLkkg~_eNUbgU9sJGUcVVduOMKhafLvQUgE_zlz_7pvDimJNNSiF8rKF1Pn2LepKMJ2cEG%2CEND
 JJ斗地主,http://live.iill.top/bilibili.php?id=22021983
 JJ斗地主,https://live.iill.top/bilibili/22021983
 
@@ -958,4 +958,4 @@ JJ斗地主,https://live.iill.top/bilibili/22021983
 上海滩,http://luobo.bkpcp.top/yy/1382745184
 
 🕘️更新时间,#genre#
-2025-03-17 18:40:52,http://php.jdshipin.com:8880/TVOD/iptv.php?id=rthk33
+2025-03-18 06:36:27,http://php.jdshipin.com:8880/TVOD/iptv.php?id=rthk33
