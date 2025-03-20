@@ -52,7 +52,7 @@ RUN mkdir -p /var/log/nginx && \
 
 RUN apk update && apk add --no-cache dcron ffmpeg pcre
 
-EXPOSE $APP_PORT 8080
+EXPOSE $APP_PORT 8080 1935
 
 COPY entrypoint.sh /iptv-api-entrypoint.sh
 

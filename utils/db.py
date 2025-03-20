@@ -12,7 +12,7 @@ class SQLitePool:
             self.pool.append(self._create_connection())
 
     def _create_connection(self):
-        return sqlite3.connect(self.db_path)
+        return sqlite3.connect(self.db_path, check_same_thread=False)
 
     def get_connection(self):
         with self.lock:
