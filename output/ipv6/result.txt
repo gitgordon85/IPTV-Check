@@ -1,5 +1,5 @@
 🕘️更新时间,#genre#
-2025-03-31 02:51:36,http://nas.suntao.online:35455/gaoma/cctv1.m3u8
+2025-03-31 14:55:00,http://nas.suntao.online:35455/gaoma/cctv1.m3u8
 
 央视频道,#genre#
 CCTV1综合,http://nas.suntao.online:35455/gaoma/cctv1.m3u8
