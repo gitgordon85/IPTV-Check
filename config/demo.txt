@@ -16,6 +16,7 @@ CCTV14少儿
 CCTV15音乐
 CCTV16奥林匹克
 CCTV17农业农村
+CGTN英语
 CGTN俄语
 CGTN法语
 CGTN西语
