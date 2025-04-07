@@ -2301,8 +2301,14 @@ https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV32.m3u8
 http://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_5.m3u8?zshijd
 #EXTINF:-1 tvg-name="NOW直播台" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/main/tv/NOW直播台.png" group-title="港·澳·台",NOW直播台
 http://a.vb.cc.ua/now/331/master.m3u8
+#EXTINF:-1 tvg-name="NOW直播台" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/main/tv/NOW直播台.png" group-title="港·澳·台",NOW直播台
+http://a.ru8.dpdns.org/now/331/master.m3u8
 #EXTINF:-1 tvg-name="NOW财经台" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/main/tv/NOW财经台.png" group-title="港·澳·台",NOW财经台
 http://a.vb.cc.ua/now/333/master.m3u8
+#EXTINF:-1 tvg-name="NOW财经台" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/main/tv/NOW财经台.png" group-title="港·澳·台",NOW财经台
+http://a.ru8.dpdns.org/now/333/master.m3u8
+#EXTINF:-1 tvg-name="NOW新闻台" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/main/tv/NOW新闻台.png" group-title="港·澳·台",NOW新闻台
+http://a.ru8.dpdns.org/now/332/master.m3u8
 #EXTINF:-1 tvg-name="TVB+" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/main/tv/TVB+.png" group-title="港·澳·台",TVB+
 http://cdn.163189.xyz/live/tvbp/stream.m3u8
 #EXTINF:-1 tvg-name="TVB星河" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/main/tv/TVB星河.png" group-title="港·澳·台",TVB星河

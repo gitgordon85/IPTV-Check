@@ -1212,7 +1212,10 @@ CETV4,http://[2409:8087:1a0b:df::4020]:80/ottrrs.hl.chinamobile.com/PLTV/8888888
 三立新闻,https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV32.m3u8
 TVBS亚洲,http://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_5.m3u8?zshijd
 NOW直播台,http://a.vb.cc.ua/now/331/master.m3u8
+NOW直播台,http://a.ru8.dpdns.org/now/331/master.m3u8
 NOW财经台,http://a.vb.cc.ua/now/333/master.m3u8
+NOW财经台,http://a.ru8.dpdns.org/now/333/master.m3u8
+NOW新闻台,http://a.ru8.dpdns.org/now/332/master.m3u8
 TVB+,http://cdn.163189.xyz/live/tvbp/stream.m3u8
 TVB星河,http://php.jdshipin.com/TVOD/iptv.php?id=xinghe
 TVB星河,http://v2h.jdshipin.com/xinghe_1/xinghe_1.stream/chunklist_w106.m3u8
