@@ -526,6 +526,7 @@ def format_name(name: str) -> str:
     """
     cc = OpenCC("t2s")
     name = cc.convert(name)
+    name = re.sub(r"\(.*?\)|\[.*?\]", "", name)
     for region in constants.region_list:
         name = name.replace(f"{region}｜", "")
     name = constants.sub_pattern.sub("", name)
