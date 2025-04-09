@@ -1,5 +1,5 @@
 央视频道,#genre#
-CCTV1综合,http://nas.suntao.online:35455/gaoma/cctv1.m3u8
+CCTV1综合,http://nas.suntao.online:35455/itv/1000000005000265001.m3u8?cdn=ystenlive
 CCTV1综合,http://z.b.bkpcp.top/m.php?id=cctv1
 CCTV1综合,http://goo.bkpcp.top/mg/cctv1
 CCTV1综合,http://php.jdshipin.com:8880/TVOD/iptv.php?id=rthk33
@@ -9,7 +9,7 @@ CCTV1综合,https://www.freetv.top/migu/608807420.m3u8?migutoken=5b04cf0d91179ab
 CCTV1综合,http://[2409:8087:1:20:20::29]/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226895/1.m3u8?servicetype=1&accountinfo=%7E%7EV2.0%7EI0Rkc6neBYgfpoJ1yud8Fw%7EPepnxHHB2d6Hk2dZWM77MyFlBN5q1KnYLvimM9pqT7Epd7QgO4HFWH0z34SUb2Vs%7EExtInfo9bj61dxzlMXrsixrqcFYPg%3A20240420192714%2C%2C%2C20240420192714%2C%2C10001000275495%2C-1%2C0%2C1%2C-1%2C%2C2%2C2201300%2C%2C%2C2%2C%2C%2CEND&GuardEncType=2
 CCTV1综合,http://zjzcf.synology.me:35455/gaoma/cctv1.m3u8
 CCTV1综合,http://[2409:8087:1a01:df::4077]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226016/1.m3u8?icpid=88888888&from=1&hms_devid=1012&vqe=3
-CCTV2财经,http://nas.suntao.online:35455/gaoma/cctv2.m3u8
+CCTV2财经,http://nas.suntao.online:35455/itv/1000000001000023315.m3u8?cdn=ystenlive
 CCTV2财经,http://z.b.bkpcp.top/m.php?id=cctv2
 CCTV2财经,http://goo.bkpcp.top/mg/cctv2
 CCTV2财经,http://php.jdshipin.com/TVOD/hljyd.php?id=3221225588
@@ -19,7 +19,7 @@ CCTV2财经,https://www.freetv.top/migu/631780532.m3u8?migutoken=0bbd368e56ca239
 CCTV2财经,http://www.freetv.top/migu/631780532.m3u8?migutoken=d69d5e5f850768f4609f5e7c6f63984da2c614f71e21226d8dea3a6e40d20f871ca2d383cd042bac96e3e8178933a15192f0ffaef2e700eb95de835faecc0bb802bd0c50099bf3d1abe4ea5174
 CCTV2财经,http://zjzcf.synology.me:35455/gaoma/cctv2.m3u8
 CCTV2财经,http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226540/index.m3u8
-CCTV3综艺,http://nas.suntao.online:35455/gaoma/cctv3.m3u8
+CCTV3综艺,http://nas.suntao.online:35455/itv/1000000005000265003.m3u8?cdn=ystenlive
 CCTV3综艺,http://z.b.bkpcp.top/m.php?id=cctv3
 CCTV3综艺,http://goo.bkpcp.top/mg/cctv3
 CCTV3综艺,http://php.jdshipin.com/TVOD/hljyd.php?id=3221226021
@@ -29,7 +29,7 @@ CCTV3综艺,http://zjzcf.synology.me:35455/gaoma/cctv3.m3u8
 CCTV3综艺,https://www.freetv.top/migu/624878271.m3u8?migutoken=35ee1318e92e1d47aa4e9ad2f98c1ca771a9ca57db36d1e18c3a4fabedd68b40ee0c4c4724347e54708380241e58d714dde21dcbd0f2eff4373c9d9f7f1508646f22febd08f5c3a8c755f6ef1e
 CCTV3综艺,http://www.freetv.top/migu/624878271.m3u8?migutoken=21306af96cf9259457600792df858b0d339bc7203aeb7e1a6ee6ec6ec3832a2736936029fe2583dcf971676870fdf0afbdee5be786e50af2ac6a8825673cc860d7988f44d0c5c4bc1931259698
 CCTV3综艺,http://[2409:8087:1a01:df::4077]:80/ottrrs.hl.chinamobile.com/yinhe/88888888/224/3221226021/index.m3u8
-CCTV4中文国际,http://nas.suntao.online:35455/gaoma/cctv4k.m3u8
+CCTV4中文国际,http://nas.suntao.online:35455/itv/1000000005000265004.m3u8?cdn=ystenlive
 CCTV4中文国际,http://z.b.bkpcp.top/m.php?id=CCTV-4国际
 CCTV4中文国际,http://goo.bkpcp.top/mg/cctv4
 CCTV4中文国际,http://php.jdshipin.com:8880/bst2.php?id=cctv4k/15000000
@@ -39,7 +39,7 @@ CCTV4中文国际,http://yc.myds.me:35455/itv/1000000005000265004.m3u8?cdn=ysten
 CCTV4中文国际,https://www.freetv.top/migu/631780421.m3u8?migutoken=fefc6a44400a0dd448699ae0ce3d6e2c5a0f49b8d48adb36e747c4fbab039337eb3244f9951acbddaf26b7bf51597a7d1b43c8845e67fd5914ece875dcad325bb388200bc0f12fdff727d03e2d
 CCTV4中文国际,http://[2409:8087:1a01:df::4077]:80/ottrrs.hl.chinamobile.com/yinhe/88888888/8/3221226007/index.m3u8
 CCTV4中文国际,http://www.freetv.top/migu/631780421.m3u8?migutoken=7acf39385ea80b0efa77b918418fcf998d00455e8b98e02dff92961440d989e3b7da00ef24731d327c410f2ef9ceb51e2137c20b2b606646542ce4643521747bf78b7533b3ec604bba63ffdf43
-CCTV5体育,http://nas.suntao.online:35455/gaoma/cctv5.m3u8
+CCTV5体育,http://nas.suntao.online:35455/itv/1000000005000025222.m3u8?cdn=ystenlive
 CCTV5体育,http://z.b.bkpcp.top/m.php?id=cctv5
 CCTV5体育,http://goo.bkpcp.top/mg/cctv5
 CCTV5体育,http://php.jdshipin.com/TVOD/hljyd.php?id=3221226019
@@ -59,7 +59,7 @@ CCTV6电影,http://iptv.huuc.edu.cn/hls/cctv6hd.m3u8
 CCTV6电影,https://www.freetv.top/migu/624878396.m3u8?migutoken=ee6c3d925888b2938ca61a2c94d84986ff15ec0fedd3e1e35bcf4ffada20fbeead007033b33efc350632bb959d9bee9da36bac91ec304513f63032fb12e8f570416fc533ede1c4ef94197eb07c
 CCTV6电影,http://www.freetv.top/migu/624878396.m3u8?migutoken=3adcad950884d4ecc6c6967edee9c162189a1e09480eb5c29b369864aeedaed43c3f951d7eb6c32d86baac49792aacb3264b8f074e746477064fd7b1f172f00a9d84373825617d4366e8c54f0c
 CCTV6电影,http://[2409:8087:74f0:22::4]:6410/270000001111/1110000307/index.m3u8?channel-id=newtv&livemode=4&Contentid=1110000307
-CCTV7国防军事,http://nas.suntao.online:35455/gaoma/cctv7.m3u8
+CCTV7国防军事,http://nas.suntao.online:35455/itv/1000000001000024341.m3u8?cdn=ystenlive
 CCTV7国防军事,http://z.b.bkpcp.top/m.php?id=cctv7
 CCTV7国防军事,http://goo.bkpcp.top/mg/cctv7
 CCTV7国防军事,http://php.jdshipin.com/TVOD/hljyd.php?id=3221225733
@@ -69,7 +69,7 @@ CCTV7国防军事,http://[2409:8087:1a01:df::4077]/ottrrs.hl.chinamobile.com/PLT
 CCTV7国防军事,http://[2409:8087:1:20:20::29]/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226946/1.m3u8?servicetype=1&accountinfo=%7E%7EV2.0%7E2bEV_zkW1hRnWmsZq6rlbw%7EPepnxHHB2d6Hk2dZWM77MyFlBN5q1KnYLvimM9pqT7Fc_MEUOVd0CBbc2BFzAJH_%7EExtInfo9bj61dxzlMXrsixrqcFYPg%3A20240420192548%2C%2C%2C20240420192548%2C%2C10001000275495%2C-1%2C0%2C1%2C-1%2C%2C2%2C2201300%2C%2C%2C2%2C%2C%2CEND&GuardEncType=2
 CCTV7国防军事,https://www.freetv.top/migu/673168121.m3u8?migutoken=44446ab398991313e6a822efdaec82f3b845a2e8f141c172aa857c477255724bbb28fc01d33f764c51106c446af1c57e8815b58822075b194f4cf55cde28fe55f54330d4586c92e75e8aa50a48
 CCTV7国防军事,http://[2409:8087:74f0:22::4]:6410/270000001128/9900000504/index.m3u8?channel-id=newtv&livemode=4&Contentid=9900000504
-CCTV8电视剧,http://nas.suntao.online:35455/gaoma/cctv8k_36m.m3u8
+CCTV8电视剧,http://nas.suntao.online:35455/itv/1000000005000265008.m3u8?cdn=ystenlive
 CCTV8电视剧,http://z.b.bkpcp.top/m.php?id=cctv8
 CCTV8电视剧,http://goo.bkpcp.top/mg/cctv8
 CCTV8电视剧,http://php.jdshipin.com/TVOD/hljyd.php?id=3221226008
@@ -79,7 +79,7 @@ CCTV8电视剧,https://www.freetv.top/migu/624878356.m3u8?migutoken=170b73b07e0c
 CCTV8电视剧,http://[2409:8087:1a01:df::4077]:80/ottrrs.hl.chinamobile.com/yinhe/88888888/224/3221226008/index.m3u8
 CCTV8电视剧,http://zjzcf.synology.me:35455/gaoma/cctv8.m3u8
 CCTV8电视剧,http://[2409:8087:1a01:df::4051]:80/TVOD/88888888/224/3221225795/main.m3u8
-CCTV9纪录,http://nas.suntao.online:35455/gaoma/cctv9.m3u8
+CCTV9纪录,http://nas.suntao.online:35455/itv/1000000001000014583.m3u8?cdn=ystenlive
 CCTV9纪录,http://z.b.bkpcp.top/m.php?id=cctv9
 CCTV9纪录,http://goo.bkpcp.top/mg/cctv9
 CCTV9纪录,http://php.jdshipin.com/TVOD/hljyd.php?id=3221225734
@@ -89,7 +89,7 @@ CCTV9纪录,http://[2409:8087:1a01:df::4077]:80/ottrrs.hl.chinamobile.com/yinhe/
 CCTV9纪录,http://zjzcf.synology.me:35455/gaoma/cctv9.m3u8
 CCTV9纪录,http://[2409:8087:1:20:20::29]/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226944/1.m3u8?servicetype=1&accountinfo=%7E%7EV2.0%7EgdZMBjOTdDWVEgovFkZoew%7EPepnxHHB2d6Hk2dZWM77MyFlBN5q1KnYLvimM9pqT7EqTu3rtglooDaG_6P7QG0G%7EExtInfo9bj61dxzlMXrsixrqcFYPg%3A20240420192550%2C%2C%2C20240420192550%2C%2C10001000275495%2C-1%2C0%2C1%2C-1%2C%2C2%2C2201300%2C%2C%2C2%2C%2C%2CEND&GuardEncType=2
 CCTV9纪录,http://iptv.huuc.edu.cn/hls/cctv9hd.m3u8
-CCTV10科教,http://nas.suntao.online:35455/gaoma/cctv10.m3u8
+CCTV10科教,http://nas.suntao.online:35455/itv/1000000001000023734.m3u8?cdn=ystenlive
 CCTV10科教,http://z.b.bkpcp.top/m.php?id=CCTV-10科教科教
 CCTV10科教,http://goo.bkpcp.top/mg/cctv10
 CCTV10科教,http://[2409:8087:1:20:20::29]/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226937/1.m3u8?servicetype=1&accountinfo=%7E%7EV2.0%7Egbbk6OxyTS2utbJWm7Qw1w%7EPepnxHHB2d6Hk2dZWM77MyFlBN5q1KnYLvimM9pqT7G2pNzf8WZUYdQj6fRj0xqk%7EExtInfo9bj61dxzlMXrsixrqcFYPg%3A20240420192551%2C%2C%2C20240420192551%2C%2C10001000275495%2C-1%2C0%2C1%2C-1%2C%2C2%2C2201300%2C%2C%2C2%2C%2C%2CEND&GuardEncType=2
@@ -109,7 +109,7 @@ CCTV11戏曲,http://yc.myds.me:35455/itv/1000000005000265011.m3u8?cdn=ystenlive
 CCTV11戏曲,http://[2409:8087:1a01:df::4077]:80/ottrrs.hl.chinamobile.com/yinhe/88888888/224/3221225597/index.m3u8
 CCTV11戏曲,https://www.freetv.top/migu/667987558.m3u8?migutoken=0960d7e074be53abeacd988e7daaca6d1477b1f255f98a01c33c7adf74ac246fe65a23451c3cff9b1203a6285cec778b6d488bd805e9d2433abe3ca23eb24e4f2a5f36bba821773558e1dec231
 CCTV11戏曲,http://[2409:8087:74f0:22::4]:6410/270000001128/9900000508/index.m3u8?channel-id=newtv&livemode=4&Contentid=9900000508
-CCTV12社会与法,http://nas.suntao.online:35455/gaoma/cctv12.m3u8
+CCTV12社会与法,http://nas.suntao.online:35455/itv/1000000001000032494.m3u8?cdn=ystenlive
 CCTV12社会与法,http://z.b.bkpcp.top/m.php?id=CCTV-12社会与法社会与法
 CCTV12社会与法,http://goo.bkpcp.top/mg/cctv12
 CCTV12社会与法,http://php.jdshipin.com/TVOD/hljyd.php?id=3221225731
@@ -129,7 +129,7 @@ CCTV13新闻,https://ldncctvwbcdcnc.v.wscdns.com/ldncctvwbcd/cdrmldcctv13_1/inde
 CCTV13新闻,http://[2409:8087:1:20:20::29]/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226316/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EqHPe9pEEWJ00hz1ArnRZVA%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND
 CCTV13新闻,http://[2409:8087:1:20:20::2a]/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226446/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EU-IJJyzlYeEElWsacI4JKw%7E_eNUbgU9sJGUcVVduOMKhafLvQUgE_zlz_7pvDimJNMT7DWkynQtRPzNDJCOY_C_%2CEND
 CCTV13新闻,http://yc.myds.me:35455/itv/5000000011000031108.m3u8?cdn=bestzb
-CCTV14少儿,http://nas.suntao.online:35455/gaoma/cctv14.m3u8
+CCTV14少儿,http://nas.suntao.online:35455/itv/1000000001000008170.m3u8?cdn=ystenlive
 CCTV14少儿,http://z.b.bkpcp.top/m.php?id=cctv14
 CCTV14少儿,http://goo.bkpcp.top/mg/cctv14
 CCTV14少儿,https://event.pull.hebtv.com/jishi/cp2.m3u8#rtsp://103.251.96.71/PLTV/88888888/224/3221225783/10000100000000060000000000726027_0.smil?icpid=SSPID&amp;accounttype=1&amp;limitflux=-1&amp;limitdur=-1&amp;accountinfo=:20240213104135
@@ -139,7 +139,7 @@ CCTV14少儿,http://yc.myds.me:35455/itv/1000000001000008170.m3u8?cdn=ystenlive
 CCTV14少儿,https://www.freetv.top/migu/624878440.m3u8?migutoken=239edad94ac0bbff14f123c7f8996ed7639110bd6cf64ec8ba8cf85842224956d452ec8b683385cb27f8a7685224a03e3aa4d914b8fe33249da9df699351b105c795452d03f2be0a1f1e39adb0
 CCTV14少儿,http://[2409:8087:1a01:df::4077]:80/ottrrs.hl.chinamobile.com/yinhe/88888888/224/3221225732/index.m3u8
 CCTV14少儿,http://www.freetv.top/migu/624878440.m3u8?migutoken=303d044cf07163e1e2e8e4ecc8b6696ed836301cf573b626d3c00ec50cd362cc5e6a93afc2fd102cb883155554597d14eaa697edc9b0a30e56fc0115f81d8fbb8b87129e5bedad7d2173178f03
-CCTV15音乐,http://nas.suntao.online:35455/gaoma/cctv15.m3u8
+CCTV15音乐,http://nas.suntao.online:35455/itv/1000000005000265014.m3u8?cdn=ystenlive
 CCTV15音乐,http://z.b.bkpcp.top/m.php?id=cctv15
 CCTV15音乐,http://goo.bkpcp.top/mg/cctv15
 CCTV15音乐,http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221225641/index.m3u8
@@ -149,7 +149,7 @@ CCTV15音乐,http://yc.myds.me:35455/itv/1000000005000265014.m3u8?cdn=ystenlive
 CCTV15音乐,https://www.freetv.top/migu/673168223.m3u8?migutoken=4e8d5766579c6bef231494cabd07e5b49d965804790214280c9791e4c331fd90311cb62ea43d3a1899229bfa57be4afe5a567b32a6b78153fc9a9801e28a39435e078b48c211e71d6083519be4
 CCTV15音乐,http://[2409:8087:1a01:df::4077]:80/ottrrs.hl.chinamobile.com/yinhe/88888888/224/3221225601/index.m3u8
 CCTV15音乐,http://[2409:8087:1a01:df::4033]:80/TVOD/88888888/224/3221226127/main.m3u8
-CCTV16奥林匹克,http://nas.suntao.online:35455/gaoma/cctv16.m3u8
+CCTV16奥林匹克,http://nas.suntao.online:35455/itv/1000000006000233002.m3u8?cdn=ystenlive
 CCTV16奥林匹克,http://php.jdshipin.com:8880/bst2.php?id=cctv16hd4k/15000000
 CCTV16奥林匹克,http://[2409:8087:1:20:20::2a]/otttv.bj.chinamobile.com/PLTV/88888888/224/3221227002/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EX9goLRw26BM_r54des2PAw%7E_eNUbgU9sJGUcVVduOMKhafLvQUgE_zlz_7pvDimJNPt5W7-RovMDpE-7B-0PhHw%2CEND
 CCTV16奥林匹克,http://livetv.wqwqwq.sbs/gaoma/cctv4k16.m3u8
@@ -159,7 +159,7 @@ CCTV16奥林匹克,http://[2409:8087:1a01:df::4077]:80/ottrrs.hl.chinamobile.com
 CCTV16奥林匹克,http://[2409:8087:74f0:22::4]:6410/270000001128/9900000016/index.m3u8?channel-id=newtv&livemode=4&Contentid=9900000016
 CCTV16奥林匹克,http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226100/index.m3u8
 CCTV16奥林匹克,http://[2409:8087:3869:8021:1001::e5]:6610/PLTV/88888910/224/3221226230/index.m3u8
-CCTV17农业农村,http://nas.suntao.online:35455/gaoma/cctv17.m3u8
+CCTV17农业农村,http://nas.suntao.online:35455/itv/1000000006000268004.m3u8?cdn=ystenlive
 CCTV17农业农村,http://z.b.bkpcp.top/m.php?id=cctv17
 CCTV17农业农村,http://goo.bkpcp.top/mg/cctv17
 CCTV17农业农村,http://php.jdshipin.com/TVOD/hljyd.php?id=3221225765
@@ -697,6 +697,7 @@ CETV4,http://[2409:8087:1a0b:df::4020]:80/ottrrs.hl.chinamobile.com/PLTV/8888888
 北京新闻,http://[2409:8087:1:20:20::2a]/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226437/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EncK5uEAdYwWMsf8WJWI1mQ%7E_eNUbgU9sJGUcVVduOMKhafLvQUgE_zlz_7pvDimJNO_LSIQh_h2P54Cz-MqgJqC%2CEND
 北京新闻,http://yc.myds.me:35455/bptv/10000100000000050000000003870780.m3u8
 北京新闻,https://brtv-radiolive.rbc.cn/alive/fm945.m3u8
+北京新闻,http://nas.suntao.online:35455/bptv/10000100000000050000000003870780.m3u8
 北京生活,http://[2409:8087:1:20:20::2a]/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226514/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7Es-PVNcPJsjr_oBdcXGT40g%7E_eNUbgU9sJGUcVVduOMKhafLvQUgE_zlz_7pvDimJNMWvZ0r6eMXcXJOGrCpJiq1%2CEND
 北京财经,http://[2409:8087:1:20:20::2a]/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226516/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7Eh9_SEkmWeMdS1TMnIILZgg%7E_eNUbgU9sJGUcVVduOMKhafLvQUgE_zlz_7pvDimJNPIiicEW7OIvk1s-X-PXHqO%2CEND
 
