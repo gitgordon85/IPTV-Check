@@ -1,8 +1,8 @@
 name: 'Update schedule'
 
 on:
-  schedule:
-    - cron: '0 22,10 * * *'
+  #schedule:
+    #- cron: '0 22,10 * * *'
   workflow_dispatch:
     branches:
       - master
@@ -37,6 +37,21 @@ jobs:
           except:
             open_driver = False
           print(open_driver)')" >> $GITHUB_ENV
+      
+      - name: 检测测速配置
+        id: open_speed_test
+        run: |
+          echo "OPEN_SPEED_TEST=$(python -c '
+          try:
+            from utils.config import config
+            open_speed_test = config.open_speed_test
+          except:
+            open_speed_test = False
+          print(open_speed_test)')" >> $GITHUB_ENV
+      
+      
+      
+      
       - name: Set up Chrome
         if: env.OPEN_DRIVER == 'True'
         uses: browser-actions/setup-chrome@latest
@@ -46,6 +61,7 @@ jobs:
         if: env.OPEN_DRIVER == 'True'
         uses: nanasess/setup-chromedriver@master
       - name: Install FFmpeg
+        if: env.OPEN_SPEED_TEST == 'True'
         run: sudo apt-get update && sudo apt-get install -y ffmpeg
       - name: Install pipenv
         run: pip3 install --user pipenv
