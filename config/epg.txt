@@ -3,5 +3,8 @@
 
 http://epg.51zmt.top:8000/e.xml
 https://e.erw.cc/e.xml
-https://raw.githubusercontent.com/fanmingming/live/main/e.xml
+https://raw.bgithub.xyz/fanmingming/live/main/e.xml
 https://assets.livednow.com/epg.xml
+https://epg.pw/xmltv/epg_CN.xml
+https://epg.pw/xmltv/epg_HK.xml
+https://epg.pw/xmltv/epg_TW.xml
