@@ -47,7 +47,7 @@ def parse_epg(epg_content):
             channel_elem, 'title', attrib={"lang": "zh"})
         channel_elem_s.text = channel_text
         programmes[channel_id].append(channel_elem)
-
+    print(channels)
     return channels, programmes
 
 
