@@ -88,8 +88,8 @@ async def get_epg(names=None, callback=None):
                     channels, programmes = parse_epg(content)
                     for channel_id, display_name in channels.items():
                         display_name = format_channel_name(display_name)
-                        if names and display_name not in names:
-                            continue
+                        #if names and display_name not in names:
+                            #continue
                         if channel_id not in all_result_verify and display_name not in all_result_verify:
                             if not channel_id.isdigit():
                                 all_result_verify.add(channel_id)
