@@ -52,6 +52,7 @@ def parse_epg(epg_content):
 
 
 async def get_epg(names=None, callback=None):
+    print(names)
     urls = get_urls_from_file(constants.epg_path)
     if not os.getenv("GITHUB_ACTIONS") and config.cdn_url:
         urls = [join_url(config.cdn_url, url) if "raw.bgithub.xyz" in url else url
