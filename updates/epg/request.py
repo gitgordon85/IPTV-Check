@@ -54,7 +54,7 @@ def parse_epg(epg_content):
 async def get_epg(names=None, callback=None):
     urls = get_urls_from_file(constants.epg_path)
     if not os.getenv("GITHUB_ACTIONS") and config.cdn_url:
-        urls = [join_url(config.cdn_url, url) if "raw.githubusercontent.com" in url else url
+        urls = [join_url(config.cdn_url, url) if "raw.bgithub.xyz" in url else url
                 for url in urls]
     urls_len = len(urls)
     pbar = tqdm_asyncio(
@@ -108,6 +108,7 @@ async def get_epg(names=None, callback=None):
 
     with ThreadPoolExecutor(max_workers=10) as executor:
         for epg_url in urls:
+            print(epg_url)
             executor.submit(process_run, epg_url)
     session.close()
     pbar.close()
