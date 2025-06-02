@@ -28,8 +28,6 @@ https://tv.iill.top/m3u/Gather
 http://8.138.7.223/51.txt
 https://live.izbds.com/tv/iptv4.txt
 https://live.izbds.com/tv/iptv6.txt
-https://live.zbds.top/tv/iptv6.txt
-https://live.zbds.top/tv/iptv4.txt
 https://gitee.com/kdsb/lm/raw/master/2025
 https://raw.githubusercontent.com/xiaolvdouya/zhiboyuan/main/DIYP%20fanmingming.txt
 https://raw.githubusercontent.com/Guovin/iptv-api/refs/heads/gd/output/result.txt
@@ -43,12 +41,8 @@ http://home.jundie.top:81/Cat/tv/live.txt
 https://raw.githubusercontent.com/xmbjm/IPTV/refs/heads/master/output/user_result.txt
 http://live.nctv.top/x.txt
 http://www.lyyytv.cn/yt/zhibo/1.txt
-https://www.cccimg.com/down.php/9666e18d47e77f9d9da033f1015010ab.txt
 https://raw.githubusercontent.com/xiongjian83/TvBox/refs/heads/main/live.txt
-http://47.120.41.246:8899/zb.txt
 http://f225785a.80.robot.bwbot.org/publish/tv/-/raw/gd/result.txt
-https://iptv.b2og.com/txt/fmml_ipv6.txt
-https://cdn.jsdelivr.net/gh/suxuang/myIPTV@main/ipv6.m3u
 https://www.cloudplains.cn/result.txt
 https://cloudplains.github.io/jnsj/result.txt
 https://cdn.jsdelivr.net/gh/joevess/IPTV@main/home.m3u8
@@ -63,7 +57,7 @@ https://raw.githubusercontent.com/vbskycn/iptv/master/tv/hd.txt
 
 # 以下邢学斌整理
 https://ygbh.site/php/bhzb.php
-http://aktv.top/live.txt
+
 https://gitee.com/jin-xueling/cinematography/raw/master/json.txt
 https://tv.iill.top/m3u/Gather
 https://tv.iill.top/m3u/Live
@@ -132,4 +126,4 @@ https://m3u.ibert.me/txt/fmml_ipv6.txt
 https://m3u.ibert.me/txt/ycl_iptv.txt
 https://m3u.ibert.me/txt/y_g.txt
 https://gitee.com/xxy002/zhiboyuan/raw/master/dsy
-https://github.com/ssili126/tv/blob/main/itvlist.txt
+https://raw.githubusercontent.com/ssili126/tv/refs/heads/main/itvlist.m3u
