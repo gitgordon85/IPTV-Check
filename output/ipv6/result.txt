@@ -13,119 +13,75 @@
 
 📺央视频道,#genre#
 CCTV-1,http://goo.bkpcp.top/mg/cctv1$备用源
-CCTV-1,http://web9916.w.computerqwq.cf/jzb.php
 CCTV-2,http://goo.bkpcp.top/mg/cctv2$备用源
-CCTV-2,http://web9916.w.computerqwq.cf/jzb.php
 CCTV-2,http://web9916.w.computerqwq.cf/jzb.php?id=cctv2&公众号【医工学习日志】$LR•IPV4『线路33』
 CCTV-3,http://goo.bkpcp.top/mg/cctv3$备用源
-CCTV-3,http://web9916.w.computerqwq.cf/jzb.php
-CCTV-3,http://web9916.w.computerqwq.cf/jzb.php?id=cctv3&公众号【医工学习日志】$LR•IPV4『线路40』
+CCTV-3,http://web9916.w.computerqwq.cf/jzb.php?id=cctv3&公众号【医工学习日志】$LR•IPV4『线路41』
 CCTV-4,http://goo.bkpcp.top/mg/cctv4$备用源
-CCTV-4,http://web9916.w.computerqwq.cf/jzb.php
 CCTV-5,http://goo.bkpcp.top/mg/cctv5$备用源
-CCTV-5,http://web9916.w.computerqwq.cf/jzb.php
-CCTV-5,http://web9916.w.computerqwq.cf/jzb.php?id=cctv5&公众号【医工学习日志】$LR•IPV4『线路49』
-CCTV-5+,http://web9916.w.computerqwq.cf/jzb.php
+CCTV-5,http://web9916.w.computerqwq.cf/jzb.php?id=cctv5&公众号【医工学习日志】$LR•IPV4『线路47』
 CCTV-6,http://goo.bkpcp.top/mg/cctv6$备用源
-CCTV-6,http://web9916.w.computerqwq.cf/jzb.php
 CCTV-7,http://goo.bkpcp.top/mg/cctv7$备用源
-CCTV-7,http://web9916.w.computerqwq.cf/jzb.php
 CCTV-8,http://goo.bkpcp.top/mg/cctv8$备用源
-CCTV-8,http://web9916.w.computerqwq.cf/jzb.php
 CCTV-8,http://web9916.w.computerqwq.cf/jzb.php?id=cctv8&公众号【医工学习日志】$LR•IPV4『线路34』
 CCTV-9,http://goo.bkpcp.top/mg/cctv9$备用源
-CCTV-9,http://web9916.w.computerqwq.cf/jzb.php
-CCTV-9,http://web9916.w.computerqwq.cf/jzb.php?id=cctv9&公众号【医工学习日志】$LR•IPV4『线路40』
+CCTV-9,http://web9916.w.computerqwq.cf/jzb.php?id=cctv9&公众号【医工学习日志】$LR•IPV4『线路41』
 CCTV-10,http://goo.bkpcp.top/mg/cctv10$备用源
-CCTV-10,http://web9916.w.computerqwq.cf/jzb.php
 CCTV-11,http://goo.bkpcp.top/mg/cctv11$备用源
-CCTV-11,http://web9916.w.computerqwq.cf/jzb.php
 CCTV-11,http://web9916.w.computerqwq.cf/jzb.php?id=cctv11&公众号【医工学习日志】$LR•IPV4『线路33』
 CCTV-12,http://goo.bkpcp.top/mg/cctv12$备用源
-CCTV-12,http://web9916.w.computerqwq.cf/jzb.php
 CCTV-12,http://web9916.w.computerqwq.cf/jzb.php?id=cctv12&公众号【医工学习日志】$LR•IPV4『线路39』
 CCTV-13,http://goo.bkpcp.top/mg/cctv13$备用源
-CCTV-13,http://web9916.w.computerqwq.cf/jzb.php
 CCTV-14,http://goo.bkpcp.top/mg/cctv14$备用源
-CCTV-14,http://web9916.w.computerqwq.cf/jzb.php
 CCTV-15,http://goo.bkpcp.top/mg/cctv15$备用源
-CCTV-15,http://web9916.w.computerqwq.cf/jzb.php
 CCTV-16,https://yunmei.tv/main/cctv-16.m3u8$备用源
 CCTV-17,http://goo.bkpcp.top/mg/cctv17$备用源
-CCTV-17,http://web9916.w.computerqwq.cf/jzb.php
-CCTV-17,http://web9916.w.computerqwq.cf/jzb.php?id=cctv17&公众号【医工学习日志】$LR•IPV4『线路30』
+CCTV-17,http://web9916.w.computerqwq.cf/jzb.php?id=cctv17&公众号【医工学习日志】$LR•IPV4『线路31』
 
 📡卫视频道,#genre#
 广东卫视,http://goo.bkpcp.top/mg/gdws$备用源
-湖南卫视,http://web9916.w.computerqwq.cf/jzb.php
 湖南卫视,http://web9916.w.computerqwq.cf/jzb.php?id=hunws&公众号【医工学习日志】$LR•IPV4『线路66』
 浙江卫视,http://goo.bkpcp.top/mg/zjws$备用源
-浙江卫视,http://web9916.w.computerqwq.cf/jzb.php
-北京卫视,https://hsplay-360.v.btime.com/live_btime/btv_sn_20170706_s1/index.m3u8?time=1748916010&sign=b52d8ddc23b4bc76033ed58d7f67a308
-北京卫视,http://web9916.w.computerqwq.cf/jzb.php
+北京卫视,https://hsplay-360.v.btime.com/live_btime/btv_sn_20170706_s1/index.m3u8?time=1748948408&sign=41e6d7b708e6ce20c49d3164817349ed
 北京卫视,http://web9916.w.computerqwq.cf/jzb.php?id=bjws&公众号【医工学习日志】$LR•IPV4『线路71』
 湖北卫视,http://goo.bkpcp.top/mg/hubws$备用源
-湖北卫视,http://web9916.w.computerqwq.cf/jzb.php
 湖北卫视,http://web9916.w.computerqwq.cf/jzb.php?id=hbws&公众号【医工学习日志】$LR•IPV4『线路64』
-黑龙江卫视,http://web9916.w.computerqwq.cf/jzb.php
 黑龙江卫视,http://web9916.w.computerqwq.cf/jzb.php?id=hljws&公众号【医工学习日志】$LR•IPV4『线路72』
-安徽卫视,http://web9916.w.computerqwq.cf/jzb.php
 安徽卫视,http://web9916.w.computerqwq.cf/jzb.php?id=ahws&公众号【医工学习日志】$LR•IPV4『线路70』
 重庆卫视,http://goo.bkpcp.top/mg/cqws$备用源
-重庆卫视,http://web9916.w.computerqwq.cf/jzb.php
 重庆卫视,http://web9916.w.computerqwq.cf/jzb.php?id=cqws&公众号【医工学习日志】$LR•IPV4『线路55』
 东方卫视,http://goo.bkpcp.top/mg/dfws$备用源
-东方卫视,http://web9916.w.computerqwq.cf/jzb.php
-东南卫视,http://web9916.w.computerqwq.cf/jzb.php
 甘肃卫视,http://goo.bkpcp.top/mg/gsws$备用源
-甘肃卫视,http://web9916.w.computerqwq.cf/jzb.php
 广西卫视,http://goo.bkpcp.top/mg/gxws$备用源
-广西卫视,http://web9916.w.computerqwq.cf/jzb.php
 广西卫视,http://web9916.w.computerqwq.cf/jzb.php?id=gxws&公众号【医工学习日志】$LR•IPV4『线路45』
 贵州卫视,http://goo.bkpcp.top/mg/gzws$备用源
-贵州卫视,http://web9916.w.computerqwq.cf/jzb.php
 海南卫视,http://goo.bkpcp.top/mg/hinws$备用源
-海南卫视,http://web9916.w.computerqwq.cf/jzb.php
 海南卫视,http://web9916.w.computerqwq.cf/jzb.php?id=hainws&公众号【医工学习日志】$LR•IPV4『线路64』
-河北卫视,http://web9916.w.computerqwq.cf/jzb.php
 河南卫视,http://goo.bkpcp.top/mg/hnws$备用源
-河南卫视,http://web9916.w.computerqwq.cf/jzb.php
 吉林卫视,http://goo.bkpcp.top/mg/jlws$备用源
-吉林卫视,http://web9916.w.computerqwq.cf/jzb.php
 吉林卫视,http://web9916.w.computerqwq.cf/jzb.php?id=jlws&公众号【医工学习日志】$LR•IPV4『线路61』
 江苏卫视,http://goo.bkpcp.top/mg/jsws$备用源
-江苏卫视,http://web9916.w.computerqwq.cf/jzb.php
 江苏卫视,http://web9916.w.computerqwq.cf/jzb.php?id=jsws&公众号【医工学习日志】$LR•IPV4『线路80』
 江西卫视,http://goo.bkpcp.top/mg/jxws$备用源
-江西卫视,http://web9916.w.computerqwq.cf/jzb.php
 辽宁卫视,http://goo.bkpcp.top/mg/lnws$备用源
-辽宁卫视,http://web9916.w.computerqwq.cf/jzb.php
 内蒙古卫视,http://goo.bkpcp.top/mg/nmws$备用源
 宁夏卫视,http://goo.bkpcp.top/mg/nxws$备用源
 青海卫视,http://goo.bkpcp.top/mg/qhws$备用源
-青海卫视,http://web9916.w.computerqwq.cf/jzb.php
 山东卫视,http://goo.bkpcp.top/mg/sdws$备用源
-山东卫视,http://web9916.w.computerqwq.cf/jzb.php
-山西卫视,http://web9916.w.computerqwq.cf/jzb.php
 陕西卫视,http://goo.bkpcp.top/mg/sxws$备用源
-陕西卫视,http://web9916.w.computerqwq.cf/jzb.php
 陕西卫视,http://web9916.w.computerqwq.cf/jzb.php?id=sxws&公众号【医工学习日志】$LR•IPV4『线路36』
-四川卫视,http://web9916.w.computerqwq.cf/jzb.php
 四川卫视,http://web9916.w.computerqwq.cf/jzb.php?id=scws&公众号【医工学习日志】$LR•IPV4『线路58』
-深圳卫视,http://web9916.w.computerqwq.cf/jzb.php
 深圳卫视,http://web9916.w.computerqwq.cf/jzb.php?id=szws&公众号【医工学习日志】$LR•IPV4『线路57』
-天津卫视,http://web9916.w.computerqwq.cf/jzb.php
 天津卫视,http://web9916.w.computerqwq.cf/jzb.php?id=tjws&公众号【医工学习日志】$LR•IPV4『线路74』
 西藏卫视,http://goo.bkpcp.top/mg/xzws$备用源
 新疆卫视,http://goo.bkpcp.top/mg/xjws$备用源
-新疆卫视,http://web9916.w.computerqwq.cf/jzb.php
 云南卫视,http://goo.bkpcp.top/mg/ynws$备用源
 
 🌊港·澳·台,#genre#
 
 🎬电影频道,#genre#
-CHC家庭影院,http://goo.bkpcp.top/mg/chcjt$雷蒙影视•IPV4『线路12』
-CHC动作电影,http://goo.bkpcp.top/mg/chcdz$雷蒙影视•IPV4『线路14』
+CHC家庭影院,http://goo.bkpcp.top/mg/chcjt$雷蒙影视•IPV4『线路25』
+CHC动作电影,http://goo.bkpcp.top/mg/chcdz$雷蒙影视•IPV4『线路27』
 
 🕘️更新时间,#genre#
-2025-06-03 12:46:57,http://livezhpd.czbtv.com:38880/live/ctvzhpd.m3u8?secret=czbtv20250301$自用源
+2025-06-03 21:26:03,http://livezhpd.czbtv.com:38880/live/ctvzhpd.m3u8?secret=czbtv20250301$自用源
