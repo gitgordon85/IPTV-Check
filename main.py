@@ -59,16 +59,13 @@ class UpdateSource:
         self.ipv6_support = False
         self.now = None
 
-    # ⚠️【修改】新增URL清理功能
+    # ⚠️【修改】仅清理以$开头的后缀
     def clean_url(self, url: str) -> str:
-        """清理URL后缀（如$LR•IPV4『线路71』）"""
-        # 定义需要清理的后缀标记
-        markers = ['$', '#', '【', '『']
-        for marker in markers:
-            index = url.find(marker)
-            if index != -1:
-                return url[:index]  # 返回标记前的部分
-        return url  # 无标记则返回原URL
+        """清理URL后缀（仅清理以$开头的后缀）"""
+        index = url.find('$')
+        if index != -1:
+            return url[:index]  # 返回$符号前的部分
+        return url  # 无$符号则返回原URL
 
     # ⚠️【修改】新增递归清理数据结构功能
     def clean_source_urls(self, data):
