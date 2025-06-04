@@ -1,6 +1,7 @@
 ☘️广东频道,#genre#
 潮州综合,http://livezhpd.czbtv.com:38880/live/ctvzhpd.m3u8?secret=czbtv20250301
 潮州综合,http://home.l-ht.cn:4000/rtp/239.253.43.70:5146
+潮州综合,http://121.11.160.7:9901/tsfile/live/1019_1.m3u8?key=txiptv&playlive=1&authid=0
 潮州综合,http://211.97.63.3:801/hls/503/index.m3u8
 潮州民生,http://livezhpd.czbtv.com:38880/live/ggpd.m3u8?secret=czbtv20250301
 潮州民生,http://home.l-ht.cn:4000/rtp/239.253.43.75:5146
@@ -9,72 +10,50 @@
 揭阳生活,http://home.l-ht.cn:4000/rtp/239.77.0.251:5146
 揭阳综合,http://home.l-ht.cn:4000/rtp/239.77.0.229:5146
 揭阳综合,http://hls-jyrtv.jyrtv.tv/stjy2020/ggpd.m3u8
+揭阳综合,rtmp://rtmp-stjy.sobeylive.com/stjy2020/zhpd?sign=bf98b2873ad5403290a37d16569d7a06&t=639de420
 揭阳综合,http://dslive.grtn.cn/jyzh/sd/live.m3u8
 
 📺央视频道,#genre#
 CCTV-1,http://goo.bkpcp.top/mg/cctv1
 CCTV-2,http://goo.bkpcp.top/mg/cctv2
-CCTV-2,http://web9916.w.computerqwq.cf/jzb.php?id=cctv2&公众号【医工学习日志】
 CCTV-3,http://goo.bkpcp.top/mg/cctv3
-CCTV-3,http://web9916.w.computerqwq.cf/jzb.php?id=cctv3&公众号【医工学习日志】
 CCTV-4,http://goo.bkpcp.top/mg/cctv4
 CCTV-5,http://goo.bkpcp.top/mg/cctv5
-CCTV-5,http://web9916.w.computerqwq.cf/jzb.php?id=cctv5&公众号【医工学习日志】
+CCTV-5+,http://z.b.bkpcp.top/m.php?id=cctv5p
 CCTV-6,http://goo.bkpcp.top/mg/cctv6
 CCTV-7,http://goo.bkpcp.top/mg/cctv7
 CCTV-8,http://goo.bkpcp.top/mg/cctv8
-CCTV-8,http://web9916.w.computerqwq.cf/jzb.php?id=cctv8&公众号【医工学习日志】
 CCTV-9,http://goo.bkpcp.top/mg/cctv9
-CCTV-9,http://web9916.w.computerqwq.cf/jzb.php?id=cctv9&公众号【医工学习日志】
 CCTV-10,http://goo.bkpcp.top/mg/cctv10
 CCTV-11,http://goo.bkpcp.top/mg/cctv11
-CCTV-11,http://web9916.w.computerqwq.cf/jzb.php?id=cctv11&公众号【医工学习日志】
 CCTV-12,http://goo.bkpcp.top/mg/cctv12
-CCTV-12,http://web9916.w.computerqwq.cf/jzb.php?id=cctv12&公众号【医工学习日志】
 CCTV-13,http://goo.bkpcp.top/mg/cctv13
 CCTV-14,http://goo.bkpcp.top/mg/cctv14
 CCTV-15,http://goo.bkpcp.top/mg/cctv15
 CCTV-16,https://yunmei.tv/main/cctv-16.m3u8
 CCTV-17,http://goo.bkpcp.top/mg/cctv17
-CCTV-17,http://web9916.w.computerqwq.cf/jzb.php?id=cctv17&公众号【医工学习日志】
 
 📡卫视频道,#genre#
 广东卫视,http://goo.bkpcp.top/mg/gdws
-湖南卫视,http://web9916.w.computerqwq.cf/jzb.php?id=hunws&公众号【医工学习日志】
 浙江卫视,http://goo.bkpcp.top/mg/zjws
 浙江卫视,https://ali-m-l.cztv.com/channels/lantian/channel001/1080p.m3u8
-北京卫视,https://hsplay-360.v.btime.com/live_btime/btv_sn_20170706_s1/index.m3u8?time=1749027610&sign=4fd28d8181c444b5c0328c89a6374b97
-北京卫视,http://web9916.w.computerqwq.cf/jzb.php?id=bjws&公众号【医工学习日志】
 湖北卫视,http://goo.bkpcp.top/mg/hubws
-湖北卫视,http://web9916.w.computerqwq.cf/jzb.php?id=hbws&公众号【医工学习日志】
-黑龙江卫视,http://web9916.w.computerqwq.cf/jzb.php?id=hljws&公众号【医工学习日志】
-安徽卫视,http://web9916.w.computerqwq.cf/jzb.php?id=ahws&公众号【医工学习日志】
 重庆卫视,http://goo.bkpcp.top/mg/cqws
-重庆卫视,http://web9916.w.computerqwq.cf/jzb.php?id=cqws&公众号【医工学习日志】
 东方卫视,http://goo.bkpcp.top/mg/dfws
 甘肃卫视,http://goo.bkpcp.top/mg/gsws
 广西卫视,http://goo.bkpcp.top/mg/gxws
-广西卫视,http://web9916.w.computerqwq.cf/jzb.php?id=gxws&公众号【医工学习日志】
 贵州卫视,http://goo.bkpcp.top/mg/gzws
 海南卫视,http://goo.bkpcp.top/mg/hinws
-海南卫视,http://web9916.w.computerqwq.cf/jzb.php?id=hainws&公众号【医工学习日志】
 河南卫视,http://goo.bkpcp.top/mg/hnws
 吉林卫视,http://goo.bkpcp.top/mg/jlws
-吉林卫视,http://web9916.w.computerqwq.cf/jzb.php?id=jlws&公众号【医工学习日志】
 江苏卫视,http://goo.bkpcp.top/mg/jsws
-江苏卫视,http://web9916.w.computerqwq.cf/jzb.php?id=jsws&公众号【医工学习日志】
 江西卫视,http://goo.bkpcp.top/mg/jxws
 辽宁卫视,http://goo.bkpcp.top/mg/lnws
 内蒙古卫视,http://goo.bkpcp.top/mg/nmws
-内蒙古卫视,https://ali-m-l.cztv.com/channels/lantian/channel007/1080p.m3u8
 宁夏卫视,http://goo.bkpcp.top/mg/nxws
 青海卫视,http://goo.bkpcp.top/mg/qhws
 山东卫视,http://goo.bkpcp.top/mg/sdws
 陕西卫视,http://goo.bkpcp.top/mg/sxws
-陕西卫视,http://web9916.w.computerqwq.cf/jzb.php?id=sxws&公众号【医工学习日志】
-四川卫视,http://web9916.w.computerqwq.cf/jzb.php?id=scws&公众号【医工学习日志】
-深圳卫视,http://web9916.w.computerqwq.cf/jzb.php?id=szws&公众号【医工学习日志】
-天津卫视,http://web9916.w.computerqwq.cf/jzb.php?id=tjws&公众号【医工学习日志】
 西藏卫视,http://goo.bkpcp.top/mg/xzws
 新疆卫视,http://goo.bkpcp.top/mg/xjws
 云南卫视,http://goo.bkpcp.top/mg/ynws
@@ -86,4 +65,4 @@ CHC家庭影院,http://goo.bkpcp.top/mg/chcjt
 CHC动作电影,http://goo.bkpcp.top/mg/chcdz
 
 🕘️更新时间,#genre#
-2025-06-04 20:36:45,http://livezhpd.czbtv.com:38880/live/ctvzhpd.m3u8?secret=czbtv20250301
+2025-06-04 23:03:10,http://livezhpd.czbtv.com:38880/live/ctvzhpd.m3u8?secret=czbtv20250301
