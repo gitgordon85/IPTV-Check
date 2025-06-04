@@ -6,3 +6,4 @@ https://raw.githubusercontent.com/mytv-android/BRTV-Live-M3U8/refs/heads/main/BR
 https://raw.githubusercontent.com/mytv-android/China-TV-Live-M3U8/refs/heads/main/tv.m3u
 https://tv.iill.top/m3u/Gather
 web9916.w.computerqwq.cf/jzb.php?id=
+https://ali-m-l.cztv.com/channels/
