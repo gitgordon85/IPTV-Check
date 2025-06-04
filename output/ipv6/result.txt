@@ -49,6 +49,7 @@ CCTV-17,http://web9916.w.computerqwq.cf/jzb.php?id=cctv17&公众号$LR•IPV4『
 浙江卫视,http://goo.bkpcp.top/mg/zjws$备用源
 浙江卫视,https://ali-m-l.cztv.com/channels/lantian/channel001/1080p.m3u8
 浙江卫视,https://ali-m-l.cztv.com/channels/lantian/channel001/1080p.m3u8<br
+浙江卫视,http://116.9.204.242:9901/tsfile/live/0122_2.m3u8#http://116.9.204.242:9901/tsfile/live/0122_2.m3u8?key=txiptv&playlive=1&authid=0#http://101.66.199.243:9901/tsfile/live/0124_1.m3u8?key=txiptv&playlive=0&authid=0#http://ali-vl.cztv.com/channels/lantian/channel001/360p.m3u8#https://ali-m-l.cztv.com/channels/lantian/channel001/1080p.m3u8#http://124.128.73.58:9901/tsfile/live/0124_1.m3u8#http://58.17.48.228:808/hls/32/index.m3u8#http://119.32.12.17:2901/udp/224.1.100.52:11111#http://183.215.134.239:19901/tsfile/live/0124_1.m3u8?key=txiptv&playlive=1&authid=0#http://61.138.128.226:19901/tsfile/live/1044_1.m3u8#http://101.66.194.245:9901/tsfile/live/0124_1.m3u8?key=txiptv&playlive=0&authid=0#http://39.164.180.36:19901/tsfile/live/0124_1.m3u8?key=txiptv&playlive=0&authid=0#http://221.2.148.205:8154/tsfile/live/0124_1.m3u8?key=txiptv&playlive=1&authid=0#http://113.25.252.226:9901/tsfile/live/0124_1.m3u8#http://ali-m-l.cztv.com:80/channels/lantian/channel001/1080p.m3u8#http://112.101.78.50:9901/tsfile/live/0124_1.m3u8?key=txiptv&playlive=1&authid=0#http://qjrhc.jydjd.top:2911/udp/224.1.100.51:11111#https://ali-m-l.cztv.com/channels/lantian/channel001/1080p.m3u8?#http://qjrhc.jydjd.top:2911/udp/224.1.100.52:11111#http://nas.hssvm.com:8888/udp/225.1.1.112:5002#http://dms.yryyj.site:8188/udp/239.76.246.182:1234#http://ali-m-l.cztv.com/channels/lantian/channel001/1080p.m3u8#http://ali-m-l.cztv.com/channels/lantian/channel01/1080p.m3u8
 北京卫视,https://hsplay-360.v.btime.com/live_btime/btv_sn_20170706_s1/index.m3u8?time=1748566809&sign=3b0446abb7d9cfa039abc14ae425d632
 北京卫视,https://hsplay-360.v.btime.com/live_btime/btv_sn_20170706_s1/index.m3u8?time=1748581209&sign=017cf0d833d5ceddfdb36c8f74bf7535
 北京卫视,https://hsplay-360.v.btime.com/live_btime/btv_sn_20170706_s1/index.m3u8?time=1748710812&sign=76ecff76d798c7e8f6b10551e1bb780a
@@ -58,6 +59,7 @@ CCTV-17,http://web9916.w.computerqwq.cf/jzb.php?id=cctv17&公众号$LR•IPV4『
 北京卫视,https://hsplay-360.v.btime.com/live_btime/btv_sn_20170706_s1/index.m3u8?time=1748862011&sign=b8487d721148143708d95e0c8adaaaf5
 北京卫视,https://hsplay-360.v.btime.com/live_btime/btv_sn_20170706_s1/index.m3u8?time=1749020410&sign=4f3bfb71cee979ddb613f7dda81fc74f
 北京卫视,http://web9916.w.computerqwq.cf/jzb.php?id=bjws&公众号$LR•IPV4『线路69』
+北京卫视,https://hsplay-360.v.btime.com/live_btime/btv_sn_20170706_s1/index.m3u8?time=1749024018&sign=1eedca8803f8779f09d75908557c6283
 湖北卫视,http://goo.bkpcp.top/mg/hubws$备用源
 湖北卫视,http://web9916.w.computerqwq.cf/jzb.php?id=hbws&公众号$LR•IPV4『线路63』
 黑龙江卫视,http://web9916.w.computerqwq.cf/jzb.php?id=hljws&公众号$LR•IPV4『线路73』
@@ -96,8 +98,8 @@ CCTV-17,http://web9916.w.computerqwq.cf/jzb.php?id=cctv17&公众号$LR•IPV4『
 🌊港·澳·台,#genre#
 
 🎬电影频道,#genre#
-CHC家庭影院,http://goo.bkpcp.top/mg/chcjt$雷蒙影视•IPV4『线路26』
-CHC动作电影,http://goo.bkpcp.top/mg/chcdz$雷蒙影视•IPV4『线路29』
+CHC家庭影院,http://goo.bkpcp.top/mg/chcjt$雷蒙影视•IPV4『线路24』
+CHC动作电影,http://goo.bkpcp.top/mg/chcdz$雷蒙影视•IPV4『线路27』
 
 🕘️更新时间,#genre#
-2025-06-04 15:42:12,http://livezhpd.czbtv.com:38880/live/ctvzhpd.m3u8?secret=czbtv20250301$自用源
+2025-06-04 16:15:17,http://livezhpd.czbtv.com:38880/live/ctvzhpd.m3u8?secret=czbtv20250301$自用源
