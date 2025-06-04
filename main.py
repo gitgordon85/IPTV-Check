@@ -59,27 +59,45 @@ class UpdateSource:
         self.ipv6_support = False
         self.now = None
 
-    # ⚠️【修改】仅清理以$开头的后缀
+    # ======== ⚠️【新增】URL清理功能 ⚠️ ========
     def clean_url(self, url: str) -> str:
-        """清理URL后缀（仅清理以$开头的后缀）"""
-        index = url.find('$')
-        if index != -1:
-            return url[:index]  # 返回$符号前的部分
-        return url  # 无$符号则返回原URL
+        """清理URL后缀（以$开头的部分）"""
+        # 查找$符号的位置
+        dollar_index = url.find('$')
+        
+        # 如果找到$符号，截取从开头到$符号之前的部分
+        if dollar_index != -1:
+            cleaned_url = url[:dollar_index]
+            
+            # 调试信息：打印清理前后的URL对比（默认开启）
+            print(f"🔧 [DEBUG] URL清理对比:\n  原始: {url}\n  清理后: {cleaned_url}")
+                
+            return cleaned_url
+            
+        return url  # 没有$符号则返回原URL
 
-    # ⚠️【修改】新增递归清理数据结构功能
+    # ======== ⚠️【新增】递归清理数据结构功能 ⚠️ ========
     def clean_source_urls(self, data):
         """递归清理数据源中的URL"""
         if isinstance(data, dict):
             for key, value in data.items():
                 if key == "url" and isinstance(value, str):
+                    # 保存原始URL用于调试
+                    original_url = value
+                    
+                    # 清理URL
                     data[key] = self.clean_url(value)
+                    
+                    # 调试信息：打印清理后的URL（默认开启）
+                    if original_url != data[key]:
+                        print(f"🔧 [DEBUG] 已清理URL: {original_url} → {data[key]}")
                 elif isinstance(value, (dict, list)):
                     self.clean_source_urls(value)
         elif isinstance(data, list):
             for item in data:
                 if isinstance(item, (dict, list)):
                     self.clean_source_urls(item)
+    # ======== 新增功能结束 ⚠️ ========
 
     async def visit_page(self, channel_names: list[str] = None):
         tasks_config = [
@@ -147,15 +165,21 @@ class UpdateSource:
                 await self.visit_page(channel_names)
                 self.tasks = []
                 
-                # ⚠️【修改】在数据合并前添加URL清理逻辑
-                for source in [
+                # ======== ⚠️【修改】在数据合并前添加URL清理逻辑 ⚠️ ========
+                print("🔧 开始清理URL后缀...")
+                sources_to_clean = [
                     self.hotel_fofa_result,
                     self.multicast_result,
                     self.hotel_foodie_result,
                     self.subscribe_result,
                     self.online_search_result
-                ]:
+                ]
+                
+                for source in sources_to_clean:
                     self.clean_source_urls(source)
+                
+                print("✅ URL后缀清理完成")
+                # ======== 清理逻辑结束 ⚠️ ========
                 
                 append_total_data(
                     self.channel_items.items(),
