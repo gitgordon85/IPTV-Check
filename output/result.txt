@@ -1744,6 +1744,10 @@ CETV-4,rtsp://221.7.61.147/PLTV/88888910/224/3221225594/100001000000000600000000
 CETV-4,rtsp://115.153.254.81/PLTV/88888888/224/3221226905/65242632.smil
 
 📡卫视频道,#genre#
+辽宁卫视,http://goo.bkpcp.top/mg/lnws$!备用源 
+广东卫视,http://goo.bkpcp.top/mg/gdws$!备用源 
+北京卫视,http://goo.bkpcp.top/mg/bjws$!备用源
+深圳卫视,http://goo.bkpcp.top/mg/szws$!备用源
 广东卫视,http://goo.bkpcp.top/mg/gdws
 广东卫视,https://txmov2.a.kwimgs.com/upic/2023/01/26/09/BMjAyMzAxMjYwOTE3NDVfNzM5MzQzNzIyXzk0NjI1OTUwNTA3XzBfMw==_b_B81ddda927d33445d544befd008e60109.mp4
 广东卫视,http://112.101.78.50:9901/tsfile/live/0125_1.m3u8
