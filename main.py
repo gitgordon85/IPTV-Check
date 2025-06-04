@@ -59,6 +59,31 @@ class UpdateSource:
         self.ipv6_support = False
         self.now = None
 
+    # ⚠️【修改】新增URL清理功能
+    def clean_url(self, url: str) -> str:
+        """清理URL后缀（如$LR•IPV4『线路71』）"""
+        # 定义需要清理的后缀标记
+        markers = ['$', '#', '【', '『']
+        for marker in markers:
+            index = url.find(marker)
+            if index != -1:
+                return url[:index]  # 返回标记前的部分
+        return url  # 无标记则返回原URL
+
+    # ⚠️【修改】新增递归清理数据结构功能
+    def clean_source_urls(self, data):
+        """递归清理数据源中的URL"""
+        if isinstance(data, dict):
+            for key, value in data.items():
+                if key == "url" and isinstance(value, str):
+                    data[key] = self.clean_url(value)
+                elif isinstance(value, (dict, list)):
+                    self.clean_source_urls(value)
+        elif isinstance(data, list):
+            for item in data:
+                if isinstance(item, (dict, list)):
+                    self.clean_source_urls(item)
+
     async def visit_page(self, channel_names: list[str] = None):
         tasks_config = [
             ("hotel_fofa", get_channels_by_fofa, "hotel_fofa_result"),
@@ -124,6 +149,17 @@ class UpdateSource:
                     return
                 await self.visit_page(channel_names)
                 self.tasks = []
+                
+                # ⚠️【修改】在数据合并前添加URL清理逻辑
+                for source in [
+                    self.hotel_fofa_result,
+                    self.multicast_result,
+                    self.hotel_foodie_result,
+                    self.subscribe_result,
+                    self.online_search_result
+                ]:
+                    self.clean_source_urls(source)
+                
                 append_total_data(
                     self.channel_items.items(),
                     self.channel_data,
