@@ -56,15 +56,12 @@ https://ygbh.site/php/bhzb.php
 
 https://gitee.com/jin-xueling/cinematography/raw/master/json.txt
 https://live.iptv365.org/live.txt
-https://live.freetv.top/huyayqk.m3u
-https://live.freetv.top/douyuyqk.m3u
-https://www.goodiptv.club/bililive.m3u
+
 https://live.zhoujie218.top/tv/iptv4.txt
 https://raw.githubusercontent.com/YanG-1989/m3u/main/Gather.m3u
 https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/m3u/ipv6.m3u
 https://raw.githubusercontent.com/Ftindy/IPTV-URL/main/Collect.m3u
 https://raw.githubusercontent.com/kimwang1978/collect-tv-txt/refs/heads/main/merged_output.txt
-https://raw.githubusercontent.com/joevess/IPTV/main/sources/iptv_sources.m3u8
 https://raw.githubusercontent.com/Guovin/TV/gd/output/result.txt
 https://raw.githubusercontent.com/MemoryCollection/IPTV/refs/heads/main/hotel.txt
 https://raw.githubusercontent.com/wwb521/live/refs/heads/main/tv.m3u
@@ -72,8 +69,7 @@ https://raw.githubusercontent.com/BurningC4/Chinese-IPTV/master/TV-IPV4.m3u
 https://raw.githubusercontent.com/xzw832/cmys/refs/heads/main/S_CCTV.txt
 https://raw.githubusercontent.com/xzw832/cmys/refs/heads/main/S_weishi.txt
 https://raw.githubusercontent.com/YueChan/Live/main/APTV.m3u
-https://raw.githubusercontent.com/YueChan/Live/refs/heads/main/IPTV.m3u
-https://raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u
+
 https://raw.githubusercontent.com/mlzlzj/hnyuan/refs/heads/main/iptv_list.txt
 https://raw.githubusercontent.com/altn2025/iptv/main/iptv.m3u
 https://raw.githubusercontent.com/YanG-1989/m3u/refs/heads/main/Gather.m3u
@@ -99,20 +95,9 @@ https://raw.githubusercontent.com/alienlu/iptv/refs/heads/master/iptv.txt
 https://raw.githubusercontent.com/suxuang/myIPTV/main/ipv6.m3u
 
 https://raw.githubusercontent.com/yuanzl77/IPTV/refs/heads/main/live.txt
---https://raw.githubusercontent.com/zzmaze/iptv/main/iptv.txt
-https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1715581924111/live1.txt
-https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1715581924675/live2.txt
-https://cc-im-kefu-cos.7moor-fs2.com/im/2768a390-5474-11ea-afc9-7b323e3e16c0/d4fe44c5-107c-4511-af02-aa08fb10dff7/2024-04-25/2024-04-25_17:22:21/1714036941087/98644330/wexiptv.txt
 https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1716213337323/live3.txt
-https://cc-im-kefu-cos.7moor-fs2.com/im/2768a390-5474-11ea-afc9-7b323e3e16c0/d4fe44c5-107c-4511-af02-aa08fb10dff7/2024-04-25/2024-04-25_17:25:01/1714037101343/5511539/wexlive.txt
 https://fm1077.serv00.net/SmartTV.m3u
-http://rihou.cc:555/gggg.nzk
-http://rihou.cc:567/gggg.nzk
-https://iptv-org.github.io/iptv/languages/zho.m3u
-https://iptv-org.github.io/iptv/countries/tw.m3u
-https://freetv.fun/test_channels_original_new.txt
-http://xn--ur0a.xn--dkw.xn--6qq986b3xl/down.php/a7c9d038627e11f037adcad788da129e.txt
-https://gitlab.com/p2v5/wangtv/-/raw/main/lunbo.txt
+
 https://m3u.ibert.me/txt/fmml_ipv6.txt
 https://m3u.ibert.me/txt/ycl_iptv.txt
 https://m3u.ibert.me/txt/y_g.txt
