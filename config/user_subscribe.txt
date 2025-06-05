@@ -23,6 +23,9 @@ https://raw.githubusercontent.com/suxuang/myIPTV/main/ipv6.m3u
 https://tv.iill.top/m3u/Gather
 
 # 以下佛系整理，直接下载的txt文件可用，网页版无.txt 后缀是可用的
+# 含有广东移动源
+https://chuxinya.top/f/AD5QHE/%E6%B5%B7%E7%87%95.txt
+
 http://8.138.7.223/51.txt
 https://live.izbds.com/tv/iptv4.txt
 https://live.izbds.com/tv/iptv6.txt
