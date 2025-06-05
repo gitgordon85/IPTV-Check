@@ -13,90 +13,156 @@
 
 📺央视频道,#genre#
 CCTV-1,http://goo.bkpcp.top/mg/cctv1
+CCTV-1,http://rrs01.hw.gmcc.net:8088/PLTV/81/224/3221226694/index.m3u8
+CCTV-1,http://rrs01.hw.gmcc.net:8088/PLTV/81/224/3221226705/index.m3u8
+CCTV-1,http://rrs01.hw.gmcc.net:8088/PLTV/81/224/3221226736/index.m3u8
+CCTV-1,http://rrs01.hw.gmcc.net:8088/PLTV/81/224/3221226737/index.m3u8
+CCTV-1,http://rrs01.hw.gmcc.net:8088/PLTV/81/224/3221226823/index.m3u8
+CCTV-1,http://rrs01.hw.gmcc.net:8088/PLTV/81/224/3221226635/1.m3u8
+CCTV-1,http://rrs01.hw.gmcc.net:8088/PLTV/81/224/3221226705/1.m3u8
+CCTV-1,http://rrs01.hw.gmcc.net:8088/PLTV/81/224/3221226736/1.m3u8
+CCTV-1,http://rrs01.hw.gmcc.net:8088/PLTV/81/224/3221226737/1.m3u8
+CCTV-1,http://rrs01.hw.gmcc.net:8088/PLTV/81/224/3221226694/1.m3u8
 CCTV-2,http://goo.bkpcp.top/mg/cctv2
 CCTV-2,http://web9916.w.computerqwq.cf/jzb.php?id=cctv2&公众号【医工学习日志】
 CCTV-2,http://php.cqshushu.ggff.net/jzb.php?id=cctv2&公众号【医工学习日志】
+CCTV-2,http://rrs01.hw.gmcc.net:8088/PLTV/81/224/3221226739/1.m3u8
 CCTV-3,http://goo.bkpcp.top/mg/cctv3
 CCTV-3,http://web9916.w.computerqwq.cf/jzb.php?id=cctv3&公众号【医工学习日志】
 CCTV-3,http://php.cqshushu.ggff.net/jzb.php?id=cctv3&公众号【医工学习日志】
+CCTV-3,http://rrs01.hw.gmcc.net:8088/PLTV/81/224/3221226720/1.m3u8
 CCTV-4,http://goo.bkpcp.top/mg/cctv4
+CCTV-4,http://rrs01.hw.gmcc.net:8088/PLTV/81/224/3221226725/1.m3u8
 CCTV-5,http://goo.bkpcp.top/mg/cctv5
 CCTV-5,http://php.cqshushu.ggff.net/jzb.php?id=cctv5&公众号【医工学习日志】
 CCTV-5,http://web9916.w.computerqwq.cf/jzb.php?id=cctv5&公众号【医工学习日志】
+CCTV-5,http://rrs01.hw.gmcc.net:8088/PLTV/81/224/3221226731/1.m3u8
+CCTV-5+,http://rrs01.hw.gmcc.net:8088/PLTV/81/224/3221226711/1.m3u8
 CCTV-5+,http://z.b.bkpcp.top/m.php?id=cctv5p
 CCTV-6,http://goo.bkpcp.top/mg/cctv6
+CCTV-6,http://rrs01.hw.gmcc.net:8088/PLTV/81/224/3221226699/1.m3u8
 CCTV-7,http://goo.bkpcp.top/mg/cctv7
+CCTV-7,http://rrs01.hw.gmcc.net:8088/PLTV/81/224/3221226721/1.m3u8
+CCTV-7,http://rrs01.hw.gmcc.net:8088/PLTV/81/224/3221226948/1.m3u8
+CCTV-7,http://rrs01.hw.gmcc.net:8088/PLTV/81/224/3221226984/1.m3u8
 CCTV-8,http://goo.bkpcp.top/mg/cctv8
 CCTV-8,http://php.cqshushu.ggff.net/jzb.php?id=cctv8&公众号【医工学习日志】
 CCTV-8,http://web9916.w.computerqwq.cf/jzb.php?id=cctv8&公众号【医工学习日志】
+CCTV-8,http://rrs01.hw.gmcc.net:8088/PLTV/81/224/3221226715/1.m3u8
 CCTV-9,http://goo.bkpcp.top/mg/cctv9
 CCTV-9,http://php.cqshushu.ggff.net/jzb.php?id=cctv9&公众号【医工学习日志】
 CCTV-9,http://web9916.w.computerqwq.cf/jzb.php?id=cctv9&公众号【医工学习日志】
+CCTV-9,http://rrs01.hw.gmcc.net:8088/PLTV/81/224/3221226657/index.m3u8
+CCTV-9,http://rrs01.hw.gmcc.net:8088/PLTV/81/224/3221226651/1.m3u8
+CCTV-9,http://rrs01.hw.gmcc.net:8088/PLTV/81/224/3221226657/1.m3u8
 CCTV-10,http://goo.bkpcp.top/mg/cctv10
+CCTV-10,http://rrs01.hw.gmcc.net:8088/PLTV/81/224/3221226708/1.m3u8
 CCTV-11,http://goo.bkpcp.top/mg/cctv11
 CCTV-11,http://web9916.w.computerqwq.cf/jzb.php?id=cctv11&公众号【医工学习日志】
 CCTV-11,http://php.cqshushu.ggff.net/jzb.php?id=cctv11&公众号【医工学习日志】
+CCTV-11,http://rrs01.hw.gmcc.net:8088/PLTV/81/224/3221226714/1.m3u8
 CCTV-12,http://goo.bkpcp.top/mg/cctv12
 CCTV-12,http://php.cqshushu.ggff.net/jzb.php?id=cctv12&公众号【医工学习日志】
 CCTV-12,http://web9916.w.computerqwq.cf/jzb.php?id=cctv12&公众号【医工学习日志】
+CCTV-12,http://rrs01.hw.gmcc.net:8088/PLTV/81/224/3221226748/index.m3u8
+CCTV-12,http://rrs01.hw.gmcc.net:8088/PLTV/81/224/3221226723/1.m3u8
+CCTV-12,http://rrs01.hw.gmcc.net:8088/PLTV/81/224/3221226748/1.m3u8
 CCTV-13,http://goo.bkpcp.top/mg/cctv13
+CCTV-13,http://rrs01.hw.gmcc.net:8088/PLTV/81/224/3221226717/1.m3u8
 CCTV-14,http://goo.bkpcp.top/mg/cctv14
+CCTV-14,http://rrs01.hw.gmcc.net:8088/PLTV/81/224/3221226663/index.m3u8
+CCTV-14,http://rrs01.hw.gmcc.net:8088/PLTV/81/224/3221226645/1.m3u8
+CCTV-14,http://rrs01.hw.gmcc.net:8088/PLTV/81/224/3221226663/1.m3u8
 CCTV-15,http://goo.bkpcp.top/mg/cctv15
+CCTV-15,http://rrs01.hw.gmcc.net:8088/PLTV/81/224/3221226648/1.m3u8
 CCTV-16,https://yunmei.tv/main/cctv-16.m3u8
+CCTV-16,http://rrs01.hw.gmcc.net:8088/PLTV/81/224/3221226825/1.m3u8
 CCTV-17,http://goo.bkpcp.top/mg/cctv17
 CCTV-17,http://web9916.w.computerqwq.cf/jzb.php?id=cctv17&公众号【医工学习日志】
 CCTV-17,http://php.cqshushu.ggff.net/jzb.php?id=cctv17&公众号【医工学习日志】
+CCTV-17,http://rrs01.hw.gmcc.net:8088/PLTV/81/224/3221226727/index.m3u8
+CCTV-17,http://rrs01.hw.gmcc.net:8088/PLTV/81/224/3221226660/1.m3u8
+CCTV-17,http://rrs01.hw.gmcc.net:8088/PLTV/81/224/3221226727/1.m3u8
+CETV-1,http://rrs01.hw.gmcc.net:8088/PLTV/81/224/3221226673/1.m3u8
+CETV-1,http://rrs01.hw.gmcc.net:8088/PLTV/81/224/3221226712/index.m3u8
+CETV-1,http://rrs01.hw.gmcc.net:8088/PLTV/81/224/3221226673/index.m3u8
+CETV-2,http://rrs01.hw.gmcc.net:8088/PLTV/81/224/3221226718/1.m3u8
+CETV-2,http://rrs01.hw.gmcc.net:8088/PLTV/81/224/3221226718/index.m3u8
+CETV-3,http://rrs01.hw.gmcc.net:8088/PLTV/81/224/3221226722/1.m3u8
+CETV-3,http://rrs01.hw.gmcc.net:8088/PLTV/81/224/3221226722/index.m3u8
+CETV-4,http://rrs01.hw.gmcc.net:8088/PLTV/81/224/3221226724/1.m3u8
+CETV-4,http://rrs01.hw.gmcc.net:8088/PLTV/81/224/3221226724/index.m3u8
 
 📡卫视频道,#genre#
 广东卫视,http://goo.bkpcp.top/mg/gdws
 湖南卫视,http://web9916.w.computerqwq.cf/jzb.php?id=hunws&公众号【医工学习日志】
 湖南卫视,http://php.cqshushu.ggff.net/jzb.php?id=hunws&公众号【医工学习日志】
+湖南卫视,http://rrs01.hw.gmcc.net:8088/PLTV/81/224/3221226698/1.m3u8
 浙江卫视,http://goo.bkpcp.top/mg/zjws
+浙江卫视,http://rrs01.hw.gmcc.net:8088/PLTV/81/224/3221226690/1.m3u8
 北京卫视,http://goo.bkpcp.top/mg/bjws
-北京卫视,https://hsplay-360.v.btime.com/live_btime/btv_sn_20170706_s1/index.m3u8?time=1749078009&sign=bbc7d12d101bba1bf2c9bd63fd417dd0
+北京卫视,https://hsplay-360.v.btime.com/live_btime/btv_sn_20170706_s1/index.m3u8?time=1749106808&sign=ed2839fbe956b7a03ad4fe3654526c11
 北京卫视,http://web9916.w.computerqwq.cf/jzb.php?id=bjws&公众号【医工学习日志】
+北京卫视,http://rrs01.hw.gmcc.net:8088/PLTV/81/224/3221226719/1.m3u8
 湖北卫视,http://goo.bkpcp.top/mg/hubws
 湖北卫视,http://web9916.w.computerqwq.cf/jzb.php?id=hbws&公众号【医工学习日志】
 湖北卫视,http://php.cqshushu.ggff.net/jzb.php?id=hbws&公众号【医工学习日志】
+湖北卫视,http://rrs01.hw.gmcc.net:8088/PLTV/81/224/3221226713/1.m3u8
 黑龙江卫视,http://php.cqshushu.ggff.net/jzb.php?id=hljws&公众号【医工学习日志】
 黑龙江卫视,http://web9916.w.computerqwq.cf/jzb.php?id=hljws&公众号【医工学习日志】
+黑龙江卫视,http://rrs01.hw.gmcc.net:8088/PLTV/81/224/3221226716/1.m3u8
 安徽卫视,http://php.cqshushu.ggff.net/jzb.php?id=ahws&公众号【医工学习日志】
 安徽卫视,http://web9916.w.computerqwq.cf/jzb.php?id=ahws&公众号【医工学习日志】
+安徽卫视,http://rrs01.hw.gmcc.net:8088/PLTV/81/224/3221226664/1.m3u8
 重庆卫视,http://goo.bkpcp.top/mg/cqws
 重庆卫视,http://php.cqshushu.ggff.net/jzb.php?id=cqws&公众号【医工学习日志】
 重庆卫视,http://web9916.w.computerqwq.cf/jzb.php?id=cqws&公众号【医工学习日志】
+重庆卫视,http://rrs01.hw.gmcc.net:8088/PLTV/81/224/3221226680/1.m3u8
 东方卫视,http://goo.bkpcp.top/mg/dfws
+东方卫视,http://rrs01.hw.gmcc.net:8088/PLTV/81/224/3221226734/1.m3u8
+东南卫视,http://rrs01.hw.gmcc.net:8088/PLTV/81/224/3221226670/1.m3u8
 甘肃卫视,http://goo.bkpcp.top/mg/gsws
 广西卫视,http://goo.bkpcp.top/mg/gxws
 广西卫视,http://web9916.w.computerqwq.cf/jzb.php?id=gxws&公众号【医工学习日志】
 广西卫视,http://php.cqshushu.ggff.net/jzb.php?id=gxws&公众号【医工学习日志】
 贵州卫视,http://goo.bkpcp.top/mg/gzws
+贵州卫视,http://rrs01.hw.gmcc.net:8088/PLTV/81/224/3221226672/1.m3u8
 海南卫视,http://goo.bkpcp.top/mg/hinws
 海南卫视,http://web9916.w.computerqwq.cf/jzb.php?id=hainws&公众号【医工学习日志】
 海南卫视,http://php.cqshushu.ggff.net/jzb.php?id=hainws&公众号【医工学习日志】
+海南卫视,http://rrs01.hw.gmcc.net:8088/PLTV/81/224/3221226679/1.m3u8
+河北卫视,http://rrs01.hw.gmcc.net:8088/PLTV/81/224/3221226684/1.m3u8
 河南卫视,http://goo.bkpcp.top/mg/hnws
+河南卫视,http://rrs01.hw.gmcc.net:8088/PLTV/81/224/3221226668/1.m3u8
 吉林卫视,http://goo.bkpcp.top/mg/jlws
 吉林卫视,http://php.cqshushu.ggff.net/jzb.php?id=jlws&公众号【医工学习日志】
 吉林卫视,http://web9916.w.computerqwq.cf/jzb.php?id=jlws&公众号【医工学习日志】
 江苏卫视,http://goo.bkpcp.top/mg/jsws
 江苏卫视,http://web9916.w.computerqwq.cf/jzb.php?id=jsws&公众号【医工学习日志】
 江苏卫视,http://php.cqshushu.ggff.net/jzb.php?id=jsws&公众号【医工学习日志】
+江苏卫视,http://rrs01.hw.gmcc.net:8088/PLTV/81/224/3221226692/1.m3u8
 江西卫视,http://goo.bkpcp.top/mg/jxws
+江西卫视,http://rrs01.hw.gmcc.net:8088/PLTV/81/224/3221226726/1.m3u8
 辽宁卫视,http://goo.bkpcp.top/mg/lnws
+辽宁卫视,http://rrs01.hw.gmcc.net:8088/PLTV/81/224/3221226689/1.m3u8
 内蒙古卫视,http://goo.bkpcp.top/mg/nmws
 宁夏卫视,http://goo.bkpcp.top/mg/nxws
 青海卫视,http://goo.bkpcp.top/mg/qhws
 山东卫视,http://goo.bkpcp.top/mg/sdws
+山东卫视,http://rrs01.hw.gmcc.net:8088/PLTV/81/224/3221226693/1.m3u8
 陕西卫视,http://goo.bkpcp.top/mg/sxws
 陕西卫视,http://web9916.w.computerqwq.cf/jzb.php?id=sxws&公众号【医工学习日志】
 陕西卫视,http://php.cqshushu.ggff.net/jzb.php?id=sxws&公众号【医工学习日志】
 四川卫视,http://php.cqshushu.ggff.net/jzb.php?id=scws&公众号【医工学习日志】
 四川卫视,http://web9916.w.computerqwq.cf/jzb.php?id=scws&公众号【医工学习日志】
+四川卫视,http://rrs01.hw.gmcc.net:8088/PLTV/81/224/3221226659/1.m3u8
 深圳卫视,http://goo.bkpcp.top/mg/szws
 深圳卫视,http://php.cqshushu.ggff.net/jzb.php?id=szws&公众号【医工学习日志】
 深圳卫视,http://web9916.w.computerqwq.cf/jzb.php?id=szws&公众号【医工学习日志】
+深圳卫视,http://rrs01.hw.gmcc.net:8088/PLTV/81/224/3221226688/1.m3u8
 天津卫视,http://php.cqshushu.ggff.net/jzb.php?id=tjws&公众号【医工学习日志】
 天津卫视,http://web9916.w.computerqwq.cf/jzb.php?id=tjws&公众号【医工学习日志】
+天津卫视,http://rrs01.hw.gmcc.net:8088/PLTV/81/224/3221226686/1.m3u8
 西藏卫视,http://goo.bkpcp.top/mg/xzws
 新疆卫视,http://goo.bkpcp.top/mg/xjws
 云南卫视,http://goo.bkpcp.top/mg/ynws
@@ -108,4 +174,4 @@ CHC家庭影院,http://goo.bkpcp.top/mg/chcjt
 CHC动作电影,http://goo.bkpcp.top/mg/chcdz
 
 🕘️更新时间,#genre#
-2025-06-05 10:18:00,http://livezhpd.czbtv.com:38880/live/ctvzhpd.m3u8?secret=czbtv20250301
+2025-06-05 19:10:14,http://livezhpd.czbtv.com:38880/live/ctvzhpd.m3u8?secret=czbtv20250301
